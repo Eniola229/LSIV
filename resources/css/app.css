@@ -1,3 +1,173 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+.btn-bg-animation {
+        background-color: #E76A35; 
+        position: relative;
+        overflow: hidden;
+        padding: 0.5rem 1rem; 
+        border-radius: 9999px; 
+        font-weight: 600; 
+        text-align: center; 
+        color: white; 
+        width: 150px; 
+        height: 50px; 
+        cursor: pointer; 
+        transition: color 0.3s ease;
+}
+
+/* Background animation */
+.btn-bg-animation::before {
+        content: "Contact us →";
+        position: absolute;
+        bottom: 0; 
+        left: 0; 
+        width: 100%;
+        height: 100%;
+        background-color: black; 
+        transform: translateY(100%) translateX(-100%); 
+        transition: transform 0.4s ease-in-out; 
+        z-index: 0; 
+        border-radius: 20px;
+
+        /* Centering the content */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white; 
+       font-size: 16px; 
+}
+
+/* Hover effect */
+.btn-bg-animation:hover::before {
+        transform: translateY(0) translateX(0); 
+}
+
+/* Arrow visibility */
+.btn-bg-animation .hover-arrow {
+        opacity: 0; 
+        transition: opacity 0.3s ease-in-out;
+}
+
+/* Show arrow on hover */
+.btn-bg-animation:hover .hover-arrow {
+        opacity: 1; 
+}
+
+/* Keep text color white on hover */
+.btn-bg-animation:hover .btn-text {
+        color: white; 
+}
+.hover-effect-arrow {
+    color: black;
+    position: relative;
+    text-decoration: none;
+}
+
+.hover-effect-arrow .hover-arrow {
+    opacity: 0;
+    position: relative;
+    left: -10px; 
+    transition: all 0.3s ease-in-out; 
+    color: orange;
+}
+
+.hover-effect-arrow:hover {
+    color: orange; 
+}
+
+.hover-effect-arrow:hover .hover-arrow {
+    opacity: 1; 
+    left: 5px;   
+}
+
+  .hover-text-underline {
+    position: relative;
+    display: inline-block;
+    color: black;
+    transition: color 0.5s ease; 
+  }
+
+  /* The underline effect */
+  .hover-text-underline:after {
+    content: '';
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #E76A35;
+    transform: scaleX(0); 
+    transform-origin: left;
+    transition: transform 0.5s ease;
+  }
+
+
+  .hover-text-underline:hover {
+    color: orange; 
+  }
+
+  .hover-text-underline:hover:after {
+    transform: scaleX(1); 
+  }
+
+  /*-------Learn more-------*/
+  .btn-bg-animation-learn {
+        background-color: #E76A35; 
+        position: relative;
+        overflow: hidden;
+        padding: 0.5rem 1rem; 
+        border-radius: 9999px; 
+        font-weight: 600; 
+        text-align: center; 
+        color: white; 
+        width: 150px; 
+        height: 50px; 
+        cursor: pointer; 
+        transition: color 0.3s ease;
+}
+
+/* Background animation */
+.btn-bg-animation-learn::before {
+        content: "Learn more →";
+        position: absolute;
+        bottom: 0; 
+        left: 0; 
+        width: 100%;
+        height: 100%;
+        background-color: black; 
+        transform: translateY(100%) translateX(-100%); 
+        transition: transform 0.4s ease-in-out; 
+        z-index: 0; 
+        border-radius: 20px;
+
+        /* Centering the content */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white; 
+       font-size: 16px; 
+}
+
+/* Hover effect */
+.btn-bg-animation-learn:hover::before {
+        transform: translateY(0) translateX(0); 
+}
+
+/* Arrow visibility */
+.btn-bg-animation-learn .hover-arrow {
+        opacity: 0; 
+        transition: opacity 0.3s ease-in-out;
+}
+
+/* Show arrow on hover */
+.btn-bg-animation-learn:hover .hover-arrow {
+        opacity: 1; 
+}
+
+/* Keep text color white on hover */
+.btn-bg-animation-learn:hover .btn-text {
+        color: white; 
+}

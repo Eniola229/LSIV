@@ -17,9 +17,11 @@
 
     <body class="font-sans antialiased">
     
-      @include('components.header')
+     
       <!----First section--->
-        <div class="flex flex-col md:flex-row justify-center md:justify-between items-center w-full px-6 py-16 bg-[#F8F8FF]relative">
+      <div class="bg-[#ECECD5]">
+           @include('components.header')
+        <div class="flex flex-col md:flex-row justify-center md:justify-between items-center w-full px-6 py-16 bg-[#ECECD5] relative">
           <!-- Left Section: Heading and Subtext -->
           <div class="w-lg">
             <h1 class="text-7xl font-serif font-bold" style="font-family: 'Playfair Display', serif;">
@@ -55,7 +57,7 @@
               </div>
             </div>
         </div>
-
+        </div>
 
         <!-- Driving Social Justice Section -->
         <section class="bg-white py-16 rounded">
@@ -170,162 +172,163 @@
                     <h2 class="text-6xl font-bold text-gray-900 mb-6" style="font-family: 'Playfair Display', serif;">Offering Solutions for Impact</h2>
                 
                 <!-- Section 1: Communications & Storytelling -->
-                <div class="bg-[#ECECD5] p-12 rounded-t-lg m-4 h-96 shadow-lg">
+               <div class="bg-[#ECECD5] p-6 md:p-12 rounded-t-lg m-4 md:h-96 shadow-lg">
 
-                    <!-- Heading and Line at the Top -->
-                    <h2 class="text-4xl font-semibold text-[#4A5310] mb-6 text-left">
-                        Communications & Storytelling
-                    </h2>
-                    <hr class="border-none h-[2px] bg-[#4A5310]  mb-6">
+                <!-- Heading and Line at the Top -->
+                <h2 class="text-2xl md:text-4xl font-semibold text-[#4A5310] mb-4 md:mb-6 text-left">
+                    Communications & Storytelling
+                </h2>
+                <hr class="border-none h-[2px] bg-[#4A5310]  mb-4 md:mb-6">
 
-                    <!-- Text, Image, and Button in the Same Container -->
-                    <div class="flex flex-col md:flex-row items-left justify-start">
-                        <div class="md:w-2/3 justify-start items-start text-left"> 
-                            <p class="text-[#4A5310] text-2xl mb-8 leading-relaxed">
-                                We transform social impact stories into powerful tools for change through engaging digital media campaigns,
-                                human-centred storytelling, and high-quality multimedia content.
-                            </p>
-                            <!-- Button -->
-                            <button class="btn-bg-animation-learn">
-                                     <span class="btn-text">Learn more</span>
-                            </button>
-                        </div>
-                        <!-- Illustration Image Inside the Same Div -->
-                        <div class="md:w-1/3 flex justify-center mt-8 md:mt-0">
-                            <img src="{{ asset('Images/i-1.png') }}" alt="Illustration" class="w-64 h-auto">
-                        </div>
+                <!-- Text, Image, and Button in the Same Container -->
+                <div class="flex flex-col md:flex-row items-left justify-start">
+                    <div class="md:w-2/3 text-left">
+                        <p class="text-[#4A5310] text-lg md:text-2xl mb-4 md:mb-8 leading-relaxed">
+                            We transform social impact stories into powerful tools for change through engaging digital media campaigns,
+                            human-centred storytelling, and high-quality multimedia content.
+                        </p>
+                        <!-- Button -->
+                        <button class="btn-bg-animation-learn">
+                            <span class="btn-text">Learn more</span>
+                        </button>
+                    </div>
+                    <!-- Illustration Image Inside the Same Div -->
+                    <div class="md:w-1/3 flex justify-center mt-6 md:mt-0">
+                        <img src="{{ asset('Images/i-1.png') }}" alt="Illustration" class="w-full max-w-xs h-auto">
                     </div>
                 </div>
+            </div>
 
-                <div class="bg-[#C4E1A4] p-12 rounded-t-lg m-4 h-96 shadow-lg">
+            <div class="bg-[#C4E1A4] p-6 md:p-12 rounded-t-lg m-4 md:h-96 shadow-lg">
 
-                    <!-- Heading and Line at the Top -->
-                    <h2 class="text-4xl font-semibold text-[#4A5310] mb-6 text-left">
-                        Branding & Design Services
-                    </h2>
-                    <hr class="border-none h-[2px] bg-[#254007]  mb-6">
+                <!-- Heading and Line at the Top -->
+                <h2 class="text-2xl md:text-4xl font-semibold text-[#4A5310] mb-4 md:mb-6 text-left">
+                    Branding & Design Services
+                </h2>
+                <hr class="border-none h-[2px] bg-[#254007] mb-4 md:mb-6">
 
-                    <!-- Text, Image, and Button in the Same Container -->
-                    <div class="flex flex-col md:flex-row items-left justify-start">
-                        <div class="md:w-2/3 justify-start items-start text-left"> 
-                            <p class="text-[#254007] text-2xl mb-8 leading-relaxed">
-                           We create compelling brand identities and visual elements that resonate with your audience and reinforce your message.
-                            </p>
-                            <!-- Button -->
-                            <button class="btn-bg-animation-learn">
-                                     <span class="btn-text">Learn more</span>
-                            </button>
-                        </div>
-                        <!-- Illustration Image Inside the Same Div -->
-                        <div class="md:w-1/3 flex justify-center mt-8 md:mt-0">
-                            <img src="{{ asset('Images/i-2.png') }}" alt="Illustration" class="w-64 h-auto">
-                        </div>
+                <!-- Text, Image, and Button in the Same Container -->
+                <div class="flex flex-col md:flex-row items-left justify-start">
+                    <div class="md:w-2/3 text-left">
+                        <p class="text-[#254007] text-lg md:text-2xl mb-4 md:mb-8 leading-relaxed">
+                            We create compelling brand identities and visual elements that resonate with your audience and reinforce your message.
+                        </p>
+                        <!-- Button -->
+                        <button class="btn-bg-animation-learn">
+                            <span class="btn-text">Learn more</span>
+                        </button>
+                    </div>
+                    <!-- Illustration Image Inside the Same Div -->
+                    <div class="md:w-1/3 flex justify-center mt-6 md:mt-0">
+                        <img src="{{ asset('Images/i-2.png') }}" alt="Illustration" class="w-full max-w-xs h-auto">
                     </div>
                 </div>
+            </div>
 
-                <div class="bg-[#F0D9B7] p-12 rounded-t-lg m-4 h-96 shadow-lg">
+            <div class="bg-[#F0D9B7] p-6 md:p-12 rounded-t-lg m-4 md:h-96 shadow-lg">
 
-                    <!-- Heading and Line at the Top -->
-                    <h2 class="text-4xl font-semibold text-[#4A5310] mb-6 text-left">
-                        Strategy Development and Implementation
-                    </h2>
-                    <hr class="border-none h-[2px] bg-[#4A5310]  mb-6">
+                <!-- Heading and Line at the Top -->
+                <h2 class="text-2xl md:text-4xl font-semibold text-[#4A5310] mb-4 md:mb-6 text-left">
+                    Strategy Development and Implementation
+                </h2>
+                <hr class="border-none h-[2px] bg-[#4A5310] mb-4 md:mb-6">
 
-                    <!-- Text, Image, and Button in the Same Container -->
-                    <div class="flex flex-col md:flex-row items-left justify-start">
-                        <div class="md:w-2/3 justify-start items-start text-left"> 
-                            <p class="text-[#4A5310] text-2xl mb-8 leading-relaxed">
-                                We craft bespoke strategies that include impactful advocacy, tailored communication plans, and cutting-edge digital campaigns to achieve meaningful and sustainable impact.
-                            </p>
-                            <!-- Button -->
-                            <button class="btn-bg-animation-learn">
-                                     <span class="btn-text">Learn more</span>
-                            </button>
-                        </div>
-                        <!-- Illustration Image Inside the Same Div -->
-                        <div class="md:w-1/3 flex justify-center mt-8 md:mt-0">
-                            <img src="{{ asset('Images/i-3.png') }}" alt="Illustration" class="w-64 h-auto">
-                        </div>
+                <!-- Text, Image, and Button in the Same Container -->
+                <div class="flex flex-col md:flex-row items-left justify-start">
+                    <div class="md:w-2/3 text-left">
+                        <p class="text-[#4A5310] text-lg md:text-2xl mb-4 md:mb-8 leading-relaxed">
+                            We craft bespoke strategies that include impactful advocacy, tailored communication plans, and cutting-edge digital campaigns to achieve meaningful and sustainable impact.
+                        </p>
+                        <!-- Button -->
+                        <button class="btn-bg-animation-learn">
+                            <span class="btn-text">Learn more</span>
+                        </button>
+                    </div>
+                    <!-- Illustration Image Inside the Same Div -->
+                    <div class="md:w-1/3 flex justify-center mt-6 md:mt-0">
+                        <img src="{{ asset('Images/i-3.png') }}" alt="Illustration" class="w-full max-w-xs h-auto">
                     </div>
                 </div>
+            </div>
 
-                <div class="bg-[#FFC6DB] p-12 rounded-t-lg m-4 h-96 shadow-lg">
+            <div class="bg-[#FFC6DB] p-6 md:p-12 rounded-t-lg m-4 md:h-96 shadow-lg">
 
-                    <!-- Heading and Line at the Top -->
-                    <h2 class="text-4xl font-semibold text-[#3A0217] mb-6 text-left">
-                      Training & Capacity Building
-                    </h2>
-                    <hr class="border-none h-[2px] bg-[#3A0217]  mb-6">
+                <!-- Heading and Line at the Top -->
+                <h2 class="text-2xl md:text-4xl font-semibold text-[#3A0217] mb-4 md:mb-6 text-left">
+                    Training & Capacity Building
+                </h2>
+                <hr class="border-none h-[2px] bg-[#3A0217] mb-4 md:mb-6">
 
-                    <!-- Text, Image, and Button in the Same Container -->
-                    <div class="flex flex-col md:flex-row items-left justify-start">
-                        <div class="md:w-2/3 justify-start items-start text-left"> 
-                            <p class="text-[#3A0217] text-2xl mb-8 leading-relaxed">
-                                Our flexible, learner-centred training programs equip individuals and organizations with practical skills for driving social change.
-                            </p>
-                            <!-- Button -->
-                            <button class="btn-bg-animation-learn">
-                                     <span class="btn-text">Learn more</span>
-                            </button>
-                        </div>
-                        <!-- Illustration Image Inside the Same Div -->
-                        <div class="md:w-1/3 flex justify-center mt-8 md:mt-0">
-                            <img src="{{ asset('Images/i-4.png') }}" alt="Illustration" class="w-80 h-60">
-                        </div>
+                <!-- Text, Image, and Button in the Same Container -->
+                <div class="flex flex-col md:flex-row items-left justify-start">
+                    <div class="md:w-2/3 text-left">
+                        <p class="text-[#3A0217] text-lg md:text-2xl mb-4 md:mb-8 leading-relaxed">
+                            Our flexible, learner-centred training programs equip individuals and organizations with practical skills for driving social change.
+                        </p>
+                        <!-- Button -->
+                        <button class="btn-bg-animation-learn">
+                            <span class="btn-text">Learn more</span>
+                        </button>
+                    </div>
+                    <!-- Illustration Image Inside the Same Div -->
+                    <div class="md:w-1/3 flex justify-center mt-6 md:mt-0">
+                        <img src="{{ asset('Images/i-4.png') }}" alt="Illustration" class="w-full max-w-xs h-auto">
                     </div>
                 </div>
+            </div>
 
-                <div class="bg-[#ECDDD5] p-12 rounded-t-lg m-4 h-96 shadow-lg">
+            <div class="bg-[#ECDDD5] p-6 md:p-12 rounded-t-lg m-4 md:h-96 shadow-lg">
 
-                    <!-- Heading and Line at the Top -->
-                    <h2 class="text-4xl font-semibold text-[#381603] mb-6 text-left">
-                      Engagement Events
-                    </h2>
-                    <hr class="border-none h-[2px] bg-[#381603]  mb-6">
+                <!-- Heading and Line at the Top -->
+                <h2 class="text-2xl md:text-4xl font-semibold text-[#381603] mb-4 md:mb-6 text-left">
+                    Engagement Events
+                </h2>
+                <hr class="border-none h-[2px] bg-[#381603] mb-4 md:mb-6">
 
-                    <!-- Text, Image, and Button in the Same Container -->
-                    <div class="flex flex-col md:flex-row items-left justify-start">
-                        <div class="md:w-2/3 justify-start items-start text-left"> 
-                            <p class="text-[#381603] text-2xl mb-8 leading-relaxed">
-                                Our flexible, learner-centred training programs equip individuals and organizations with practical skills for driving social change.
-                            </p>
-                            <!-- Button -->
-                            <button class="btn-bg-animation-learn">
-                                     <span class="btn-text">Learn more</span>
-                            </button>
-                        </div>
-                        <!-- Illustration Image Inside the Same Div -->
-                        <div class="md:w-1/3 flex justify-center mt-8 md:mt-0">
-                            <img src="{{ asset('Images/i-5.png') }}" alt="Illustration" class="w-80 h-64">
-                        </div>
+                <!-- Text, Image, and Button in the Same Container -->
+                <div class="flex flex-col md:flex-row items-left justify-start">
+                    <div class="md:w-2/3 text-left">
+                        <p class="text-[#381603] text-lg md:text-2xl mb-4 md:mb-8 leading-relaxed">
+                            Our flexible, learner-centred training programs equip individuals and organizations with practical skills for driving social change.
+                        </p>
+                        <!-- Button -->
+                        <button class="btn-bg-animation-learn">
+                            <span class="btn-text">Learn more</span>
+                        </button>
+                    </div>
+                    <!-- Illustration Image Inside the Same Div -->
+                    <div class="md:w-1/3 flex justify-center mt-6 md:mt-0">
+                        <img src="{{ asset('Images/i-5.png') }}" alt="Illustration" class="w-full max-w-xs h-auto">
                     </div>
                 </div>
+            </div>
 
-                <div class="bg-[#A3E0AC] p-12 rounded-t-lg m-4 h-96 shadow-lg">
+            <div class="bg-[#A3E0AC] p-6 md:p-12 rounded-t-lg m-4 md:h-96 shadow-lg">
 
-                    <!-- Heading and Line at the Top -->
-                    <h2 class="text-4xl font-semibold text-[#381603] mb-6 text-left">
-                      Program Design and Implementation
-                    </h2>
-                    <hr class="border-none h-[2px] bg-[#381603]  mb-6">
+                <!-- Heading and Line at the Top -->
+                <h2 class="text-2xl md:text-4xl font-semibold text-[#381603] mb-4 md:mb-6 text-left">
+                    Program Design and Implementation
+                </h2>
+                <hr class="border-none h-[2px] bg-[#381603] mb-4 md:mb-6">
 
-                    <!-- Text, Image, and Button in the Same Container -->
-                    <div class="flex flex-col md:flex-row items-left justify-start">
-                        <div class="md:w-2/3 justify-start items-start text-left"> 
-                            <p class="text-[#381603] text-2xl mb-8 leading-relaxed">
-                             We develop and execute innovative programs that address community needs, drive advocacy, and achieve sustainable change.
-                            </p>
-                            <!-- Button -->
-                            <button class="btn-bg-animation-learn">
-                                     <span class="btn-text">Learn more</span>
-                            </button>
-                        </div>
-                        <!-- Illustration Image Inside the Same Div -->
-                        <div class="md:w-1/3 flex justify-center mt-8 md:mt-0">
-                            <img src="{{ asset('Images/i-6.png') }}" alt="Illustration" class="w-80 h-60">
-                        </div>
+                <!-- Text, Image, and Button in the Same Container -->
+                <div class="flex flex-col md:flex-row items-left justify-start">
+                    <div class="md:w-2/3 text-left">
+                        <p class="text-[#381603] text-lg md:text-2xl mb-4 md:mb-8 leading-relaxed">
+                            We develop and execute innovative programs that address community needs, drive advocacy, and achieve sustainable change.
+                        </p>
+                        <!-- Button -->
+                        <button class="btn-bg-animation-learn">
+                            <span class="btn-text">Learn more</span>
+                        </button>
+                    </div>
+                    <!-- Illustration Image Inside the Same Div -->
+                    <div class="md:w-1/3 flex justify-center mt-6 md:mt-0">
+                        <img src="{{ asset('Images/i-6.png') }}" alt="Illustration" class="w-full max-w-xs h-auto">
                     </div>
                 </div>
+            </div>
+
 
             </div>
             </section>

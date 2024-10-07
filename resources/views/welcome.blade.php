@@ -109,7 +109,7 @@
                         <p class="text-gray-700 mb-6 text-xl" style="font-weight: 400; line-height: 35px; color: var(--accent-text-collour-2, #0B0B0B);">
                             So, whether you're a nonprofit seeking to expand your reach, a corporation aiming to enhance its social responsibility, or a government agency striving for positive impact, LSIV is your partner in building a better future. Let's create lasting change together.
                         </p>
-                        <a href="#" class="hover-text-underline font-bold text-xl">Learn more about us</a>
+                        <a href="#" class="hover-text-underline font-bold text-xl" style="font-family: Open Sans; font-size: 24px; font-style: normal; font-weight: 600; line-height: 38px;">Learn more about us</a>
                     </div>
                 </div>
             </div>
@@ -143,41 +143,41 @@
                 <!-- Thematic Areas Grid -->
                 <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 thematic-area">
                     <!-- Card 1 -->
-                    <div class="bg-gray-100 rounded-lg overflow-hidden h-72 flex flex-col justify-end" style="background-image: url('{{ asset('Images/gender.png') }}'); background-size: cover; background-position: center;">
+                    <div class="bg-gray-100 rounded-lg overflow-hidden h-72 flex flex-col justify-end" style="background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('{{ asset('Images/gender.jpeg') }}'); background-size: cover; background-position: center;">
                         <div class="p-4 bg-opacity-70 div-the">
-                         <h3 class="text-xl text-2xl text-white  text-left">Gender Equality & Empowerment</h3>
+                         <h3 class="text-xl text-2xl text-white text-left">Gender Equality & Empowerment</h3>
                         </div>
                     </div>
 
                     <!-- Card 2 -->
-                    <div class="bg-gray-100 rounded-lg overflow-hidden h-72 flex flex-col justify-end" style="background-image: url('{{ asset('Images/health.png') }}'); background-size: cover; background-position: center;">
+                    <div class="bg-gray-100 rounded-lg overflow-hidden h-72 flex flex-col justify-end" style="background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('{{ asset('Images/health.jpeg') }}');  background-size: cover; background-position: center;">
                         <div class="p-4 bg-opacity-70 w-full div-the">
                             <h3 class="text-2xl text-5x4 text-white text-left">Health and Well-Being</h3>
                         </div>
                     </div>
 
                     <!-- Card 3 -->
-                    <div class="bg-gray-100 rounded-lg overflow-hidden h-72 flex flex-col justify-end" style="background-image: url('{{ asset('Images/social.png') }}'); background-size: cover; background-position: center;">
+                    <div class="bg-gray-100 rounded-lg overflow-hidden h-72 flex flex-col justify-end" style="background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('{{ asset('Images/social.jpeg') }}'); background-size: cover; background-position: center;">
                         <div class="p-4 bg-opacity-70 w-full div-the">
                             <h3 class="text-2xl text-5x4 text-white text-left">Social Development & Education</h3>
                         </div>
                     </div>
 
                     <!-- Card 4 -->
-                    <div class="bg-gray-100 rounded-lg overflow-hidden h-72 flex flex-col justify-end" style="background-image: url('{{ asset('Images/sustainable.png') }}'); background-size: cover; background-position: center;">
+                    <div class="bg-gray-100 rounded-lg overflow-hidden h-72 flex flex-col justify-end" style="background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('{{ asset('Images/sustainable.jpeg') }}'); background-size: cover; background-position: center;">
                         <div class="p-4 bg-opacity-70 w-full div-the">
                             <h3 class="text-2xl text-5x4 text-white text-left">Sustainable Livelihoods & Poverty Alleviation</h3>
                         </div>
                     </div>
 
                     <!-- Card 5 -->
-                    <div class="bg-gray-100 rounded-lg overflow-hidden h-72 flex flex-col justify-end" style="background-image: url('{{ asset('Images/sustainable.png') }}'); background-size: cover; background-position: center;">
+                    <div class="bg-gray-100 rounded-lg overflow-hidden h-72 flex flex-col justify-end" style="background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('{{ asset('Images/climate.jpeg') }}'); background-size: cover; background-position: center;">
                         <div class="p-4 bg-opacity-70 w-full div-the">
                             <h3 class="text-2xl text-5x4 text-white text-left">Climate Change & Environmental Sustainability</h3>
                         </div>
                     </div>
                     <!-- Call to Action Card -->
-                    <div class="bg-[#F76C3C] text-white rounded-lg overflow-hidden flex items-center justify-center">
+                    <div class="bg-[#F76C3C] text-white rounded-lg overflow-hidden h-72 flex items-center justify-center" style="background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('{{ asset('Images/contact-frame-one.jpeg') }}'); background-size: cover; background-position: center;">
                         <div class="p-6 text-center">
                             <h3 class="text-2xl font-bold mb-4">We'd love to help amplify your social impact</h3>
                               <a href="#" class="text-sm font-semibold leading-6 text-gray-900">

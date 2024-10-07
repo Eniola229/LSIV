@@ -24,11 +24,10 @@
         <div class="absolute hidden group-hover:block mt-2 w-48 bg-white rounded-md shadow-lg">
           <ul class="py-1 text-sm text-gray-700">
             <li>
-              <a href="{{ url('About-WhoWeAre') }}" class="block px-4 py-2 hover-effect-arrow" style="font-family: Open Sans, sans-serif;">Who we are <span class="hover-arrow">&rarr;</span></a>
               <a href="{{ url('About-WhoWeAre') }}" class="block px-4 py-2 hover-effect-arrow" style="">Who we are <span class="hover-arrow">&rarr;</span></a>
             </li>
             <li>
-              <a href="#" class="block px-4 py-2 hover-effect-arrow">Our Jouney<span class="hover-arrow">&rarr;</span></a>
+              <a href="{{ url('About-OurJouney') }}" class="block px-4 py-2 hover-effect-arrow">Our Jouney<span class="hover-arrow">&rarr;</span></a>
             </li>
             <li>
               <a href="#" class="block px-4 py-2 hover-effect-arrow">Our Thematic areas<span class="hover-arrow">&rarr;</span></a>
@@ -111,8 +110,8 @@
                 </svg>
               </button>
               <div id="about-dropdown" class="dropdown-content pl-6">
-              <a href="#" class="block px-4 py-2 hover-effect-arrow">Who we are <span class="hover-arrow">&rarr;</span></a>
-              <a href="#" class="block px-4 py-2 hover-effect-arrow">Our Jouney<span class="hover-arrow">&rarr;</span></a>
+              <a href="{{ url('About-WhoWeAre') }}" class="block px-4 py-2 hover-effect-arrow">Who we are <span class="hover-arrow">&rarr;</span></a>
+              <a href="{{ url('About-OurJouney') }}" class="block px-4 py-2 hover-effect-arrow">Our Jouney<span class="hover-arrow">&rarr;</span></a>
               <a href="#" class="block px-4 py-2 hover-effect-arrow">Our Thematic areas<span class="hover-arrow">&rarr;</span></a>
               <a href="#" class="block px-4 py-2 hover-effect-arrow">About the Founder<span class="hover-arrow">&rarr;</span></a>
               </div>

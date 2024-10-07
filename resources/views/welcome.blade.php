@@ -33,7 +33,7 @@
             </p>
           </div>
 
-            <a href="#impact">
+            <a id="scrollLink">
              <div class="flex relative items-center justify-center">
                 <!-- Container for the circular text and button -->
                 <div class="relative flex items-center justify-center w-64 h-64">
@@ -191,7 +191,7 @@
             </div>
         </section>
             <!-----Offering Solutions for Impact Section---->
-            <section class="px-4 py-8 lg:px-16" id="impact">
+            <section class="px-4 py-8 lg:px-16" id="impact"  style="margin-top: 1000px;">
                 <div class="container mx-auto text-left md:text-left mb-12">
                     <h2 class="text-6xl mb-6" style="font-family: 'Playfair Display', serif; font-style: normal; font-weight: 500; line-height: normal;">Offering Solutions for Impact</h2>
                 
@@ -455,3 +455,48 @@
       @include('components.footer')
     </body>
 </html>
+
+
+<script>
+  document.getElementById('scrollLink').addEventListener('click', function(event) {
+    event.preventDefault(); // Prevent default behavior
+
+    // Get the target element by its ID
+    const target = document.getElementById('impact');
+    
+    // Get the position of the target element
+    const targetPosition = target.getBoundingClientRect().top + window.scrollY;
+    
+    // Set the scrolling duration (1000ms = 1 second)
+    const duration = 1000;
+
+    // Smooth scroll function
+    const smoothScrollTo = (targetPosition, duration) => {
+      const startPosition = window.scrollY;
+      const distance = targetPosition - startPosition;
+      let startTime = null;
+
+      const animationScroll = (currentTime) => {
+        if (startTime === null) startTime = currentTime;
+        const timeElapsed = currentTime - startTime;
+        const run = ease(timeElapsed, startPosition, distance, duration);
+        window.scrollTo(0, run);
+
+        if (timeElapsed < duration) requestAnimationFrame(animationScroll);
+      };
+
+      // Easing function to smoothen the scroll effect
+      const ease = (t, b, c, d) => {
+        t /= d / 2;
+        if (t < 1) return (c / 2) * t * t + b;
+        t--;
+        return (-c / 2) * (t * (t - 2) - 1) + b;
+      };
+
+      requestAnimationFrame(animationScroll);
+    };
+
+    // Call the smooth scroll function
+    smoothScrollTo(targetPosition, duration);
+  });
+</script>

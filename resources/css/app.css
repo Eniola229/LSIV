@@ -407,3 +407,22 @@ ul {
 button {
         font-family: "Open Sans";
 }
+
+/* Custom style to hide scrollbar */
+.no-scrollbar::-webkit-scrollbar {
+    display: none;
+}
+.no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.achievements {
+    position: absolute;
+}
+
+@media (max-width: 480px) {
+   .achievements {
+        position: none;
+   }
+}

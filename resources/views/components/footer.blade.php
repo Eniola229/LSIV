@@ -18,7 +18,7 @@
 
                     </div>
                       <div class="flex items-center justify-center w-full md:w-auto mt-8 md:mt-0 orange-round-down bg">
-                          <button class="h-36 w-36 md:h-52 md:w-52 text-white p-4 rounded-full flex items-center justify-center">
+                          <button class="md:h-52 md:w-52 w-52 h-52 text-white p-4 rounded-full flex items-center justify-center">
                               <svg xmlns="http://www.w3.org/2000/svg" width="180" height="180" viewBox="0 0 180 180" fill="none">
                                 <g clip-path="url(#clip0_832_1160)">
                                 <rect width="180" height="180" rx="90" fill="#E76A35"/>

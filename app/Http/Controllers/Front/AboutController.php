@@ -11,4 +11,8 @@ class AboutController extends Controller
     {
         return view('Front.about.WhoWeAre');
     }
+    public function ourjouney(Request $request)
+    {
+        return view('Front.about.OurJouney');
+    }
 }

@@ -115,12 +115,12 @@
     <section class="p-8 mt-12">
         <div class="grid md:grid-cols-2 gap-6">
             <!-- Vision -->
-            <div class="bg-[#FFC6DB] p-6 rounded-lg shadow-lg h-[394px] pt-[68px] pr-[34px] pb-[67px] pl-[40px]">
+            <div class="bg-[#FFC6DB] p-6 rounded-lg shadow-lg md:h-[394px] pt-[68px] pr-[34px] pb-[67px] pl-[40px]">
                  <h2 class="text-4xl font-serif font-bold text-dark-900 text-left md:text-left mb-6" style="font-family: 'Playfair Display', serif; font-style: normal; font-weight: 500; line-height: normal;">Our Vision</h2>
                 <p class="text-dark-400 font-semibold mt-4" style="font-style: normal; font-weight: 400; line-height: 33px;">We envision a world where every individual and community has the opportunity to thrive. A world where gender equality is the norm, health and well-being are prioritized, educational opportunities are accessible, livelihoods are sustainable, and the environment is protected for future generations.</p>
             </div>
             <!-- Mission -->
-            <div class="bg-[#FFDED0] p-6 rounded-lg shadow-lg h-[394px] pt-[68px] pr-[34px] pb-[67px] pl-[40px]">
+            <div class="bg-[#FFDED0] p-6 rounded-lg shadow-lg md:h-[394px] pt-[68px] pr-[34px] pb-[67px] pl-[40px]">
             	 <h2 class="text-4xl font-serif font-bold text-dark-900 text-left md:text-left mb-6" style="font-family: 'Playfair Display', serif; font-style: normal; font-weight: 500; line-height: normal;">Our Mission</h2>
                 <p class="text-dark-400 font-semibold mt-4" style="font-style: normal; font-weight: 400; line-height: 33px;">Our mission is to support our partners in driving positive social change through strategic advocacy, effective communication, and community-centered approaches. We aim to empower communities, amplify marginalized voices, and create lasting impact by fostering collaboration and leveraging innovative solutions to address the world's most pressing challenges.</p>
             </div>
@@ -173,7 +173,7 @@
         
         <!-- Team Member Card 1 -->
         <div class="bg-white rounded-xl p-6 text-center shadow-md w-72">
-          <img src="path_to_image1" alt="Team member photo" class="w-24 h-24 mx-auto rounded-full mb-4">
+          <img src="{{ asset('Images/ceo-lolo.png') }}" alt="Team member photo" class="w-24 h-24 mx-auto rounded-full mb-4">
           <h2 class="text-xl font-semibold" style="font-family: 'Helvetica Neue' font-size: 20px; font-style: normal; font-weight: 500; line-height: 32px; /* 160% */ letter-spacing: 0.4px;">Lolo Cynthia</h2>
           <p class="text-gray-600 mb-4 mt-4">CEO</p>
           <a href="#" class="inline-block mt-4 text-black hover:text-orange-500">
@@ -185,7 +185,7 @@
 
         <!-- Team Member Card 2 -->
         <div class="bg-white rounded-xl p-6 text-center shadow-md w-72">
-          <img src="path_to_image2" alt="Team member photo" class="w-24 h-24 mx-auto rounded-full mb-4">
+          <img src="{{ asset('Images/p-d-lolo.png') }}" alt="Team member photo" class="w-24 h-24 mx-auto rounded-full mb-4">
           <h2 class="text-xl font-semibold" style="font-family: 'Helvetica Neue' font-size: 20px; font-style: normal; font-weight: 500; line-height: 32px; /* 160% */ letter-spacing: 0.4px;">Akogun Elizabeth</h2>
           <p class="text-gray-600 mb-4 mt-4">Product Designer</p>
           <a href="#" class="inline-block mt-4 text-black hover:text-orange-500">
@@ -197,7 +197,7 @@
 
         <!-- Team Member Card 3 -->
         <div class="bg-white rounded-xl p-6 text-center shadow-md w-72">
-          <img src="path_to_image3" alt="Team member photo" class="w-24 h-24 mx-auto rounded-full mb-4">
+          <img src="{{ asset('Images/m-1-lolo.png') }}" alt="Team member photo" class="w-24 h-24 mx-auto rounded-full mb-4">
           <h2 class="text-xl font-semibold" style="font-family: 'Helvetica Neue' font-size: 20px; font-style: normal; font-weight: 500; line-height: 32px; /* 160% */ letter-spacing: 0.4px;">Team member name</h2>
           <p class="text-gray-600 mb-4 mt-4">Team member position</p>
           <a href="#" class="inline-block mt-4 text-black hover:text-orange-500">
@@ -209,7 +209,7 @@
 
          <!-- Team Member Card 4 -->
         <div class="bg-white rounded-xl p-6 text-center shadow-md w-72">
-          <img src="path_to_image1" alt="Team member photo" class="w-24 h-24 mx-auto rounded-full mb-4">
+          <img src="{{ asset('Images/m-2-lolo.png') }}" alt="Team member photo" class="w-24 h-24 mx-auto rounded-full mb-4">
           <h2 class="text-xl font-semibold" style="font-family: 'Helvetica Neue' font-size: 20px; font-style: normal; font-weight: 500; line-height: 32px; /* 160% */ letter-spacing: 0.4px;">Team member name</h2>
           <p class="text-gray-600 mb-4 mt-4">Team member position</p>
           <a href="#" class="inline-block mt-4 text-black hover:text-orange-500">
@@ -221,7 +221,7 @@
 
         <!-- Team Member Card 5 -->
         <div class="bg-white rounded-xl p-6 text-center shadow-md w-72">
-          <img src="path_to_image2" alt="Team member photo" class="w-24 h-24 mx-auto rounded-full mb-4">
+          <img src="{{ asset('Images/m-3-lolo.png') }}" alt="Team member photo" class="w-24 h-24 mx-auto rounded-full mb-4">
           <h2 class="text-xl font-semibold" style="font-family: 'Helvetica Neue' font-size: 20px; font-style: normal; font-weight: 500; line-height: 32px; /* 160% */ letter-spacing: 0.4px;">Team member name</h2>
           <p class="text-gray-600 mb-4 mt-4">Team member position</p>
           <a href="#" class="inline-block mt-4 text-black hover:text-orange-500">
@@ -233,7 +233,7 @@
 
         <!-- Team Member Card 6 -->
         <div class="bg-white rounded-xl p-6 text-center shadow-md w-72">
-          <img src="path_to_image3" alt="Team member photo" class="w-24 h-24 mx-auto rounded-full mb-4">
+          <img src="{{ asset('Images/m-4-lolo.png') }}" alt="Team member photo" class="w-24 h-24 mx-auto rounded-full mb-4">
           <h2 class="text-xl font-semibold" style="font-family: 'Helvetica Neue' font-size: 20px; font-style: normal; font-weight: 500; line-height: 32px; /* 160% */ letter-spacing: 0.4px;">Team member name</h2>
           <p class="text-gray-600 mb-4 mt-4">Team member position</p>
           <a href="#" class="inline-block mt-4 text-black hover:text-orange-500">
@@ -245,7 +245,7 @@
       </div>
     </div>
                  <div class="container mx-auto px-4 py-16">
-                    <p  style="font-family: 'Open Sans'; font-style: normal; font-weight: 600; line-height: normal;">Our Story</p>
+                    <p  style="font-family: 'Open Sans'; font-style: normal; font-weight: 600; line-height: normal;">Our Work</p>
                     <h1 class="text-6xl font-serif font-bold text-gray-900 text-left mb-12" style="font-family: 'Playfair Display', serif; font-style: normal; font-weight: 500; line-height: normal;">Our Impact in Action</h1>
                     
                     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6">
@@ -318,7 +318,7 @@
                     </div>
                 </div>
 
-            <section class="py-8" style="background: #ECECD5;">
+            <section class="py-8" style="background: white;">
             <div class="max-w-7xl h-80 mx-auto px-4 sm:px-6 lg:px-8">
                      <h2 class="text-6xl mb-6" style="font-family: 'Playfair Display', serif; font-style: normal; font-weight: 500; line-height: normal;">Our clients & partners</h1>
                     <div class="relative overflow-hidden mt-12">

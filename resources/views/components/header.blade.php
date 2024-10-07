@@ -1,7 +1,7 @@
 <header class="">
   <nav class="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8" aria-label="Global">
     <div class="flex lg:flex-1">
-      <a href="#" class="-m-1.5 p-1.5">
+      <a href="{{ url('/') }}" class="-m-1.5 p-1.5">
         <span class="sr-only">LSIV</span>
         <img class="h-16 w-auto" src="{{ asset('Images/LSIV-Logo.png') }}" alt="LSIV LOGO">
       </a>
@@ -24,16 +24,17 @@
         <div class="absolute hidden group-hover:block mt-2 w-48 bg-white rounded-md shadow-lg">
           <ul class="py-1 text-sm text-gray-700">
             <li>
-              <a href="#" class="block px-4 py-2 font-normal hover-effect-arrow">Who we are <span class="hover-arrow">&rarr;</span></a>
+              <a href="{{ url('About-WhoWeAre') }}" class="block px-4 py-2 hover-effect-arrow" style="font-family: Open Sans, sans-serif;">Who we are <span class="hover-arrow">&rarr;</span></a>
+              <a href="{{ url('About-WhoWeAre') }}" class="block px-4 py-2 hover-effect-arrow" style="">Who we are <span class="hover-arrow">&rarr;</span></a>
             </li>
             <li>
-              <a href="#" class="block px-4 py-2 font-normal hover-effect-arrow">Our Jouney<span class="hover-arrow">&rarr;</span></a>
+              <a href="#" class="block px-4 py-2 hover-effect-arrow">Our Jouney<span class="hover-arrow">&rarr;</span></a>
             </li>
             <li>
-              <a href="#" class="block px-4 py-2 font-normal hover-effect-arrow">Our Thematic areas<span class="hover-arrow">&rarr;</span></a>
+              <a href="#" class="block px-4 py-2 hover-effect-arrow">Our Thematic areas<span class="hover-arrow">&rarr;</span></a>
             </li>
             <li>
-               <a href="#" class="block px-4 py-2 font-normal hover-effect-arrow">About the Founder<span class="hover-arrow">&rarr;</span></a>
+               <a href="#" class="block px-4 py-2 hover-effect-arrow">About the Founder<span class="hover-arrow">&rarr;</span></a>
             </li>
           </ul>
         </div>
@@ -45,10 +46,10 @@
       <div class="absolute hidden group-hover:block mt-2 w-40 bg-white rounded-md shadow-lg">
         <ul class="py-1 text-sm text-gray-700">
           <li>
-            <a href="#" class="block px-4 py-2 font-normal hover-effect-arrow">Services<span class="hover-arrow">&rarr;</span></a>
+            <a href="#" class="block px-4 py-2 hover-effect-arrow">Services<span class="hover-arrow">&rarr;</span></a>
           </li>
           <li>
-            <a href="#" class="block px-4 py-2 font-normal hover-effect-arrow">How we work<span class="hover-arrow">&rarr;</span></a>
+            <a href="#" class="block px-4 py-2 hover-effect-arrow">How we work<span class="hover-arrow">&rarr;</span></a>
           </li>
         </ul>
       </div>
@@ -62,10 +63,10 @@
       <div class="absolute hidden group-hover:block mt-2 w-52 bg-white rounded-md shadow-lg">
         <ul class="py-1 text-sm text-gray-700">
           <li>
-            <a href="#" class="block px-4 py-2 font-normal hover-effect-arrow">Case studies<span class="hover-arrow">&rarr;</span></a>
+            <a href="#" class="block px-4 py-2 hover-effect-arrow">Case studies<span class="hover-arrow">&rarr;</span></a>
           </li>
           <li>
-            <a href="#" class="block px-4 py-2 font-normal hover-effect-arrow">Media & Knowledge Hub<span class="hover-arrow">&rarr;</span></a>
+            <a href="#" class="block px-4 py-2 hover-effect-arrow">Media & Knowledge Hub<span class="hover-arrow">&rarr;</span></a>
           </li>
         </ul>
       </div>
@@ -110,10 +111,10 @@
                 </svg>
               </button>
               <div id="about-dropdown" class="dropdown-content pl-6">
-              <a href="#" class="block px-4 py-2 font-normal hover-effect-arrow">Who we are <span class="hover-arrow">&rarr;</span></a>
-              <a href="#" class="block px-4 py-2 font-normal hover-effect-arrow">Our Jouney<span class="hover-arrow">&rarr;</span></a>
-              <a href="#" class="block px-4 py-2 font-normal hover-effect-arrow">Our Thematic areas<span class="hover-arrow">&rarr;</span></a>
-              <a href="#" class="block px-4 py-2 font-normal hover-effect-arrow">About the Founder<span class="hover-arrow">&rarr;</span></a>
+              <a href="#" class="block px-4 py-2 hover-effect-arrow">Who we are <span class="hover-arrow">&rarr;</span></a>
+              <a href="#" class="block px-4 py-2 hover-effect-arrow">Our Jouney<span class="hover-arrow">&rarr;</span></a>
+              <a href="#" class="block px-4 py-2 hover-effect-arrow">Our Thematic areas<span class="hover-arrow">&rarr;</span></a>
+              <a href="#" class="block px-4 py-2 hover-effect-arrow">About the Founder<span class="hover-arrow">&rarr;</span></a>
               </div>
             </div>
 
@@ -127,8 +128,8 @@
                 </svg>
               </button>
               <div id="insights-dropdown" class="dropdown-content pl-6">
-              <a href="#" class="block px-4 py-2 font-normal hover-effect-arrow">Services<span class="hover-arrow">&rarr;</span></a>
-              <a href="#" class="block px-4 py-2 font-normal hover-effect-arrow">How we work<span class="hover-arrow">&rarr;</span></a>
+              <a href="#" class="block px-4 py-2 hover-effect-arrow">Services<span class="hover-arrow">&rarr;</span></a>
+              <a href="#" class="block px-4 py-2 hover-effect-arrow">How we work<span class="hover-arrow">&rarr;</span></a>
               </div>
             </div>
 
@@ -141,8 +142,8 @@
                 </svg>
               </button>
               <div id="insights-dropdown" class="dropdown-content pl-6">
-                <a href="#" class="block px-4 py-2 font-normal hover-effect-arrow">Case studies<span class="hover-arrow">&rarr;</span></a>
-              <a href="#" class="block px-4 py-2 font-normal hover-effect-arrow">Media & Knowledge Hub<span class="hover-arrow">&rarr;</span></a>
+                <a href="#" class="block px-4 py-2 hover-effect-arrow">Case studies<span class="hover-arrow">&rarr;</span></a>
+              <a href="#" class="block px-4 py-2 hover-effect-arrow">Media & Knowledge Hub<span class="hover-arrow">&rarr;</span></a>
               </div>
             </div>
 

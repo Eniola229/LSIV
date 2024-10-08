@@ -7,6 +7,7 @@ use App\Http\Controllers\Front\HomeController;
 
 //HOME
 Route::get('/', [HomeController::class, 'index']);
+Route::get('home', [HomeController::class, 'index'])->name('home');
 
 //ABOUT
 Route::get('About-WhoWeAre', [AboutController::class, 'whoweare'])->name('whoweare');

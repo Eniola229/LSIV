@@ -7,7 +7,7 @@ use Illuminate\Http\Request;
 
 class HomeController extends Controller
 {
-    public function ourjouney(Request $request)
+    public function index(Request $request)
     {
         return view('welcome');
     }

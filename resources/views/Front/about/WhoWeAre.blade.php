@@ -120,7 +120,7 @@
                 <p class="text-dark-400 font-semibold mt-4" style="font-style: normal; font-weight: 400; line-height: 33px;">We envision a world where every individual and community has the opportunity to thrive. A world where gender equality is the norm, health and well-being are prioritized, educational opportunities are accessible, livelihoods are sustainable, and the environment is protected for future generations.</p>
             </div>
             <!-- Mission -->
-            <div class="bg-[#FFDED0] p-6 rounded-lg shadow-lg md:h-[394px] pt-[68px] pr-[34px] pb-[67px] pl-[40px]">
+            <div class="bg-[#FFDED0] p-6 rounded-lg shadow-lg md: h-[394px] pt-[68px] pr-[34px] pb-[67px] pl-[40px]">
             	 <h2 class="text-4xl font-serif font-bold text-dark-900 text-left md:text-left mb-6" style="font-family: 'Playfair Display', serif; font-style: normal; font-weight: 500; line-height: normal;">Our Mission</h2>
                 <p class="text-dark-400 font-semibold mt-4" style="font-style: normal; font-weight: 400; line-height: 33px;">Our mission is to support our partners in driving positive social change through strategic advocacy, effective communication, and community-centered approaches. We aim to empower communities, amplify marginalized voices, and create lasting impact by fostering collaboration and leveraging innovative solutions to address the world's most pressing challenges.</p>
             </div>

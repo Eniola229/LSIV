@@ -30,10 +30,10 @@
               <a href="{{ url('About-OurJouney') }}" class="block px-4 py-2 hover-effect-arrow">Our Jouney<span class="hover-arrow">&rarr;</span></a>
             </li>
             <li>
-              <a href="#" class="block px-4 py-2 hover-effect-arrow">Our Thematic areas<span class="hover-arrow">&rarr;</span></a>
+              <a href="{{ url('About-Thematics') }}" class="block px-4 py-2 hover-effect-arrow">Our Thematic areas<span class="hover-arrow">&rarr;</span></a>
             </li>
             <li>
-               <a href="#" class="block px-4 py-2 hover-effect-arrow">About the Founder<span class="hover-arrow">&rarr;</span></a>
+               <a href="{{ url('About-Founder') }}" class="block px-4 py-2 hover-effect-arrow">About the Founder<span class="hover-arrow">&rarr;</span></a>
             </li>
           </ul>
         </div>
@@ -54,7 +54,7 @@
       </div>
     </div>
 
-      <a href="#" class="text-sm font-semibold leading-6 text-gray-900" style="font-family: font-family: 'Open Sans', sans-serif;">Out initiatives</a>
+      <a href="{{ url('Initiatives-Initiatives') }}" class="text-sm font-semibold leading-6 text-gray-900" style="font-family: font-family: 'Open Sans', sans-serif;">Out initiatives</a>
       <div class="relative group inline-block">
       <a href="#" class="text-sm font-semibold leading-6 text-gray-900" style="font-family: font-family: 'Open Sans', sans-serif;">Insights</a>
 
@@ -62,10 +62,10 @@
       <div class="absolute hidden group-hover:block mt-2 w-52 bg-white rounded-md shadow-lg">
         <ul class="py-1 text-sm text-gray-700">
           <li>
-            <a href="#" class="block px-4 py-2 hover-effect-arrow">Case studies<span class="hover-arrow">&rarr;</span></a>
+            <a href="{{ url('Insights-Case') }}" class="block px-4 py-2 hover-effect-arrow">Case studies<span class="hover-arrow">&rarr;</span></a>
           </li>
           <li>
-            <a href="#" class="block px-4 py-2 hover-effect-arrow">Media & Knowledge Hub<span class="hover-arrow">&rarr;</span></a>
+            <a href="{{ url('Insights-Media') }}" class="block px-4 py-2 hover-effect-arrow">Media & Knowledge Hub<span class="hover-arrow">&rarr;</span></a>
           </li>
         </ul>
       </div>
@@ -112,8 +112,8 @@
               <div id="about-dropdown" class="dropdown-content pl-6">
               <a href="{{ url('About-WhoWeAre') }}" class="block px-4 py-2 hover-effect-arrow">Who we are <span class="hover-arrow">&rarr;</span></a>
               <a href="{{ url('About-OurJouney') }}" class="block px-4 py-2 hover-effect-arrow">Our Jouney<span class="hover-arrow">&rarr;</span></a>
-              <a href="#" class="block px-4 py-2 hover-effect-arrow">Our Thematic areas<span class="hover-arrow">&rarr;</span></a>
-              <a href="#" class="block px-4 py-2 hover-effect-arrow">About the Founder<span class="hover-arrow">&rarr;</span></a>
+              <a href="{{ url('About-Thematics') }}" class="block px-4 py-2 hover-effect-arrow">Our Thematic areas<span class="hover-arrow">&rarr;</span></a>
+              <a href="{{ url('About-Founder') }}" class="block px-4 py-2 hover-effect-arrow">About the Founder<span class="hover-arrow">&rarr;</span></a>
               </div>
             </div>
 
@@ -127,8 +127,8 @@
                 </svg>
               </button>
               <div id="insights-dropdown" class="dropdown-content pl-6">
-              <a href="#" class="block px-4 py-2 hover-effect-arrow">Services<span class="hover-arrow">&rarr;</span></a>
-              <a href="#" class="block px-4 py-2 hover-effect-arrow">How we work<span class="hover-arrow">&rarr;</span></a>
+              <a href="{{ url('Work-Services') }}" class="block px-4 py-2 hover-effect-arrow">Services<span class="hover-arrow">&rarr;</span></a>
+              <a href="{{ url('Work-Work') }}" class="block px-4 py-2 hover-effect-arrow">How we work<span class="hover-arrow">&rarr;</span></a>
               </div>
             </div>
 

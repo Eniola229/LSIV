@@ -15,4 +15,12 @@ class AboutController extends Controller
     {
         return view('Front.about.OurJouney');
     }
+    public function thematics(Request $request)
+    {
+        return view('Front.about.Thematics');
+    }
+    public function founder(Request $request)
+    {
+        return view('Front.about.Founder');
+    }
 }

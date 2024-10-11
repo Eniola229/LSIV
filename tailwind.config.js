@@ -3,6 +3,8 @@ module.exports = {
     './resources/views/**/*.blade.php',
     './resources/css/**/*.css',
     './resources/js/**/*.js',
+    '.resources/admin/**/*.css',
+    '.resources/admin/**/*.js',
   ],
   theme: {
     extend: {

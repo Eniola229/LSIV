@@ -34,12 +34,12 @@
         <div class="col-xl-3 col-sm-6 mb-xl-0 mb-4">
           <div class="card">
             <div class="card-header p-3 pt-2">
-              <div class="icon icon-lg icon-shape bg-gradient-dark shadow-dark text-center border-radius-xl mt-n4 position-absolute">
+              <div class="icon icon-lg icon-shape bg-gradient-dark shadow-dark text-center border-radius-xl mt-n4 position-absolute" style="background: darkorange;">
               <i class="material-icons opacity-10">receipt_long</i>
               </div>
               <div class="text-end pt-1">
                 <p class="text-sm mb-0 text-capitalize">Blogs</p>
-                <h4 class="mb-0">$53k</h4>
+                <h4 class="mb-0">0</h4>
               </div>
             </div>
             <hr class="dark horizontal my-0">
@@ -55,7 +55,7 @@
               </div>
               <div class="text-end pt-1">
                 <p class="text-sm mb-0 text-capitalize">Feedbacks</p>
-                <h4 class="mb-0">2,300</h4>
+                <h4 class="mb-0">0</h4>
               </div>
             </div>
             <hr class="dark horizontal my-0">
@@ -71,7 +71,7 @@
               </div>
               <div class="text-end pt-1">
                 <p class="text-sm mb-0 text-capitalize">Admins</p>
-                <h4 class="mb-0">3,462</h4>
+                <h4 class="mb-0">{{ $adminsCount }}</h4>
               </div>
             </div>
             <hr class="dark horizontal my-0">
@@ -144,7 +144,7 @@
         </div>
       </div>
       <div class="row mb-4">
-        <div class="col-lg-8 col-md-6 mb-md-0 mb-4">
+        <div class="col-lg-12 col-md-12 mb-md-0 mb-4">
           <div class="card">
             <div class="card-header pb-0">
               <div class="row">

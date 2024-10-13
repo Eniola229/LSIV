@@ -426,3 +426,30 @@ button {
         position: none;
    }
 }
+
+  .group:hover .dropdown-menu {
+    display: block;
+  }
+
+  /* Delay for hover effect */
+  .dropdown-menu {
+    display: none;
+    transition: all 0.9s ease; /* You can adjust the time (0.3s) */
+  }
+
+  .group:hover .dropdown-menu {
+    display: block;
+    transition-delay: 0.2s; /* Adjust delay before appearing */
+  }
+
+  /* Optional: Add transition for smooth hide effect */
+  .dropdown-menu {
+    opacity: 0;
+    transform: translateY(10px); /* Start from slightly lower position */
+  }
+
+  .group:hover .dropdown-menu {
+    opacity: 1;
+    transform: translateY(0);
+    transition: opacity 0.9s ease, transform 0.9s ease;
+  }

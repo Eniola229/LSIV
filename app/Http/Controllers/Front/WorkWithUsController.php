@@ -11,7 +11,7 @@ class WorkWithUsController extends Controller
     {
         return view('Front.work.services');
     }
-        public function service(Request $request)
+        public function work(Request $request)
     {
         return view('Front.work.work');
     }

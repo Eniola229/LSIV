@@ -7,10 +7,9 @@
               </a>
             </li>
             <li class="nav-item d-flex align-items-center">
-              <a href="../pages/sign-in.html" class="nav-link text-body font-weight-bold px-0">
-                <i class="fa fa-sign-out me-sm-1"></i>
-                <span class="d-sm-inline d-none">Logout</span>
-              </a>
+                <form action="{{ route('admin-logout') }}" method="post">
+                  <button class="d-sm-inline d-none btn btn-danger" style="background: darkorange;"><i class="fa fa-sign-out me-sm-1"></i> Logout</button>
+                </form>
             </li>
           </ul>
         </div>

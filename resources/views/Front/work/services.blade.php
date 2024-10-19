@@ -367,258 +367,244 @@
         </div>
       </div>
     </header>
-    <main>
-      <!-- intro disscussion on case study section -->
-      <section class="bg-secondary py-12 rounded">
+   <main>
+      <!-- our  services -->
+      <section class="py-16 rounded bg-accentTextLight">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-6">
-          <!-- Container flex -->
-          <div class="flex lg:flex-row-reverse flex-col-reverse gap-4">
-            <!-- Image Section -->
-            <div class="lg:w-1/2 h-auto md:h-[30rem] text-xl">
-              <img
-                src="https://images.pexels.com/photos/11709710/pexels-photo-11709710.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-                alt="climate change advocacy"
-                class="w-full h-full object-cover rounded-md"
-              />
+          <div class="flex flex-col lg:flex-col justify-between gap-4">
+            <div class="w-full">
+              <h1
+                class="md:text-5xl lg:text-[3.5rem] md:w-4/5 text-3xl mb-2 font-playfair font-semibold leading-normal"
+              >
+                Your Partner in Building a More Just and Equitable World
+              </h1>
             </div>
             <!-- Text Section -->
-            <div class="lg:w-2/3 md:p-12">
-              <div>
-                <div class="flex gap-3 items-center mb-2">
-                  Case Study >
-                  <p class="text-primary">Aspen New Voices Fellowship:</p>
-                </div>
-                <h1
-                  class="md:text-5xl text-3xl mb-6 font-playfair font-semibold leading-normal"
-                >
-                  Enhancing Advocacy Skills through Digital and Multimedia
-                  Training
-                </h1>
-              </div>
+            <div class="lg:w-2/3 lg:pl-10 lg:ml-52">
+              <p
+                class="text-accentTextDark font-normal leading-[2.1675rem] mb-2 text-xl"
+              >
+                We are dedicated to fostering a world where everyone can thrive
+                by driving positive change. Our diverse services empower
+                individuals, organizations, and communities with the tools and
+                knowledge to create meaningful transformation.
+              </p>
             </div>
           </div>
-        </div>
-      </section>
-      <!-- full disscussion on case study section -->
-      <section class="bg-white py-12 rounded">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-6">
-          <!-- Container grid -->
-          <div
-            class="grid lg:grid-cols-[1fr_25rem_20rem] grid-cols-1 gap-12 relative"
-          >
-            <!-- descrition -->
-            <div class="lg:col-span-2 w-full lg:w-4/5 space-y-12 md:space-y-28">
-              <article>
-                <h2
-                  class="md:text-5xl text-3xl mb-6 font-playfair font-normal leading-normal"
+          <!-- discussion Section -->
+          <div class="mt-20 w-full">
+            <!-- more discussion -->
+            <div class="grid font-opensans md:grid-cols-2 grid-cols-1 gap-4">
+              <!-- disscuss 1 -->
+              <div
+                class="border-b bg-secondary p-6 rounded-lg transition-[all] duration-700"
+              >
+                <div
+                  class="text-accentTextDark flex justify-between items-center gap-4 cursor-pointer"
                 >
-                  About the Fellowship
-                </h2>
-                <p>
-                  The Aspen Global Innovators New Voices Fellowship equips
-                  experts and advocates from countries in Africa, Asia, and
-                  Latin America with advanced skills in communications,
-                  advocacy, and storytelling. The program aims to empower
-                  fellows to influence public opinion and shift public policy
-                  effectively
-                </p>
-                <!-- Image Section -->
-                <figure class="w-full mt-8 h-auto md:h-[25rem] space-y-3">
-                  <img
-                    src="https://images.pexels.com/photos/11709710/pexels-photo-11709710.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-                    alt="climate change advocacy"
-                    class="w-full h-full object-cover rounded-md"
-                  />
-                  <figcaption>
-                    Caption for the photo above. Caption for the photo above.
-                  </figcaption>
-                </figure>
-              </article>
-              <!-- article 2 -->
-              <article class="space-y-8">
-                <h2
-                  class="md:text-5xl text-3xl mb-6 font-playfair font-normal leading-normal"
-                >
-                  Challenge:
-                </h2>
-                <p>
-                  While the Aspen New Voices Fellowship has a robust curriculum,
-                  there was a need to enhance fellows' abilities to leverage
-                  multimedia and digital tools for impactful advocacy work. As a
-                  new digital wave emerges, traditional methods of advocacy are
-                  being disrupted by technological advancements. Digital
-                  advocacy has transformed how we promote and gather support for
-                  causes, extending beyond traditional lobbying and grassroots
-                  methods. Fellows often required advanced skills and strategies
-                  to navigate this evolving landscape of digital advocacy and to
-                  maximize their reach and influence.
-                </p>
-                <h2
-                  class="md:text-5xl text-3xl mb-6 font-playfair font-normal leading-normal"
-                >
-                  Our Intervention:
-                </h2>
-                <p>
-                  To address this need, I facilitated a comprehensive workshop
-                  focused on leveraging multimedia and digital tools for
-                  impactful advocacy. The session covered a wide range of topics
-                  essential for modern advocacy, ensuring that participants
-                  could develop and execute effective digital campaigns.
-                </p>
-
-                <!-- Image Section -->
-                <figure class="w-full mt-8 h-auto md:h-[25rem] space-y-3">
-                  <img
-                    src="https://images.pexels.com/photos/11709710/pexels-photo-11709710.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-                    alt="climate change advocacy"
-                    class="w-full h-full object-cover rounded-md"
-                  />
-                  <figcaption>
-                    Caption for the photo above. Caption for the photo above.
-                  </figcaption>
-                </figure>
-              </article>
-              <!-- article 3 -->
-              <article class="space-y-8">
-                <h2
-                  class="md:text-5xl text-3xl mb-6 font-playfair font-normal leading-normal"
-                >
-                  Workshop Components
-                </h2>
-                <ul
-                  class="custom-bullet-list text-accentTextDark font-medium leading-[2.1675rem] mb-6 md:text-xl"
-                >
-                  <li>
-                    Exploring the evolution and impact of digital advocacy
-                  </li>
-                  <li>
-                    Analyzing successful case studies across diverse fields
-                  </li>
-                  <li>
-                    Developing SMART goals tailored to advocacy initiatives
-                  </li>
-                  <li>Identifying and engaging target audiences effectively</li>
-                  <li>
-                    Crafting compelling narratives for impactful storytelling
-                  </li>
-                  <li>
-                    Utilizing multimedia formats (videos, infographics,
-                    podcasts) strategically
-                  </li>
-                  <li>Understanding effective use of social media platforms</li>
-                  <li>
-                    Implementing digital advocacy tactics for maximum impact
-                  </li>
-                  <li>
-                    Providing resources and tools to support digital advocacy
-                    efforts
-                  </li>
-                </ul>
-
-                <!-- Image Section -->
-                <figure class="w-full mt-8 h-auto md:h-[25rem] space-y-3">
-                  <img
-                    src="https://images.pexels.com/photos/11709710/pexels-photo-11709710.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-                    alt="climate change advocacy"
-                    class="w-full h-full object-cover rounded-md"
-                  />
-                  <figcaption>
-                    Caption for the photo above. Caption for the photo above.
-                  </figcaption>
-                </figure>
-              </article>
-              <!-- article 4 -->
-              <article class="space-y-8">
-                <h2
-                  class="md:text-5xl text-3xl mb-6 font-playfair font-normal leading-normal"
-                >
-                  Impact:
-                </h2>
-                <p>
-                  The workshop significantly enhanced the advocacy skills of the
-                  Aspen New Voices fellows, enabling them to leverage digital
-                  and multimedia tools effectively. Key outcomes included:
-                </p>
-                <ul
-                  class="custom-bullet-list text-accentTextDark font-medium leading-[2.1675rem] mb-6 md:text-xl"
-                >
-                  <li>
-                    <strong>Enhanced Digital Advocacy Skills:</strong> Fellows
-                    gained practical skills in using multimedia formats and
-                    digital platforms to amplify their advocacy efforts.
-                  </li>
-                  <li>
-                    <strong>Increased Confidence and Competence:</strong>
-                    Participants felt more confident in their ability to create
-                    compelling stories and engage diverse audiences through
-                    digital means.
-                  </li>
-                  <li>
-                    <strong>Strategic Goal Setting:</strong> Fellows developed
-                    clear and actionable SMART goals, providing a solid
-                    foundation for their advocacy projects.
-                  </li>
-                  <li>
-                    <strong>Broadened Perspectives:</strong> By sharing
-                    experiences and insights from various fields and regions,
-                    fellows gained a broader understanding of global advocacy
-                    challenges and opportunities.
-                  </li>
-                  <li>
-                    <strong>Practical Resources:</strong> Equipped with a range
-                    of digital tools and resources, fellows were better prepared
-                    to implement and sustain their advocacy initiatives.
-                  </li>
-                </ul>
-
-                <!-- Image Section -->
-                <figure class="w-full mt-8 h-auto md:h-[25rem] space-y-3">
-                  <img
-                    src="https://images.pexels.com/photos/11709710/pexels-photo-11709710.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-                    alt="climate change advocacy"
-                    class="w-full h-full object-cover rounded-md"
-                  />
-                  <figcaption>
-                    Caption for the photo above. Caption for the photo above.
-                  </figcaption>
-                </figure>
-              </article>
-            </div>
-            <!-- client-information -->
-            <div
-              class="bg-miscellanous h-auto lg:h-[33rem] lg:top-0 lg:sticky w-full lg:w-[28.125rem] right-0 py-5"
-            >
-              <div class="divide-y-2 divide-[#353535] px-6 font-opensans">
-                <div class="py-4">
-                  <h3 class="text-lg font-semibold">Client Name</h3>
-                  <p>Aspen New Voices Fellowship</p>
-                </div>
-                <div class="flex-1 py-4">
-                  <h3 class="text-lg font-semibold">Project Timeline</h3>
-                  <p>Jan 2023 - August 2023</p>
-                </div>
-                <div class="flex-1 py-4">
-                  <h3 class="text-lg font-semibold">Our Service</h3>
-                  <p>Capacity building</p>
-                </div>
-                <div class="py-4">
-                  <h3 class="text-lg font-semibold">Other Case Studies:</h3>
-                  <ul class="list-disc pl-5">
-                    <li>
-                      Empowering Girls through Menstrual Health Education and
-                      Reusable Cloth Pad Workshops
-                    </li>
-                    <li>
-                      Unbroken Hope: South Africa's Orphans and the Fight for
-                      Their Future
-                    </li>
-                    <li>Empowering Kenyan Youth Through SRHR Advocacy</li>
-                  </ul>
-                  <a
-                    href="#"
-                    class="text-primary font-medium underline justify-center flex"
-                    >View all case studies</a
+                  <h3
+                    class="capitalize font-semibold text-left md:leading-[2.72375rem] text-xl md:text-[2rem]"
                   >
+                    Communications & Storytelling
+                  </h3>
+                </div>
+                <div
+                  class="mt-10 text-accentTextDark font-normal mb-2 flex justify-between flex-col gap"
+                >
+                  <p class="leading-7 mb-2 text-base">
+                    <strong class="italic font-semibold">
+                      Stories have the power to drive change.
+                    </strong>
+                    <br />
+                    Our multimedia communication and storytelling services are
+                    designed to amplify your voice and elevate your impact. From
+                    engaging digital media campaigns and human-centred
+                    storytelling to high-quality video and photojournalism, we
+                    transform your social impact stories into powerful tools for
+                    change.
+                  </p>
+                  <div class="md:mt-12 mt-4 lg:mt-28">
+                    <a href="#" class="font-semibold text-[1.125rem]"
+                      >Learn more</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <!-- disscuss 2 -->
+              <div
+                class="border-b bg-[#FFC6DB] p-6 rounded-lg transition-[all] duration-700"
+              >
+                <div
+                  class="text-accentTextDark flex justify-between items-center gap-4 cursor-pointer"
+                >
+                  <h3
+                    class="capitalize font-semibold text-left md:leading-[2.72375rem] text-xl md:text-[2rem]"
+                  >
+                    Branding & Design Services
+                  </h3>
+                </div>
+                <div
+                  class="mt-10 text-accentTextDark font-normal mb-2 flex justify-between flex-col gap"
+                >
+                  <p class="leading-7 mb-2 text-base">
+                    <strong class="italic font-semibold">
+                      A compelling brand identity is key to driving your mission
+                      forward and making a lasting impression.
+                    </strong>
+                    <br />
+                    We specialize in creating powerful visual identities that
+                    resonate with your audience and amplify your social impact.
+                    From developing your brand strategy and crafting striking
+                    visual elements to designing engaging multimedia content and
+                    ensuring consistency across all platforms, our branding and
+                    design services are designed to set you apart and reinforce
+                    your message.
+                  </p>
+                  <div class="md:mt-12 mt-4">
+                    <a href="#" class="font-semibold text-[1.125rem]"
+                      >Learn more</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <!-- disscuss 3 -->
+              <div
+                class="border-b bg-[#F1DAB7] p-6 rounded-lg transition-[all] duration-700"
+              >
+                <div
+                  class="text-accentTextDark flex justify-between items-center gap-4 cursor-pointer"
+                >
+                  <h3
+                    class="capitalize font-semibold text-left md:leading-[2.72375rem] text-xl md:text-[2rem]"
+                  >
+                    Strategy Development And Implementation
+                  </h3>
+                </div>
+                <div
+                  class="mt-10 text-accentTextDark font-normal mb-2 flex justify-between flex-col gap"
+                >
+                  <p class="leading-7 mb-2 text-base">
+                    <strong class="italic font-semibold">
+                      Strategic planning is key to achieving long-term social
+                      change.
+                    </strong>
+                    <br />
+                    We offer bespoke strategies, including impactful advocacy,
+                    tailored communication plans, and cutting-edge digital
+                    campaigns. By combining data-driven insights with a deep
+                    understanding of your goals, we help you craft strategies
+                    that drive meaningful and sustainable impact.
+                  </p>
+                  <div class="md:mt-12 mt-4">
+                    <a href="#" class="font-semibold text-[1.125rem]"
+                      >Learn more</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <!-- disscuss 4 -->
+              <div
+                class="border-b bg-[#DDC2FF] p-6 rounded-lg transition-[all] duration-700"
+              >
+                <div
+                  class="text-accentTextDark flex justify-between items-center gap-4 cursor-pointer"
+                >
+                  <h3
+                    class="capitalize font-semibold text-left md:leading-[2.72375rem] text-xl md:text-[2rem]"
+                  >
+                    Training & Capacity Building
+                  </h3>
+                </div>
+                <div
+                  class="mt-10 text-accentTextDark font-normal mb-2 flex justify-between flex-col gap"
+                >
+                  <p class="leading-7 mb-2 text-base">
+                    <strong class="italic font-semibold">
+                      A skilled and empowered workforce is crucial for social
+                      change.
+                    </strong>
+                    <br />
+                    Our flexible, learner-centered training programs cover
+                    communication, advocacy, impact storytelling, campaign
+                    development, and more. Through interactive methodologies and
+                    customized content, we equip individuals and organizations
+                    with the practical skills needed to drive positive social
+                    change.
+                  </p>
+                  <div class="md:mt-12 mt-4">
+                    <a href="#" class="font-semibold text-[1.125rem]"
+                      >Learn more</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <!-- disscuss 5 -->
+              <div
+                class="border-b bg-[#FFE4BB] p-6 rounded-lg transition-[all] duration-700"
+              >
+                <div
+                  class="text-accentTextDark flex justify-between items-center gap-4 cursor-pointer"
+                >
+                  <h3
+                    class="capitalize font-semibold text-left md:leading-[2.72375rem] text-xl md:text-[2rem]"
+                  >
+                    Engagement Events
+                  </h3>
+                </div>
+                <div
+                  class="mt-10 text-accentTextDark font-normal mb-2 flex justify-between flex-col gap"
+                >
+                  <p class="leading-7 mb-2 text-base">
+                    <strong class="italic font-semibold">
+                      Meaningful change thrives on connection and collaboration.
+                    </strong>
+                    <br />
+                    We organize impactful events, including conferences, focus
+                    group discussions, webinars, and community dialogues, to
+                    foster dialogue and drive action. We also push the
+                    boundaries with art exhibitions, public performances, and
+                    interactive simulations to engage and inspire.
+                  </p>
+                  <div class="md:mt-12 mt-4 lg:mt-28">
+                    <a href="#" class="font-semibold text-[1.125rem]"
+                      >Learn more</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <!-- disscuss 6 -->
+              <div
+                class="border-b bg-[#FFDED0] p-6 rounded-lg transition-[all] duration-700"
+              >
+                <div
+                  class="text-accentTextDark flex justify-between items-center gap-4 cursor-pointer"
+                >
+                  <h3
+                    class="capitalize font-semibold text-left md:leading-[2.72375rem] text-xl md:text-[2rem]"
+                  >
+                    Program Design and Implementation
+                  </h3>
+                </div>
+                <div
+                  class="mt-10 text-accentTextDark font-normal mb-2 flex justify-between flex-col gap"
+                >
+                  <p class="leading-7 mb-2 text-base">
+                    <strong class="italic font-semibold">
+                      Effective social impact requires innovative program design
+                      and flawless execution.
+                    </strong>
+                    <br />
+                    We collaborate with you to develop and implement programs
+                    that address community needs, drive advocacy, and achieve
+                    sustainable change. From concept development to curriculum
+                    design, we turn ideas into tangible solutions that create
+                    lasting social impact.
+                  </p>
+                  <div class="md:mt-12 mt-4">
+                    <a href="#" class="font-semibold text-[1.125rem]"
+                      >Learn more</a
+                    >
+                  </div>
                 </div>
               </div>
             </div>
@@ -678,12 +664,12 @@
       <section class="flex flex-col items-center bg-miscellanous py-16">
         <div class="text-center w-full h-96">
           <h2
-            class="text-3xl md:text-5xl lg:text-6xl font-semibold mb-4 font-playfair"
+            class="text-3xl md:text-5xl lg:text-6xl font-meduim mb-4 font-playfair"
           >
             We don’t just tell stories
           </h2>
           <h2
-            class="text-3xl md:text-5xl lg:text-5xl xl:text-6xl font-semibold mb-6 font-playfair"
+            class="text-3xl md:text-5xl lg:text-5xl xl:text-6xl font-meduim mb-6 font-playfair"
           >
             We drive change
           </h2>
@@ -704,7 +690,7 @@
           <!-- Left Section: Heading and Subtext -->
           <div class="w-lg">
             <h2
-              class="text-4xl md:text-6xl lg:text-7xl font-playfair font-semibold text-gray-900 leading-tight text-center md:text-left tracking-tight"
+              class="text-4xl md:text-6xl lg:text-7xl font-playfair font-meduim text-gray-900 leading-tight text-center md:text-left tracking-tight"
             >
               Ready to Amplify <br />
               Your Impact?

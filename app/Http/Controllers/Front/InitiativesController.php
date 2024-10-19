@@ -11,6 +11,12 @@ class InitiativesController extends Controller
     {
         return view('Front.initiatives.initiatives');
     }
+
+    public function Adopt()
+    {
+        return view('Front.initiatives.Adopt');
+    }
+
     public function MyBodyIsMine()
     {
         return view('Front.initiatives.MyBodyIsMine');

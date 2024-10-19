@@ -24,9 +24,17 @@ Route::get('About-Founder', [AboutController::class, 'founder'])->name('Founder'
 //WHO WHE WORK WITH
 Route::get('Work-Services', [WorkWithUsController::class, 'service'])->name('Services');
 Route::get('Work-Work', [WorkWithUsController::class, 'work'])->name('Work');
+Route::get('Work-Communication', [WorkWithUsController::class, 'Communication'])->name('Communication');
+Route::get('Work-Branding', [WorkWithUsController::class, 'Branding'])->name('Branding');
+Route::get('Work-Strategy', [WorkWithUsController::class, 'Strategy'])->name('Strategy');
+Route::get('Work-Traning', [WorkWithUsController::class, 'Traning'])->name('Traning');
+Route::get('Work-Engagement', [WorkWithUsController::class, 'Engagement'])->name('Engagement');
+Route::get('Work-Program', [WorkWithUsController::class, 'Program'])->name('Program');
+
 
 //initiatives
 Route::get('Initiatives-Initiatives', [InitiativesController::class, 'initiatives'])->name('Initiatives');
+Route::get('Initiatives-Adopt', [InitiativesController::class, 'Adopt'])->name('Adopt');
 Route::get('Initiatives-MyBodyIsMine', [InitiativesController::class, 'MyBodyIsMine'])->name('MyBodyIsMine');
 Route::get('Initiatives-Lolocythia', [InitiativesController::class, 'Lolocythia'])->name('Lolocythia');
 Route::get('Initiatives-Nodaysoff', [InitiativesController::class, 'Nodaysoff'])->name('Nodaysoff');

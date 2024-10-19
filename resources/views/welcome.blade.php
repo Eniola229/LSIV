@@ -666,31 +666,25 @@
       </section>
 
       <!-----Offering Solutions for Impact Section---->
-      <section class="px-4 py-8 lg:px-16" id="impact">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-6">
+      <section class="px-6 py-16 rounded relative">
+        <div class="md:max-w-7xl mx-auto md:px-6 lg:px-6">
           <h2
-            class="text-6xl text-accentTextDark p-2 font-playfair font-semibold"
+            class="md:text-6xl text-4xl text-accentTextDark p-2 font-playfair font-semibold"
           >
             Offering Solutions for Impact
           </h2>
 
           <!-- Section 1: Communications & Storytelling -->
           <div
-            class="bg-[#ECECD5] p-6 md:p-12 m-4 md:h-96 shadow-md rounded-t-[50px] rounded-b-[0px]"
+            class="sticky top-0 z-10 bg-[#ECECD5] p-4 md:p-12 my-4 md:h-96 shadow-md rounded-t-[50px] rounded-b-[0px] w-full"
           >
-            <!-- Heading and Line at the Top -->
             <h2
               class="text-2xl md:text-4xl font-semibold text-[#4A5310] mb-4 md:mb-6 text-left"
             >
               Communications & Storytelling
             </h2>
-            <hr
-              class="border-none h-[2px] bg-[#4A5310] mb-4 md:mb-6"
-              style="background: var(--accent-text-collour-2, #0b0b0b)"
-            />
-
-            <!-- Text, Image, and Button in the Same Container -->
-            <div class="flex flex-col md:flex-row items-left justify-start">
+            <hr class="border-none h-[2px] bg-[#4A5310] mb-4 md:mb-6" />
+            <div class="flex flex-col md:flex-row">
               <div class="md:w-2/3 text-left">
                 <p
                   class="text-[#4A5310] leading-[2.25rem] text-lg md:text-2xl mb-4 md:mb-8 font-normal"
@@ -699,12 +693,12 @@
                   change through engaging digital media campaigns, human-centred
                   storytelling, and high-quality multimedia content.
                 </p>
-                <!-- Button -->
+                <a href="{{ url('Work-Communication') }}">
                 <button class="btn-bg-animation-learn">
                   <span class="btn-text">Learn more</span>
                 </button>
+              </a>
               </div>
-              <!-- Illustration Image Inside the Same Div -->
               <div class="md:w-1/3 flex justify-center md:mt-0">
                 <img
                   src="{{ asset('Images/i-1.png') }}"
@@ -717,44 +711,33 @@
 
           <!-- Section 2: Branding & Design Services -->
           <div
-            class="bg-[#C4E1A4] p-6 md:p-12 m-4 md:h-96 shadow-md rounded-t-[50px] rounded-b-[0px]"
+            class="sticky top-0 z-20 bg-[#C4E1A4] p-4 md:p-12 my-4 md:h-96 shadow-md rounded-t-[50px] rounded-b-[0px] w-full"
           >
-            <!-- Heading and Line at the Top -->
             <h2
               class="text-2xl md:text-4xl font-semibold text-[#4A5310] mb-4 md:mb-6 text-left"
             >
               Branding & Design Services
             </h2>
-            <hr
-              class="border-none h-[2px] bg-[#4A5310] mb-4 md:mb-6"
-              style="background: var(--accent-text-collour-2, #0b0b0b)"
-            />
-
-            <!-- Text, Image, and Button in the Same Container -->
-            <div class="flex flex-col md:flex-row items-left justify-start">
+            <hr class="border-none h-[2px] bg-[#4A5310] mb-4 md:mb-6" />
+            <div class="flex flex-col md:flex-row">
               <div class="md:w-2/3 text-left">
                 <p
                   class="text-[#4A5310] text-lg md:text-2xl mb-0 md:mb-8 leading-relaxed"
-                  style="
-                    font-style: normal;
-                    font-weight: 400;
-                    line-height: 36px;
-                  "
                 >
                   We create compelling brand identities and visual elements that
                   resonate with your audience and reinforce your message.
                 </p>
-                <!-- Button -->
+                <a href="{{ url('Work-Branding') }}">
                 <button class="btn-bg-animation-learn">
                   <span class="btn-text">Learn more</span>
                 </button>
+              </a>
               </div>
-              <!-- Illustration Image Inside the Same Div -->
               <div class="md:w-1/3 flex justify-center mt-6 md:mt-0">
                 <img
                   src="{{ asset('Images/i-2.png') }}"
                   alt="Illustration"
-                  class="w-full max-w-xs h-52"
+                  class="mt-8 w-full max-w-xs h-52"
                 />
               </div>
             </div>
@@ -762,21 +745,15 @@
 
           <!-- Section 3: Strategy Development and Implementation -->
           <div
-            class="bg-[#F0D9B7] p-6 md:p-12 m-4 md:h-96 rounded-t-[50px] rounded-b-[0px] drop-shadow-md"
+            class="sticky top-0 z-30 bg-[#F0D9B7] p-4 md:p-12 my-4 md:h-96 w-full rounded-t-[50px] rounded-b-[0px] shadow-md"
           >
-            <!-- Heading and Line at the Top -->
             <h2
               class="text-2xl md:text-4xl font-semibold text-[#4A5310] mb-4 md:mb-6 text-left"
             >
               Strategy Development and Implementation
             </h2>
-            <hr
-              class="border-none h-[2px] bg-[#4A5310] mb-4 md:mb-6"
-              style="background: var(--accent-text-collour-2, #0b0b0b)"
-            />
-
-            <!-- Text, Image, and Button in the Same Container -->
-            <div class="flex flex-col md:flex-row items-left justify-start">
+            <hr class="border-none h-[2px] bg-[#4A5310] mb-4 md:mb-6" />
+            <div class="flex flex-col md:flex-row">
               <div class="md:w-2/3 text-left">
                 <p
                   class="text-[#4A5310] text-lg md:text-2xl mb-4 md:mb-8 leading-[2.25rem]"
@@ -785,12 +762,12 @@
                   tailored communication plans, and cutting-edge digital
                   campaigns to achieve meaningful and sustainable impact.
                 </p>
-                <!-- Button -->
+                <a href="{{ url('Work-Strategy') }}">
                 <button class="btn-bg-animation-learn">
                   <span class="btn-text">Learn more</span>
                 </button>
+              </a>
               </div>
-              <!-- Illustration Image Inside the Same Div -->
               <div class="md:w-1/3 flex justify-center mt-6 md:mt-0">
                 <img
                   src="{{ asset('Images/i-3.png') }}"
@@ -803,21 +780,15 @@
 
           <!-- Section 4: Training & Capacity Building -->
           <div
-            class="bg-[#FFC6DB] p-6 md:p-12 rounded-t-[50px] rounded-b-[0px] shadow-md m-4 md:h-96"
+            class="sticky top-0 z-40 bg-[#FFC6DB] p-4 md:p-12 my-4 md:h-96 shadow-md rounded-t-[50px] rounded-b-[0px] w-full"
           >
-            <!-- Heading and Line at the Top -->
             <h2
               class="text-2xl md:text-4xl font-semibold text-[#4A5310] mb-4 md:mb-6 text-left"
             >
               Training & Capacity Building
             </h2>
-            <hr
-              class="border-none h-[2px] bg-[#4A5310] mb-4 md:mb-6"
-              style="background: var(--accent-text-collour-2, #0b0b0b)"
-            />
-
-            <!-- Text, Image, and Button in the Same Container -->
-            <div class="flex flex-col md:flex-row items-left justify-start">
+            <hr class="border-none h-[2px] bg-[#4A5310] mb-4 md:mb-6" />
+            <div class="flex flex-col md:flex-row">
               <div class="md:w-2/3 text-left">
                 <p
                   class="text-[#4A5310] text-lg md:text-2xl mb-4 md:mb-8 leading-[2.25rem]"
@@ -826,17 +797,17 @@
                   individuals and organizations with practical skills for
                   driving social change.
                 </p>
-                <!-- Button -->
+                <a href="{{ url('Work-Traning') }}">
                 <button class="btn-bg-animation-learn">
                   <span class="btn-text">Learn more</span>
                 </button>
+              </a>
               </div>
-              <!-- Illustration Image Inside the Same Div -->
               <div class="md:w-1/3 flex justify-center mt-6 md:mt-0">
                 <img
                   src="{{ asset('Images/i-4.png') }}"
                   alt="Illustration"
-                  class="w-full max-w-xs h-auto"
+                  class="mt-6 w-full max-w-xs h-auto"
                 />
               </div>
             </div>
@@ -844,40 +815,33 @@
 
           <!-- Section 5: Engagement Events -->
           <div
-            class="bg-[#ECDDD5] p-6 md:p-12 m-4 md:h-96 shadow-md rounded-t-[50px] rounded-b-[0px]"
+            class="sticky top-0 z-50 bg-[#ECDDD5] p-4 md:p-12 my-4 md:h-96 shadow-md rounded-t-[50px] rounded-b-[0px] w-full"
           >
-            <!-- Heading and Line at the Top -->
             <h2
               class="text-2xl md:text-4xl font-semibold text-[#4A5310] mb-4 md:mb-6 text-left"
             >
               Engagement Events
             </h2>
-            <hr
-              class="border-none h-[2px] bg-[#4A5310] mb-4 md:mb-6"
-              style="background: var(--accent-text-collour-2, #0b0b0b)"
-            />
-
-            <!-- Text, Image, and Button in the Same Container -->
-            <div class="flex flex-col md:flex-row items-left justify-start">
+            <hr class="border-none h-[2px] bg-[#4A5310] mb-4 md:mb-6" />
+            <div class="flex flex-col md:flex-row">
               <div class="md:w-2/3 text-left">
                 <p
                   class="text-[#4A5310] text-lg md:text-2xl mb-9 md:mb-8 leading-[2.25rem]"
                 >
-                  Our flexible, learner-centred training programs equip
-                  individuals and organizations with practical skills for
-                  driving social change.
+                  We create a platform for engagement through dynamic and
+                  interactive events that drive meaningful connections.
                 </p>
-                <!-- Button -->
+                <a href="{{ url('Work-Engagement')}}">
                 <button class="btn-bg-animation-learn">
                   <span class="btn-text">Learn more</span>
                 </button>
               </div>
-              <!-- Illustration Image Inside the Same Div -->
+            </a>
               <div class="md:w-1/3 flex justify-center mt-6 md:mt-0">
                 <img
                   src="{{ asset('Images/i-5.png') }}"
                   alt="Illustration"
-                  class="w-full max-w-xs h-auto"
+                  class="mt-12 w-full max-w-xs h-auto"
                 />
               </div>
             </div>
@@ -885,48 +849,41 @@
 
           <!-- Section 6: Program Design and Implementation -->
           <div
-            class="bg-[#A3E0AC] p-6 md:p-12 rounded-t-[50px] rounded-b-[0px] m-4 md:h-96 shadow-lg"
+            class="sticky top-0 z-[60] bg-[#A3E0AC] p-4 md:p-12 my-4 md:h-96 shadow-md rounded-t-[50px] rounded-b-[0px] w-full"
           >
-            <!-- Heading and Line at the Top -->
             <h2
               class="text-2xl md:text-4xl font-semibold text-[#4A5310] mb-4 md:mb-6 text-left"
-              style="color: var(--accent-text-collour-2, #0b0b0b)"
             >
               Program Design and Implementation
             </h2>
-            <hr
-              class="border-none h-[2px] bg-[#4A5310] mb-4 md:mb-6"
-              style="background: var(--accent-text-collour-2, #0b0b0b)"
-            />
-
-            <!-- Text, Image, and Button in the Same Container -->
-            <div class="flex flex-col md:flex-row items-left justify-start">
+            <hr class="border-none h-[2px] bg-[#4A5310] mb-4 md:mb-6" />
+            <div class="flex flex-col md:flex-row">
               <div class="md:w-2/3 text-left">
                 <p
                   class="text-[#4A5310] text-lg md:text-2xl mb-0 md:mb-8 leading-relaxed"
-                  style="line-height: 36px"
                 >
                   We develop and execute innovative programs that address
                   community needs, drive advocacy, and achieve sustainable
                   change.
                 </p>
-                <!-- Button -->
+                <a href="{{ url('Work-Program')}}">
                 <button class="btn-bg-animation-learn">
                   <span class="btn-text">Learn more</span>
                 </button>
+              </a>
               </div>
-              <!-- Illustration Image Inside the Same Div -->
               <div class="md:w-1/3 flex justify-center mt-6 md:mt-0">
                 <img
                   src="{{ asset('Images/i-6.png') }}"
                   alt="Illustration"
-                  class="w-full max-w-xs mt-6 h-56"
+                  class="w-full max-w-xs h-60"
                 />
               </div>
             </div>
           </div>
         </div>
       </section>
+
       <!-- Section for Clients & Partners -->
       <section class="py-8 bg-miscellanous">
         <div class="max-w-7xl h-80 mx-auto px-4 sm:px-6">
@@ -1276,7 +1233,7 @@
               </li>
               <li>
                 <a
-                  href="{{ url('Initiatives-MyBodyIsMine') }}"
+                  href="{{ url('Initiatives-Adopt') }}"
                   class="hover:text-orange-600"
                   >Adopt a Community</a
                 >

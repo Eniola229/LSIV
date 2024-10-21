@@ -377,16 +377,18 @@
             A collection of our <span class="text-primary"> impact </span>
             in action
           </h1>
-                    <div
+            <div
             class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6 my-8"
           >
-            <!-- Card Example -->
+            <!-- Card  -->
+            @foreach($blogs as $blog)
+             <a href="{{ url('client/blog', $blog->id) }}">
             <div
               class="bg-white rounded-lg overflow-hidden w-full relative group flex flex-col items-start"
             >
               <img
-                src="{{ asset('Images/stories-girl.png') }}"
-                alt="Stories of Girls' Resistance"
+                src="{{ asset($blog->cover_image) }}"
+                alt="{{ $blog->title }}"
                 class="w-full h-96 object-cover rounded-lg transition duration-500 group-hover:filter group-hover:grayscale group-hover:brightness-50"
               />
               <div
@@ -397,128 +399,15 @@
                   >Read Case Study</span
                 >
               </div>
-              <div class="p-4">
+              <div class="p-0">
                 <h2 class="font-semibold text-2xl impact-styles">
-                  Stories of Girls' Resistance
+                  {{ $blog->title }}
                 </h2>
               </div>
             </div>
+          </a>
+            @endforeach
 
-            <!-- Repeat for each impact card -->
-            <div
-              class="bg-white rounded-lg overflow-hidden w-full relative group"
-            >
-              <img
-                src="{{ asset('Images/ty.png') }}"
-                alt="The TY Danjuma Foundation"
-                class="w-full h-96 object-cover rounded-lg transition duration-500 group-hover:filter group-hover:grayscale group-hover:brightness-50"
-              />
-              <div
-                class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-500"
-              >
-                <span
-                  class="text-white font-bold text-xl transform translate-y-10 group-hover:translate-y-0 transition-all duration-500 ease-in-out"
-                  >Read Case Study</span
-                >
-              </div>
-              <div class="p-4">
-                <h2 class="font-semibold text-2xl impact-styles">
-                  The TY Danjuma Foundation
-                </h2>
-              </div>
-            </div>
-
-            <div
-              class="bg-white rounded-lg overflow-hidden w-full relative group"
-            >
-              <img
-                src="{{ asset('Images/crisis.png') }}"
-                alt="Women's Crisis Center (WCC), Imo State"
-                class="w-full h-96 object-cover rounded-lg transition duration-500 group-hover:filter group-hover:grayscale group-hover:brightness-50"
-              />
-              <div
-                class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-500"
-              >
-                <span
-                  class="text-white font-bold text-xl transform translate-y-10 group-hover:translate-y-0 transition-all duration-500 ease-in-out"
-                  >Read Case Study</span
-                >
-              </div>
-              <div class="p-4">
-                <h2 class="font-semibold text-2xl impact-styles">
-                  Women's Crisis Center (WCC), Imo State
-                </h2>
-              </div>
-            </div>
-
-            <div
-              class="bg-white rounded-lg overflow-hidden w-full relative group"
-            >
-              <img
-                src="{{ asset('Images/benmore.png') }}"
-                alt="Benmore Foundation & First Lady, Ondo State Government"
-                class="w-full h-96 object-cover rounded-lg transition duration-500 group-hover:filter group-hover:grayscale group-hover:brightness-50"
-              />
-              <div
-                class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-500"
-              >
-                <span
-                  class="text-white font-bold text-xl transform translate-y-10 group-hover:translate-y-0 transition-all duration-500 ease-in-out"
-                  >Read Case Study</span
-                >
-              </div>
-              <div class="p-4">
-                <h2 class="font-semibold text-2xl impact-styles">
-                  Benmore Foundation & First Lady, Ondo State Government
-                </h2>
-              </div>
-            </div>
-
-            <div
-              class="bg-white rounded-lg overflow-hidden w-full relative group"
-            >
-              <img
-                src="{{ asset('Images/or.png') }}"
-                alt="Orphans in South Africa Documentary"
-                class="w-full h-96 object-cover rounded-lg transition duration-500 group-hover:filter group-hover:grayscale group-hover:brightness-50"
-              />
-              <div
-                class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-500"
-              >
-                <span
-                  class="text-white font-bold text-xl transform translate-y-10 group-hover:translate-y-0 transition-all duration-500 ease-in-out"
-                  >Read Case Study</span
-                >
-              </div>
-              <div class="p-4">
-                <h2 class="font-semibold text-2xl impact-styles">
-                  Orphans in South Africa Documentary
-                </h2>
-              </div>
-            </div>
-
-            <div
-              class="bg-white rounded-lg overflow-hidden w-full relative group"
-            >
-              <img
-                src="{{ asset('Images/in.png') }}"
-                alt="Inuadada Foundation"
-                class="w-full h-96 object-cover rounded-lg transition duration-500 group-hover:filter group-hover:grayscale group-hover:brightness-50"
-              />
-              <div
-                class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-500"
-              >
-                <span
-                  class="text-white font-bold text-xl transform translate-y-10 group-hover:translate-y-0 transition-all duration-500 ease-in-out"
-                  >Read Case Study</span
-                >
-              </div>
-              <div class="p-4">
-                <h2 class="font-semibold text-2xl impact-styles">
-                  Inuadada Foundation
-                </h2>
-              </div>
-            </div>
           </div>
           </div>
       </section>

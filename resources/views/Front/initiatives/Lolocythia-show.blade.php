@@ -400,14 +400,248 @@
             </div>
           </div>
           <!-- Image Section -->
-          <div class="my-6 w-full h-96">
+<!--           <div class="my-6 w-full h-96">
             <img
               src="{{ asset('Images/show-1.jpeg') }}"
               alt="the founder of LSIV "
               class="w-full h-full object-cover object-center rounded-md"
             />
-          </div>
+          </div> -->
         </div>
+      </section>
+      <section class="p-4">
+         <div class="flex justify-between items-center mb-6">
+            <h2 class="text-3xl md:text-5xl font-playfair font-normal">
+              <!-- Images of Impact -->
+            </h2>
+            <button id="scrollBtn" class="text-xl font-semibold capitalize">
+              Scroll &rarr;
+            </button>
+          </div>
+
+          <div class="overflow-hidden w-full">
+            <div
+              class="flex transition-transform duration-500 ease-in-out w-max"
+              id="carouselTrack"
+            >
+              <!-- card 1 -->
+              <div
+                class="flex-shrink-0 p-4 w-[23.62875rem] card-image-container"
+              >
+                <div class="w-full h-[18.75rem]">
+                 <iframe
+                    width="100%"
+                    height="100%"
+                    src="https://www.youtube.com/embed/_qGctL1YzgY"
+                    title="The founder of LSIV"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen
+                    class="w-full h-full object-cover object-center"
+                ></iframe>
+                </div>
+              </div>
+              <!-- card 2 -->
+              <div
+                class="flex-shrink-0 p-4 w-[23.62875rem] card-image-container"
+              >
+                <div class="w-full h-[18.75rem]">
+                 <iframe
+                    width="100%"
+                    height="100%"
+                    src="https://www.youtube.com/embed/8HQOJ-bWsDc?si=5IU7u1vR5FUHTkoM" 
+                    title="The founder of LSIV"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen
+                    class="w-full h-full object-cover object-center"
+                ></iframe>
+                </div>
+              </div>
+              <!-- card 3 -->
+              <div
+                class="flex-shrink-0 p-4 w-[23.62875rem] card-image-container"
+              >
+                <div class="w-full h-[18.75rem]">
+                 <iframe
+                    width="100%"
+                    height="100%"
+                    src="https://www.youtube.com/embed/_qGctL1YzgY?si=P_p0RcF1XO3nL065" 
+                    title="The founder of LSIV"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen
+                    class="w-full h-full object-cover object-center"
+                ></iframe>
+                </div>
+              </div>
+              <!-- card 4 -->
+              <div
+                class="flex-shrink-0 p-4 w-[23.62875rem] card-image-container"
+              >
+                <div class="w-full h-[18.75rem]">
+                 <iframe
+                    width="100%"
+                    height="100%"
+                   src="https://www.youtube.com/embed/e2xAWLxtUM0?si=RQy6ngTRIMYnv8zq" 
+                    title="The founder of LSIV"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen
+                    class="w-full h-full object-cover object-center"
+                ></iframe>
+                </div>
+              </div>
+              <!-- card 4 -->
+              <div
+                class="flex-shrink-0 p-4 w-[23.62875rem] card-image-container"
+              >
+                <div class="w-full h-[18.75rem]">
+                 <iframe
+                    width="100%"
+                    height="100%"
+                   src="https://www.youtube.com/embed/NJsvnggRgfA?si=CIrimowjA64SJa4Y" 
+                    title="The founder of LSIV"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen
+                    class="w-full h-full object-cover object-center"
+                ></iframe>
+                </div>
+              </div>
+            <!-- card 5 -->
+              <div
+                class="flex-shrink-0 p-4 w-[23.62875rem] card-image-container"
+              >
+                <div class="w-full h-[18.75rem]">
+                 <iframe
+                    width="100%"
+                    height="100%"
+                    src="https://www.youtube.com/embed/Vcx81yd73tw?si=n__b5LpjWjOYfrS6" 
+                    title="The founder of LSIV"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen
+                    class="w-full h-full object-cover object-center"
+                ></iframe>
+                </div>
+              </div>
+              <div
+                class="flex-shrink-0 p-4 w-[23.62875rem] card-image-container"
+              >
+                <div class="w-full h-[18.75rem]">
+                 <iframe
+                    width="100%"
+                    height="100%"
+                    src="https://www.youtube.com/embed/uKeS7HG3g3c?si=AM1j1rN9v8vzlN5a" 
+                    title="The founder of LSIV"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen
+                    class="w-full h-full object-cover object-center"
+                ></iframe>
+                </div>
+              </div>
+
+              <div
+                class="flex-shrink-0 p-4 w-[23.62875rem] card-image-container"
+              >
+                <div class="w-full h-[18.75rem]">
+                 <iframe
+                    width="100%"
+                    height="100%"
+                    src="https://www.youtube.com/embed/P8jmqFxOfEE?si=l1Zg4zdWAKbxxUaC" 
+                    title="The founder of LSIV"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen
+                    class="w-full h-full object-cover object-center"
+                ></iframe>
+                </div>
+              </div>
+              <div
+                class="flex-shrink-0 p-4 w-[23.62875rem] card-image-container"
+              >
+                <div class="w-full h-[18.75rem]">
+                 <iframe
+                    width="100%"
+                    height="100%"
+                    src="https://www.youtube.com/embed/P8jmqFxOfEE?si=-qFsm-tmHztOK4pN" 
+                    title="The founder of LSIV"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen
+                    class="w-full h-full object-cover object-center"
+                ></iframe>
+                </div>
+              </div>
+              <div
+                class="flex-shrink-0 p-4 w-[23.62875rem] card-image-container"
+              >
+                <div class="w-full h-[18.75rem]">
+                 <iframe
+                    width="100%"
+                    height="100%"
+                    src="https://www.youtube.com/embed/uNBwx66WF6w?si=TeS2KFp2hrHhyYKh" 
+                    title="The founder of LSIV"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen
+                    class="w-full h-full object-cover object-center"
+                ></iframe>
+                </div>
+              </div>
+              <div
+                class="flex-shrink-0 p-4 w-[23.62875rem] card-image-container"
+              >
+                <div class="w-full h-[18.75rem]">
+                 <iframe
+                    width="100%"
+                    height="100%"
+                    src="https://www.youtube.com/embed/1Swoa8emQp4?si=jInLNhcK5DvxkS8C" 
+                    title="The founder of LSIV"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen
+                    class="w-full h-full object-cover object-center"
+                ></iframe>
+                </div>
+              </div> 
+        <div
+                class="flex-shrink-0 p-4 w-[23.62875rem] card-image-container"
+              >
+                <div class="w-full h-[18.75rem]">
+                 <iframe
+                    width="100%"
+                    height="100%"
+                     src="https://www.youtube.com/embed/6LqVCwdT8Us?si=sfjfm3Qa9KRNy8_R" 
+                    title="The founder of LSIV"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen
+                    class="w-full h-full object-cover object-center"
+                ></iframe>
+                </div>
+              </div>
+              <!-- card 3 -->
+              <div
+                class="flex-shrink-0 p-4 w-[23.62875rem] card-image-container"
+              >
+                <div class="w-full h-[18.75rem]">
+                 <iframe
+                    width="100%"
+                    height="100%"
+                    src="https://www.youtube.com/embed/BYqCF7YRJfc?si=QQGCTUjVbRtrf6Zq" 
+                    title="The founder of LSIV"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen
+                    class="w-full h-full object-cover object-center"
+                ></iframe>
+                </div>
+              </div>
+            </div>
+          </div>
       </section>
       <!-- our approach  -->
       <section class="bg-secondary py-16 rounded">
@@ -451,82 +685,6 @@
       <!-- Images of Impact -->
       <section class="bg-accentTextLight py-16 rounded">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-6">
-          <div class="flex justify-between items-center mb-6">
-            <h2 class="text-3xl md:text-5xl font-playfair font-normal">
-              Images of Impact
-            </h2>
-            <button id="scrollBtn" class="text-xl font-semibold capitalize">
-              Scroll &rarr;
-            </button>
-          </div>
-
-          <div class="overflow-hidden w-full">
-            <div
-              class="flex transition-transform duration-500 ease-in-out w-max"
-              id="carouselTrack"
-            >
-              <!-- card 1 -->
-              <div
-                class="flex-shrink-0 p-4 w-[23.62875rem] card-image-container"
-              >
-                <div class="w-full h-[18.75rem]">
-                  <img
-                    src="{{ asset('Images/i-o-m-1.png') }}"
-                    alt="the founder of LSIV"
-                    class="w-full h-full object-cover object-center"
-                  />
-                </div>
-              </div>
-              <!-- card 2 -->
-              <div
-                class="flex-shrink-0 p-4 w-[23.62875rem] card-image-container"
-              >
-                <div class="w-full h-[18.75rem]">
-                  <img
-                    src="{{ asset('Images/i-o-m-2.png') }}"
-                    alt="the founder of LSIV"
-                    class="w-full h-full object-cover object-center"
-                  />
-                </div>
-              </div>
-              <!-- card 3 -->
-              <div
-                class="flex-shrink-0 p-4 w-[23.62875rem] card-image-container"
-              >
-                <div class="w-full h-[18.75rem]">
-                  <img
-                    src="{{ asset('Images/i-o-m-3.jpeg') }}"
-                    alt="the founder of LSIV"
-                    class="w-full h-full object-cover object-center"
-                  />
-                </div>
-              </div>
-              <!-- card 4 -->
-              <div
-                class="flex-shrink-0 p-4 w-[23.62875rem] card-image-container"
-              >
-                <div class="w-full h-[18.75rem]">
-                  <img
-                    src="{{ asset('Images/i-o-m-4.jpeg') }}"
-                    alt="the founder of LSIV"
-                    class="w-full h-full object-cover object-center"
-                  />
-                </div>
-              </div>
-              <!-- card 4 -->
-              <div
-                class="flex-shrink-0 p-4 w-[23.62875rem] card-image-container"
-              >
-                <div class="w-full h-[18.75rem]">
-                  <img
-                    src="{{ asset('Images/i-o-m-1.png') }}"
-                    alt="the founder of LSIV"
-                    class="w-full h-full object-cover object-center"
-                  />
-                </div>
-              </div>
-            </div>
-          </div>
 
           <!-- IMPACTS List -->
           <div class="mt-8">

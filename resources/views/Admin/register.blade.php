@@ -83,7 +83,7 @@
                       </td>
                       <td class="align-middle">
                       <!-- View Button -->
-                      <a href="{{ route('admin.edit', $admin->id) }}">
+                      <a href="{{ url('/admin/edit', $admin->id) }}">
                         <button class="btn btn-primary">
                           View
                         </button>

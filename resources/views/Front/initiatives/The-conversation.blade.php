@@ -400,15 +400,116 @@
             </div>
           </div>
           <!-- Image Section -->
-          <div class="my-6 w-full h-96">
+   <!--        <div class="my-6 w-full h-96">
             <img
               src="{{ asset('Images/po-1.jpeg') }}"
               alt="the founder of LSIV "
               class="w-full h-full object-cover object-center rounded-md"
             />
-          </div>
+          </div> -->
         </div>
       </section>
+          <div class="flex justify-between items-center mb-6 p-4">
+            <h2 class="text-3xl md:text-5xl font-playfair font-normal">
+               <!-- Images of Impact -->
+            </h2>
+            <button id="scrollBtn" class="text-xl font-semibold capitalize">
+              Scroll &rarr;
+            </button>
+          </div>
+
+          <div class="overflow-hidden p-4 w-full">
+            <div
+              class="flex transition-transform duration-500 ease-in-out w-max"
+              id="carouselTrack"
+            >
+              <!-- card 1 -->
+              <div
+                class="flex-shrink-0 p-4 w-[23.62875rem] card-image-container"
+              >
+                <div class="w-full h-[18.75rem]">
+                  <img
+                    src="{{ asset('Images/tc-1.jpeg') }}"
+                    alt="the founder of LSIV"
+                    class="w-full h-full object-cover object-center"
+                  />
+                </div>
+              </div>
+              <!-- card 2 -->
+              <div
+                class="flex-shrink-0 p-4 w-[23.62875rem] card-image-container"
+              >
+                <div class="w-full h-[18.75rem]">
+                  <img
+                    src="{{ asset('Images/tc-2.jpeg') }}"
+                    alt="the founder of LSIV"
+                    class="w-full h-full object-cover object-center"
+                  />
+                </div>
+              </div>
+              <!-- card 3 -->
+              <div
+                class="flex-shrink-0 p-4 w-[23.62875rem] card-image-container"
+              >
+                <div class="w-full h-[18.75rem]">
+                  <img
+                    src="{{ asset('Images/tc-3.jpeg') }}"
+                    alt="the founder of LSIV"
+                    class="w-full h-full object-cover object-center"
+                  />
+                </div>
+              </div>
+              <!-- card 4 -->
+              <div
+                class="flex-shrink-0 p-4 w-[23.62875rem] card-image-container"
+              >
+                <div class="w-full h-[18.75rem]">
+                  <img
+                    src="{{ asset('Images/tc-4.jpeg') }}"
+                    alt="the founder of LSIV"
+                    class="w-full h-full object-cover object-center"
+                  />
+                </div>
+              </div>
+              <!-- card 4 -->
+              <div
+                class="flex-shrink-0 p-4 w-[23.62875rem] card-image-container"
+              >
+                <div class="w-full h-[18.75rem]">
+                  <img
+                    src="{{ asset('Images/tc-1.jpeg') }}"
+                    alt="the founder of LSIV"
+                    class="w-full h-full object-cover object-center"
+                  />
+                </div>
+              </div>
+              <!-- card 4 -->
+              <div
+                class="flex-shrink-0 p-4 w-[23.62875rem] card-image-container"
+              >
+                <div class="w-full h-[18.75rem]">
+                  <img
+                    src="{{ asset('Images/tc-2.jpeg') }}"
+                    alt="the founder of LSIV"
+                    class="w-full h-full object-cover object-center"
+                  />
+                </div>
+              </div>
+              <!-- card 4 -->
+              <div
+                class="flex-shrink-0 p-4 w-[23.62875rem] card-image-container"
+              >
+                <div class="w-full h-[18.75rem]">
+                  <img
+                    src="{{ asset('Images/tc-3.jpeg') }}"
+                    alt="the founder of LSIV"
+                    class="w-full h-full object-cover object-center"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+
       <!-- our approach  -->
       <section class="bg-secondary py-16 rounded">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-6">
@@ -455,107 +556,6 @@
       <!-- Images of Impact -->
       <section class="bg-accentTextLight py-16 rounded">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-6">
-          <div class="flex justify-between items-center mb-6">
-            <h2 class="text-3xl md:text-5xl font-playfair font-normal">
-              Images of Impact
-            </h2>
-            <button id="scrollBtn" class="text-xl font-semibold capitalize">
-              Scroll &rarr;
-            </button>
-          </div>
-
-          <div class="overflow-hidden w-full">
-            <div
-              class="flex transition-transform duration-500 ease-in-out w-max"
-              id="carouselTrack"
-            >
-              <!-- card 1 -->
-              <div
-                class="flex-shrink-0 p-4 w-[23.62875rem] card-image-container"
-              >
-                <div class="w-full h-[18.75rem]">
-                  <img
-                    src="{{ asset('Images/i-o-m-1.png') }}"
-                    alt="the founder of LSIV"
-                    class="w-full h-full object-cover object-center"
-                  />
-                </div>
-              </div>
-              <!-- card 2 -->
-              <div
-                class="flex-shrink-0 p-4 w-[23.62875rem] card-image-container"
-              >
-                <div class="w-full h-[18.75rem]">
-                  <img
-                    src="{{ asset('Images/i-o-m-2.png') }}"
-                    alt="the founder of LSIV"
-                    class="w-full h-full object-cover object-center"
-                  />
-                </div>
-              </div>
-              <!-- card 3 -->
-              <div
-                class="flex-shrink-0 p-4 w-[23.62875rem] card-image-container"
-              >
-                <div class="w-full h-[18.75rem]">
-                  <img
-                    src="{{ asset('Images/i-o-m-3.jpeg') }}"
-                    alt="the founder of LSIV"
-                    class="w-full h-full object-cover object-center"
-                  />
-                </div>
-              </div>
-              <!-- card 4 -->
-              <div
-                class="flex-shrink-0 p-4 w-[23.62875rem] card-image-container"
-              >
-                <div class="w-full h-[18.75rem]">
-                  <img
-                    src="{{ asset('Images/i-o-m-4.jpeg') }}"
-                    alt="the founder of LSIV"
-                    class="w-full h-full object-cover object-center"
-                  />
-                </div>
-              </div>
-              <!-- card 4 -->
-              <div
-                class="flex-shrink-0 p-4 w-[23.62875rem] card-image-container"
-              >
-                <div class="w-full h-[18.75rem]">
-                  <img
-                    src="{{ asset('Images/i-o-m-1.png') }}"
-                    alt="the founder of LSIV"
-                    class="w-full h-full object-cover object-center"
-                  />
-                </div>
-              </div>
-              <!-- card 4 -->
-              <div
-                class="flex-shrink-0 p-4 w-[23.62875rem] card-image-container"
-              >
-                <div class="w-full h-[18.75rem]">
-                  <img
-                    src="{{ asset('Images/i-o-m-2.png') }}"
-                    alt="the founder of LSIV"
-                    class="w-full h-full object-cover object-center"
-                  />
-                </div>
-              </div>
-              <!-- card 4 -->
-              <div
-                class="flex-shrink-0 p-4 w-[23.62875rem] card-image-container"
-              >
-                <div class="w-full h-[18.75rem]">
-                  <img
-                    src="{{ asset('Images/i-o-m-3.jpeg') }}"
-                    alt="the founder of LSIV"
-                    class="w-full h-full object-cover object-center"
-                  />
-                </div>
-              </div>
-            </div>
-          </div>
-
           <!-- IMPACTS List -->
           <div class="mt-8">
             <h3 class="text-3xl mb-6 font-playfair font-[500] leading-normal">

@@ -401,72 +401,13 @@
               </p>
             </div>
           </div>
-          <!-- Image Section -->
-          <div class="my-6 w-full h-96">
-            <img
-              src="{{ asset('Images/mybodyismine.jpeg') }}"
-              alt="the founder of LSIV "
-              class="w-full h-full object-cover object-center rounded-md"
-            />
-          </div>
+      
         </div>
       </section>
-      <!-- our approach  -->
-      <section class="bg-secondary py-16 rounded">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-6">
-          <!-- Our Approach List -->
-          <h2
-            class="md:text-5xl text-3xl mb-6 font-playfair font-[500] leading-normal"
-          >
-            Our Approach
-          </h2>
-          <ul class="custom-bullet-list pl-5">
-                    <li class="flex flex-wrap gap-2">
-                       <span class="mt-2">
-                             <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
-                            <circle cx="9" cy="9" r="7" fill="#F8F8FF" stroke="#E76A35" stroke-width="4"/>
-                            </svg>
-                        </span>
-              <strong>Rights-Based & Gender-Focused:</strong> We ground our
-              curriculum in human rights principles and gender equality,
-              fostering self-esteem and promoting respectful relationships.
-            </li>
-                    <li class="flex flex-wrap gap-2">
-                       <span class="mt-2">
-                             <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
-                            <circle cx="9" cy="9" r="7" fill="#F8F8FF" stroke="#E76A35" stroke-width="4"/>
-                            </svg>
-                        </span>
-              <strong>Beyond Biology:</strong> We go beyond simply providing
-              factual information about human development and reproduction. Our
-              program delves into critical topics like:
-              <ul class="list-disc pl-5 space-y-3 mt-3 ml-6">
-                <li>Family life, culture, and gender roles</li>
-                <li>Media literacy and body image</li>
-                <li>Consent and healthy relationships</li>
-                <li>Human rights, gender equality, and discrimination</li>
-                <li>Sexual abuse prevention</li>
-              </ul>
-            </li>
-                    <li class="flex flex-wrap gap-2">
-                       <span class="mt-2">
-                             <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
-                            <circle cx="9" cy="9" r="7" fill="#F8F8FF" stroke="#E76A35" stroke-width="4"/>
-                            </svg>
-                        </span>
-              <strong>Interactive Learning:</strong> Our engaging curriculum
-              encourages critical thinking, clear communication, and responsible
-              decision-making through interactive activities and discussions.
-            </li>
-          </ul>
-        </div>
-      </section>
-      <!-- Images of Impact -->
-      <section class="bg-accentTextLight py-16 rounded">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-6">
-          <div class="flex justify-between items-center mb-6">
+      <section>
+        <div class="flex justify-between items-center mb-6 p-4">
             <h2 class="text-3xl md:text-5xl font-playfair font-normal">
-              Images of Impact
+             <!-- Images of Impact -->
             </h2>
             <button id="scrollBtn" class="text-xl font-semibold capitalize">
               Scroll &rarr;
@@ -475,7 +416,7 @@
 
           <div class="overflow-hidden w-full">
             <div
-              class="flex transition-transform duration-500 ease-in-out w-max"
+              class="flex transition-transform duration-500 ease-in-out p-4 w-max"
               id="carouselTrack"
             >
               <!-- card 1 -->
@@ -540,7 +481,60 @@
               </div>
             </div>
           </div>
-
+          </section>
+      <!-- our approach  -->
+      <section class="bg-secondary py-16 rounded">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-6">
+          <!-- Our Approach List -->
+          <h2
+            class="md:text-5xl text-3xl mb-6 font-playfair font-[500] leading-normal"
+          >
+            Our Approach
+          </h2>
+          <ul class="custom-bullet-list pl-5">
+                    <li class="flex flex-wrap gap-2">
+                       <span class="mt-2">
+                             <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
+                            <circle cx="9" cy="9" r="7" fill="#F8F8FF" stroke="#E76A35" stroke-width="4"/>
+                            </svg>
+                        </span>
+              <strong>Rights-Based & Gender-Focused:</strong> We ground our
+              curriculum in human rights principles and gender equality,
+              fostering self-esteem and promoting respectful relationships.
+            </li>
+                    <li class="flex flex-wrap gap-2">
+                       <span class="mt-2">
+                             <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
+                            <circle cx="9" cy="9" r="7" fill="#F8F8FF" stroke="#E76A35" stroke-width="4"/>
+                            </svg>
+                        </span>
+              <strong>Beyond Biology:</strong> We go beyond simply providing
+              factual information about human development and reproduction. Our
+              program delves into critical topics like:
+              <ul class="list-disc pl-5 space-y-3 mt-3 ml-6">
+                <li>Family life, culture, and gender roles</li>
+                <li>Media literacy and body image</li>
+                <li>Consent and healthy relationships</li>
+                <li>Human rights, gender equality, and discrimination</li>
+                <li>Sexual abuse prevention</li>
+              </ul>
+            </li>
+                    <li class="flex flex-wrap gap-2">
+                       <span class="mt-2">
+                             <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
+                            <circle cx="9" cy="9" r="7" fill="#F8F8FF" stroke="#E76A35" stroke-width="4"/>
+                            </svg>
+                        </span>
+              <strong>Interactive Learning:</strong> Our engaging curriculum
+              encourages critical thinking, clear communication, and responsible
+              decision-making through interactive activities and discussions.
+            </li>
+          </ul>
+        </div>
+      </section>
+      <!-- Images of Impact -->
+      <section class="bg-accentTextLight py-16 rounded">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-6">
           <!-- IMPACTS List -->
           <div class="mt-8">
             <h3 class="text-3xl mb-6 font-playfair font-[500] leading-normal">

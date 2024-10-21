@@ -10,6 +10,7 @@ use App\Http\Controllers\Front\InsightsController;
 
 //ADMIN
 use App\Http\Controllers\Admin\AuthController;
+use App\Http\Controllers\Admin\BlogController;
 
 //HOME
 Route::get('/', [HomeController::class, 'index']);
@@ -46,6 +47,9 @@ Route::get('Initiatives-Conversation', [InitiativesController::class, 'Conversat
 Route::get('Insights-Case', [InsightsController::class, 'case'])->name('Case');
 Route::get('Insights-Media', [InsightsController::class, 'media'])->name('media');
 
+//Case Study
+Route::get('client/blog/{id}', [HomeController::class, 'blog'])->name('client.blog.view');
+
 
 //Admin
 Route::get('/admin/login', [AuthController::class, 'index'])->name('login');
@@ -68,6 +72,14 @@ Route::delete('/admin/{id}', [AuthController::class, 'destroy'])->name('admin.de
 Route::get('/add/admin', [AuthController::class, 'addAdmin'])->name('admin-add-admin');
 //ADMIN DASHBOARD
 Route::get('/admin/dashboard', [AuthController::class, 'dashboard'])->name('admin-dashboard'); 
+
+Route::get('/admin/blog', [BlogController::class, 'index'])->name('admin-blog'); 
+Route::get('/admin/add-blog', [BlogController::class, 'blog'])->name('admin-add-blog'); 
+Route::post('create-post', [BlogController::class, 'store'])->name('posts.create');
+Route::post('upload-image', [BlogController::class, 'uploadImage'])->name('upload.image');
+Route::get('admin/blog/{id}', [BlogController::class, 'view'])->name('admin.blog.view');
+Route::get('admin/blog/edit/{id}', [BlogController::class, 'editblog'])->name('admin.blog.edit');
+Route::delete('/admin/blog/delete/{id}', [BlogController::class, 'destroy'])->name('admin.blog.destroy');
 
 
 Route::get('admin-logout', [AuthController::class, 'logout'])->name('admin-logout');

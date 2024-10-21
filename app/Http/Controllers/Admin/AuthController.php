@@ -10,6 +10,9 @@ use App\Models\Admin;
 use Hash;
 use Illuminate\View\View;
 use Illuminate\Http\RedirectResponse;
+use App\Models\Blog;
+
+
 
 class AuthController extends Controller
 {
@@ -21,7 +24,8 @@ class AuthController extends Controller
     {
         $admins = Admin::all();
         $adminsCount = Admin::all()->count();
-        return view('Admin.register', compact('admins', 'adminsCount'));
+        $blogsCount = Blog::all()->count();
+        return view('Admin.register', compact('admins', 'adminsCount', 'blogsCount'));
     }
     public function addAdmin()
     {
@@ -88,9 +92,11 @@ class AuthController extends Controller
     public function dashboard()
     {
         $adminsCount = Admin::all()->count();
+        $blogsCount = Blog::all()->count();
+        $blogs = Blog::all(); 
 
         if (Auth::guard('admins')->check()) {
-            return view('Admin.dashboard', compact('adminsCount'));
+            return view('Admin.dashboard', compact('adminsCount', 'blogs', 'blogsCount'));
         }
 
         return redirect("admin-login")->withSuccess('Oops! You do not have access');

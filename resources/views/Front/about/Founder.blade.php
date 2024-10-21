@@ -393,21 +393,18 @@
                 <span class="text-primary text-2xl font-medium">
                   Lolo Cynthia
                 </span>
-                is an international development multimedia producer and
-                award-winning communication strategist with a decade of
-                experience driving transformative social impact.
+                is an international development multimedia producer, gender expert, and award-winning communication strategist with over a decade of experience driving transformative social impact. Renowned for her innovative advocacy, she blends multimedia content and strategic communications to promote gender equality, sexual health, and social justice. Her work has sparked behavioral change, informed public health policies, and empowered marginalized communities across Africa and beyond.
               </p>
               <p
                 class="text-accentTextDark font-normal leading-[2.1675rem] mb-6 text-xl"
               >
-                Known for her innovative approach to advocacy, Lolo excels in
-                creating campaigns that promote behavioural change, health
-                education, gender equality, and social justice. Lolo has
-                developed advocacy that has made a significant difference for
-                organizations such as VOICE Amplified, Niyel, USAID, Africa
-                Harvest, Women Crisis Center, Global Surgery Fellowship and the
-                Stories of Girls Resistance.
+                As a sexual and reproductive health educator, Lolo has spent over 9 years working with adolescents, women, and young people, educating them on family planning, sexuality education, and gender equity. Her deep understanding of public health gained from degrees in Public Health Sciences and HIV/AIDS & Health Management from Monash University complements her grassroots efforts to create lasting change through dialogue, education, and advocacy.
               </p>
+               <p
+                class="text-accentTextDark font-normal leading-[2.1675rem] mb-6 text-xl"
+              >
+                Lolo, a sought-after speaker and media personality, has led key conversations on reproductive justice, women’s rights, and power dynamics. Her expertise has made her a trusted voice in conferences, workshops, and high-level platforms, including being a keynote speaker at Porter’s Center for Global Leadership Seminar.
+            </p>
               <div>
                 <h2
                   class="md:text-5xl text-3xl mb-6 font-playfair font-normal leading-normal"
@@ -494,16 +491,15 @@
         </div>
       </section>
       <!-- about the founder Section -->
-      <section class="bg-[#FFDED0] py-16 rounded">
+      <section class="bg-[#C4E1A4] py-16 rounded">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-6">
           <div class="flex flex-col lg:flex-row-reverse justify-between gap-4">
             <!-- Image Section -->
-            <div class="lg:mt-20 lg:w-1/3 h-74 text-xl">
+             <div class="lg:mt-20 lg:w-1/3 text-xl">
               <img
-                src="{{ asset('Images/ceo-lolo-3.jpeg') }}"
+                 src="{{ asset('Images/f-1.jpeg') }}"
                 alt="the founder of LSIV "
-                class="w-full h-64 rounded-md"
-
+                class="w-full h-auto rounded-md"
               />
             </div>
             <!-- Text Section -->
@@ -512,86 +508,61 @@
                 <h2
                   class="md:text-5xl text-3xl mb-6 font-playfair font-normal leading-normal"
                 >
-                  Professional Experience
+                 Early Journey and Advocacy
                 </h2>
                 <ul
                   class="custom-bullet-list text-accentTextDark leading-[2.1675rem] mb-6 md:text-xl"
                 >
-                    <li class="flex gap-2 mb-2">
-                       <span class="mt-2">
-                             <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
-                            <circle cx="9" cy="9" r="7" fill="#F8F8FF" stroke="#E76A35" stroke-width="4"/>
-                            </svg>
-                        </span>
-                    Experience in community health, medical social work, and
-                    youth empowerment.
+                    <li class="flex mb-2">
+                       Lolo’s passion for advocacy began as a public health undergraduate at Monash University, South Africa. Despite personal challenges and a home environment that discouraged learning, she organized forums on gender equality and women’s rights at just 18 years old. This formative experience led her to create LoloTalks, a community-based organization that tackled social and health issues through education and multimedia content.
                   </li>
-                    <li class="flex gap-2 mb-2">
-                       <span class="mt-2">
-                             <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
-                            <circle cx="9" cy="9" r="7" fill="#F8F8FF" stroke="#E76A35" stroke-width="4"/>
-                            </svg>
-                        </span>
-                    Founded LoloTalks to address social & health issues through
-                    advocacy & multimedia content.
+                    <li class="flex mb-2">
+                       By the time she graduated with her Postgraduate Diploma in HIV/AIDS & Health Management, Lolo had already worked with some of the most vulnerable groups, including refugees, HIV/AIDS patients, youth offenders, and at-risk children. She served as a Youth Educator volunteer for Bosasa Youth Centre, a Community Health Worker for Humana People to People, and an Admin Assistant & Teacher at Bienvenu Shelter for Refugee Women and Children
                   </li>
-                    <li class="flex gap-2 mb-2">
-                       <span class="mt-2">
-                             <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
-                            <circle cx="9" cy="9" r="7" fill="#F8F8FF" stroke="#E76A35" stroke-width="4"/>
-                            </svg>
-                        </span>
-                    Led impactful initiatives like the "MyBodyIsMine" program,
-                    reaching thousands with sex education and health resources.
+                  <li class="flex mb-2">
+                      Her hands-on experience with vulnerable communities deepened her understanding of the complex intersection of gender, health, and social inequality and laid the foundation for her future work in social justice and public health.
                   </li>
-                    <li class="flex gap-2 mb-2">
-                       <span class="mt-2">
-                             <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
-                            <circle cx="9" cy="9" r="7" fill="#F8F8FF" stroke="#E76A35" stroke-width="4"/>
-                            </svg>
-                        </span>
-                    Became a prominent media personality in Nigeria, creating
-                    the "Stories Unheard" initiative.
-                  </li>
-                    <li class="flex gap-2 mb-2">
-                       <span class="mt-2">
-                             <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
-                            <circle cx="9" cy="9" r="7" fill="#F8F8FF" stroke="#E76A35" stroke-width="4"/>
-                            </svg>
-                        </span>
-                    Used her platform to advocate for social change through
-                    documentaries and broadcasting.
-                  </li>
-                    <li class="flex gap-2 mb-2">
-                       <span class="mt-2">
-                             <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
-                            <circle cx="9" cy="9" r="7" fill="#F8F8FF" stroke="#E76A35" stroke-width="4"/>
-                            </svg>
-                        </span>
-                    Transitioned to leading LSIV, a consulting firm focused on
-                    maximizing social impact.
-                  </li>
-                    <li class="flex gap-2 mb-2">
-                       <span class="mt-2">
-                             <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
-                            <circle cx="9" cy="9" r="7" fill="#F8F8FF" stroke="#E76A35" stroke-width="4"/>
-                            </svg>
-                        </span>
-                    Bridged the gap between grassroots and media advocacy,
-                    leveraging expertise in strategic advocacy, storytelling,
-                    and community-centered initiatives.
-                  </li>
-                    <li class="flex gap-2 mb-2">
-                       <span class="mt-2">
-                             <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
-                            <circle cx="9" cy="9" r="7" fill="#F8F8FF" stroke="#E76A35" stroke-width="4"/>
-                            </svg>
-                        </span>
-                    Emphasized collaboration and respect for the communities she
-                    serves.
-                  </li>
+                   
                 </ul>
               </div>
+            </div>
+          </div>
+        </div>
+      </section>
+            <section class="bg-[#FFDED0] py-16 rounded">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-6">
+          <div class="flex flex-col lg:flex-row-reverse justify-between gap-4">
+            <!-- Text Section -->
+            <div class="lg:w-2/3 lg:pl-10">
+              <div>
+                <h2
+                  class="md:text-5xl text-3xl mb-6 font-playfair font-normal leading-normal"
+                >
+                Transformative Leadership & Advocacy
+                </h2>
+                <ul
+                  class="custom-bullet-list text-accentTextDark leading-[2.1675rem] mb-6 md:text-xl"
+                >
+                    <li class="flex mb-3">
+                       Lolo is known for her bold, unfiltered discussions on sexual health, gender norms, and bodily autonomy. Her voice as a thought leader focuses on demystifying sex and pleasure as fundamental women's rights and advocating for the financial independence of girls and women as a conduit to genuine liberation. Through her content and engagements, she fosters financial literacy and self-agency and challenges societal expectations of male dependence.
+                  </li>
+                    <li class="flex mb-3">
+                      Her career as a broadcaster and documentary producer on national television further amplified her voice as a social change advocate. She is renowned for producing award-winning expository talk shows and documentaries on untold stories of hardship and resilience, particularly in underdeveloped regions.
+                  </li>
+                  <li class="flex mb-3">
+                    Lolo’s passion for addressing deeply entrenched social issues propagated by poverty and patriarchy has led her to develop sustainable, community-driven solutions that merge policy advocacy with real-world impact. Her commitment to dismantling harmful gender norms ensures that the voices of the most vulnerable—especially women and girls—are heard, understood, and represented. Her leadership and advocacy continue to inspire change across media, policy, and grassroots mobilisation, always centred on empowering those most affected by injustice.
+                  </li>
+                   
+                </ul>
+              </div>
+            </div>
+             <!-- Image Section -->
+             <div class="lg:w-1/3 text-xl">
+              <img
+                 src="{{ asset('Images/f-2.png') }}"
+                alt="the founder of LSIV "
+                class="w-full h-auto rounded-md"
+              />
             </div>
           </div>
         </div>

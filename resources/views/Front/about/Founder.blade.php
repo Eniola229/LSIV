@@ -372,7 +372,7 @@
       <section class="bg-white py-16 rounded">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-6">
           <h1
-            class="lg:text-7xl text-5xl font-normal font-playfair text-gray-900 text-left md:text-left mb-16"
+            class="lg:text-7xl capitalize  lg:leading-[95.98px] text-[40px] leading-[53.32px] font-normal font-playfair text-gray-900 text-left md:text-left mb-16"
           >
             About the founder
           </h1>
@@ -388,7 +388,7 @@
             <!-- Text Section -->
             <div class="lg:w-2/3 lg:pl-10">
               <p
-                class="text-accentTextDark font-normal leading-[2.1675rem] mb-6 text-xl"
+                class="text-accentTextDark font-normal leading-[30px] mb-6 text-base font-opensans"
               >
                 <span class="text-primary text-2xl font-medium">
                   Lolo Cynthia
@@ -396,26 +396,27 @@
                 is an international development multimedia producer, gender expert, and award-winning communication strategist with over a decade of experience driving transformative social impact. Renowned for her innovative advocacy, she blends multimedia content and strategic communications to promote gender equality, sexual health, and social justice. Her work has sparked behavioral change, informed public health policies, and empowered marginalized communities across Africa and beyond.
               </p>
               <p
-                class="text-accentTextDark font-normal leading-[2.1675rem] mb-6 text-xl"
+                class="text-accentTextDark font-normal leading-[30px] mb-6 text-base font-opensans"
               >
                 As a sexual and reproductive health educator, Lolo has spent over 9 years working with adolescents, women, and young people, educating them on family planning, sexuality education, and gender equity. Her deep understanding of public health gained from degrees in Public Health Sciences and HIV/AIDS & Health Management from Monash University complements her grassroots efforts to create lasting change through dialogue, education, and advocacy.
               </p>
                <p
-                class="text-accentTextDark font-normal leading-[2.1675rem] mb-6 text-xl"
+                class="text-accentTextDark font-normal leading-[30px] mb-6 text-base font-opensans"
               >
                 Lolo, a sought-after speaker and media personality, has led key conversations on reproductive justice, women’s rights, and power dynamics. Her expertise has made her a trusted voice in conferences, workshops, and high-level platforms, including being a keynote speaker at Porter’s Center for Global Leadership Seminar.
             </p>
               <div>
                 <h2
-                  class="md:text-5xl text-3xl mb-6 font-playfair font-normal leading-normal"
+                  class="md:text-5xl text-[32px] leading-[42.66px] mb-6 font-playfair font-normal md:leading-[63.98px] text-black"
                 >
                   Awards & Recognition
                 </h2>
+                <p class=" mb-6 font-normal leading-[21.79px] font-opensans text-base ">Lolo’s dedication to women’s rights has earned her numerous accolades, including:</p>
                 <ul
-                  class="custom-bullet-list text-accentTextDark leading-[2.1675rem] mb-6 md:text-xl"
+                  class="text-accentTextDark space-y-[27px]"
                 >
-                    <li class="flex gap-2 mb-2">
-                       <span class="mt-2">
+                    <li class="flex gap-2  font-normal leading-[21.79px] font-opensans text-base items-center">
+                       <span>
                              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
                             <circle cx="9" cy="9" r="7" fill="#F8F8FF" stroke="#E76A35" stroke-width="4"/>
                             </svg>
@@ -423,28 +424,28 @@
                     Leading Ladies Africa 100 most influential, powerful, and
                     innovative Nigerian women in Nigeria in 2020
                   </li>
-                    <li class="flex gap-2 mb-2">
-                       <span class="mt-2">
+                    <li class="flex gap-2  font-normal leading-[21.79px] font-opensans text-base items-center">
+                       <span>
                              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
                             <circle cx="9" cy="9" r="7" fill="#F8F8FF" stroke="#E76A35" stroke-width="4"/>
                             </svg>
                         </span>Aspen Institute New Voices Fellow</li>
-                    <li class="flex gap-2 mb-2">
-                       <span class="mt-2">
+                    <li class="flex gap-2  font-normal leading-[21.79px] font-opensans text-base items-center">
+                       <span>
                              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
                             <circle cx="9" cy="9" r="7" fill="#F8F8FF" stroke="#E76A35" stroke-width="4"/>
                             </svg>
                         </span>
                     Media Person to Watch – Y! Naija 2019 New Establishment List
                   </li>
-                    <li class="flex gap-2 mb-2">
-                       <span class="mt-2">
+                    <li class="flex gap-2  font-normal leading-[21.79px] font-opensans text-base items-center">
+                       <span>
                              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
                             <circle cx="9" cy="9" r="7" fill="#F8F8FF" stroke="#E76A35" stroke-width="4"/>
                             </svg>
                         </span>Social Media Person for Social Good 2019</li>
-                    <li class="flex gap-2 mb-2">
-                       <span class="mt-2">
+                    <li class="flex gap-2  font-normal leading-[21.79px] font-opensans text-base items-center">
+                       <span>
                              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
                             <circle cx="9" cy="9" r="7" fill="#F8F8FF" stroke="#E76A35" stroke-width="4"/>
                             </svg>
@@ -452,8 +453,8 @@
                     UNHCR Media Influencer for the "Telling the Real Story"
                     program
                   </li>
-                    <li class="flex gap-2 mb-2">
-                       <span class="mt-2">
+                    <li class="flex gap-2  font-normal leading-[21.79px] font-opensans text-base items-center">
+                       <span>
                              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
                             <circle cx="9" cy="9" r="7" fill="#F8F8FF" stroke="#E76A35" stroke-width="4"/>
                             </svg>
@@ -463,101 +464,78 @@
                   </li>
                 </ul>
               </div>
-              <div>
-                <h2
-                  class="md:text-5xl text-3xl mb-6 font-playfair font-normal leading-normal"
-                >
-                  Early Journey and Dedication to Advocacy
-                </h2>
-                <p
-                  class="text-accentTextDark font-normal leading-[2.1675rem] mb-6 text-xl"
-                >
-                  Lolo’s advocacy journey began as an 18-year-old Public Health
-                  undergraduate at Monash University, South Africa.
-                </p>
-                <p
-                  class="text-accentTextDark font-normal leading-[2.1675rem] mb-6 text-xl"
-                >
-                  Despite facing personal challenges and a home environment
-                  where learning was discouraged, she passionately organized
-                  forums on gender equality and women’s rights. This early
-                  dedication led her to establish LoloTalks, a community-based
-                  organization tackling social and health issues through
-                  education and multimedia content.
-                </p>
-              </div>
             </div>
           </div>
         </div>
       </section>
       <!-- about the founder Section -->
-      <section class="bg-[#C4E1A4] py-16 rounded">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-6">
-          <div class="flex flex-col lg:flex-row-reverse justify-between gap-4">
+      <section class="bg-[#ECECD5] p-4  md:py-16 rounded">
+        <div class="max-w-7xl mx-auto ">
+          <div class="flex flex-col lg:flex-row-reverse md:px-6 md:py-0 justify-between gap-4 py-4">
             <!-- Image Section -->
-             <div class="lg:mt-20 lg:w-1/3 text-xl">
-              <img
-                 src="{{ asset('Images/f-1.jpeg') }}"
-                alt="the founder of LSIV "
-                class="w-full h-auto rounded-md"
-              />
+             <div class="lg:w-1/3 text-xl">
+            <img
+               src="{{ asset('Images/f-1.jpeg') }}"
+              alt="the founder of LSIV "
+              class="w-full h-auto rounded-md"
+            />
             </div>
             <!-- Text Section -->
-            <div class="lg:w-2/3 lg:pl-10">
+            <div class="lg:w-2/3">
               <div>
-                <h2
-                  class="md:text-5xl text-3xl mb-6 font-playfair font-normal leading-normal"
-                >
+                <h2 class="md:text-[56px] text-[32px] mb-4 md:mb-6 font-playfair font-normal lg:leading-[74.65px] leading-normal">
                  Early Journey and Advocacy
                 </h2>
-                <ul
-                  class="custom-bullet-list text-accentTextDark leading-[2.1675rem] mb-6 md:text-xl"
-                >
-                    <li class="flex mb-2">
+                <div class=" text-accentTextDark  mb-6  font-opensans font-[400] text-[16px] space-y-[40px]">
+                    <p class="md:leading-[30px] leading-[25px] font-[400] text-[16px]">
                        Lolo’s passion for advocacy began as a public health undergraduate at Monash University, South Africa. Despite personal challenges and a home environment that discouraged learning, she organized forums on gender equality and women’s rights at just 18 years old. This formative experience led her to create LoloTalks, a community-based organization that tackled social and health issues through education and multimedia content.
-                  </li>
-                    <li class="flex mb-2">
-                       By the time she graduated with her Postgraduate Diploma in HIV/AIDS & Health Management, Lolo had already worked with some of the most vulnerable groups, including refugees, HIV/AIDS patients, youth offenders, and at-risk children. She served as a Youth Educator volunteer for Bosasa Youth Centre, a Community Health Worker for Humana People to People, and an Admin Assistant & Teacher at Bienvenu Shelter for Refugee Women and Children
-                  </li>
-                  <li class="flex mb-2">
-                      Her hands-on experience with vulnerable communities deepened her understanding of the complex intersection of gender, health, and social inequality and laid the foundation for her future work in social justice and public health.
-                  </li>
+                  </p>
+                  <p class="md:leading-[30px] leading-[25px] font-[400] text-[16px]">
+                  By the time she graduated with her Postgraduate Diploma in HIV/AIDS &amp; Health Management, Lolo had already worked with some of the most vulnerable groups, including refugees, HIV/AIDS patients, youth offenders, and at-risk children. She served as a Youth Educator volunteer for Bosasa Youth Centre, a Community Health Worker for Humana People to People, and an Admin Assistant &amp; Teacher at Bienvenu Shelter for Refugee Women and Children
+                  </p>
+                  <p class="md:leading-[30px] leading-[25px] font-[400] text-[16px]">
+                  Her hands-on experience with vulnerable communities deepened her understanding of the complex intersection of gender, health, and social inequality and laid the foundation for her future work in social justice and public health.
+                  </p>
                    
-                </ul>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </section>
-            <section class="bg-[#FFDED0] py-16 rounded">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-6">
-          <div class="flex flex-col lg:flex-row-reverse justify-between gap-4">
+      <section class="py-4 rounded p-4 md:py-8">
+        <div class="max-w-7xl mx-auto md:px-4 ">
+          <div class="flex flex-col lg:flex-row-reverse justify-between gap-4 py-4">
+           <!-- Image Section -->
+             <div class="lg:hidden lg:w-1/3 text-xl">
+             <img
+                 src="{{ asset('Images/f-2.png') }}"
+                alt="the founder of LSIV "
+                class="w-full h-auto rounded-md"
+              />
+                        </div>
             <!-- Text Section -->
             <div class="lg:w-2/3 lg:pl-10">
               <div>
-                <h2
-                  class="md:text-5xl text-3xl mb-6 font-playfair font-normal leading-normal"
-                >
-                Transformative Leadership & Advocacy
+              <h2 class="md:text-[56px] text-[32px] mb-4 md:mb-6 font-playfair font-normal lg:leading-[74.65px] leading-normal">
+              Transformative Leadership &amp; Advocacy
                 </h2>
-                <ul
-                  class="custom-bullet-list text-accentTextDark leading-[2.1675rem] mb-6 md:text-xl"
-                >
-                    <li class="flex mb-3">
+                <div class=" text-accentTextDark  mb-6  font-opensans font-[400] text-[16px] space-y-[30px]">
+                <p class="md:leading-[30px] leading-[25px] font-[400] text-[16px]">
                        Lolo is known for her bold, unfiltered discussions on sexual health, gender norms, and bodily autonomy. Her voice as a thought leader focuses on demystifying sex and pleasure as fundamental women's rights and advocating for the financial independence of girls and women as a conduit to genuine liberation. Through her content and engagements, she fosters financial literacy and self-agency and challenges societal expectations of male dependence.
-                  </li>
-                    <li class="flex mb-3">
-                      Her career as a broadcaster and documentary producer on national television further amplified her voice as a social change advocate. She is renowned for producing award-winning expository talk shows and documentaries on untold stories of hardship and resilience, particularly in underdeveloped regions.
-                  </li>
-                  <li class="flex mb-3">
-                    Lolo’s passion for addressing deeply entrenched social issues propagated by poverty and patriarchy has led her to develop sustainable, community-driven solutions that merge policy advocacy with real-world impact. Her commitment to dismantling harmful gender norms ensures that the voices of the most vulnerable—especially women and girls—are heard, understood, and represented. Her leadership and advocacy continue to inspire change across media, policy, and grassroots mobilisation, always centred on empowering those most affected by injustice.
-                  </li>
-                   
-                </ul>
+                </p>
+                <p class="md:leading-[30px] leading-[25px] font-[400] text-[16px]">
+                Her career as a broadcaster and documentary producer on national television further amplified her voice as a social change advocate. She is renowned for producing award-winning expository talk shows and documentaries on untold stories of hardship and resilience, particularly in underdeveloped regions.
+                </p>
+                <p class="md:leading-[30px] leading-[25px] font-[400] text-[16px]">
+                Lolo’s passion for addressing deeply entrenched social issues propagated by poverty and patriarchy has led her to develop sustainable, community-driven solutions that merge policy advocacy with real-world impact. Her commitment to dismantling harmful gender norms ensures that the voices of the most vulnerable—especially women and girls—are heard, understood, and represented. Her leadership and advocacy continue to inspire change across media, policy, and grassroots mobilisation, always centred on empowering those most affected by injustice.
+                </p>
+                                  
+                </div>
               </div>
             </div>
              <!-- Image Section -->
-             <div class="lg:w-1/3 text-xl">
+             <div class="hidden sm:block lg:w-1/3 text-xl ">
               <img
                  src="{{ asset('Images/f-2.png') }}"
                 alt="the founder of LSIV "
@@ -571,21 +549,21 @@
       <section class="bg-miscellanous py-16 rounded">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-6">
           <h2
-            class="md:text-5xl text-3xl mb-6 font-playfair font-normal leading-normal"
+            class="md:text-5xl text-3xl mb-6 font-playfair font-[500] leading-normal"
           >
             Her Core Values
           </h2>
-          <hr class="border-none h-[2px] bg-[#4A5310] mb-4 md:mb-6" />
+          <hr class="border-none h-[1px] bg-[#0B0B0B] mb-4 md:mb-6" />
           <!-- GRID -->
           <div
             class="flex flex-wrap lg:flex-row lg:flex-nowrap gap-4 items-center"
           >
             <!-- card one -->
             <div
-              class="p-4 bg-secondary rounded-lg h-[15.9375rem] w-[19.2rem] font-opensans flex flex-col justify-between"
+              class="p-4 bg-secondary rounded-lg h-[204px] md:h-[255px] w-full md:w-[19.2rem] font-opensans flex flex-col justify-between"
             >
               <h3
-                class="text-[2rem] text-3xl leading-[2.272375rem] font-normal md:font-semibold"
+                class="text-[24px] md:text-[32px] text-3xl md:leading-[43.58px] leading-[32.68px] font-semibold"
               >
                 Resilience
               </h3>
@@ -596,10 +574,10 @@
             </div>
             <!-- card 2 -->
             <div
-              class="p-4 bg-[#FFC6DB] rounded-lg h-[15.9375rem] w-[19.2rem] font-opensans flex flex-col justify-between"
+              class="p-4 bg-[#FFC6DB] rounded-lg h-[204px] md:h-[255px] w-full md:w-[19.2rem] font-opensans flex flex-col justify-between"
             >
               <h3
-                class="text-[2rem] leading-[2.272375rem] font-normal md:font-semibold"
+                class="text-[24px] md:text-[32px] text-3xl md:leading-[43.58px] leading-[32.68px] font-semibold"
               >
                 Integrity
               </h3>
@@ -609,10 +587,10 @@
             </div>
             <!-- card 3 -->
             <div
-              class="p-4 bg-[#F1DAB7] rounded-lg h-[15.9375rem] w-[19.2rem] font-opensans flex flex-col justify-between"
+              class="p-4 bg-[#F1DAB7] rounded-lg h-[204px] md:h-[255px] w-full md:w-[19.2rem] font-opensans flex flex-col justify-between"
             >
               <h3
-                class="text-[2rem] leading-[2.272375rem] font-normal md:font-semibold"
+                class="text-[24px] md:text-[32px] text-3xl md:leading-[43.58px] leading-[32.68px] font-semibold"
               >
                 Empowerment
               </h3>
@@ -623,10 +601,10 @@
             </div>
             <!-- card 4 -->
             <div
-              class="p-4 bg-[#DDC2FF] rounded-lg h-[15.9375rem] w-[19.2rem] font-opensans flex flex-col justify-between"
+              class="p-4 bg-[#DDC2FF] rounded-lg h-[204px] md:h-[255px] w-full md:w-[19.2rem] font-opensans flex flex-col justify-between"
             >
               <h3
-                class="text-[2rem] leading-[2.272375rem] font-normal md:font-semibold"
+                class="text-[24px] md:text-[32px] text-3xl md:leading-[43.58px] leading-[32.68px] font-semibold"
               >
                 Respect
               </h3>
@@ -689,18 +667,14 @@
         </div>
       </section>
       <!-- Section Seven -->
-      <section class="flex flex-col items-center bg-miscellanous py-16">
-        <div class="text-center w-full h-96">
+      <section class="flex flex-col items-center justify-center bg-miscellanous py-16">
+        <div class="text-center w-full h-[174px]  md:h-96">
           <h2
-            class="text-3xl md:text-5xl lg:text-6xl font-medium mb-4 font-playfair"
+            class="text-3xl md:text-[60px] text-[30px] leading-[39.99px] md:leading-[79.98px] font-medium mb-4 font-playfair"
           >
-            We don’t just tell stories
+            We don’t just tell stories <br/>  We drive change
           </h2>
-          <h2
-            class="text-3xl md:text-5xl lg:text-5xl xl:text-6xl font-medium mb-6 font-playfair"
-          >
-            We drive change
-          </h2>
+          
           <p class="text-lg mb-6 font-medium font-opensans">
             Let's Make Impact Together
           </p>
@@ -713,26 +687,26 @@
       <!-- Section Eight -->
       <section class="w-full px-4 py-16 bg-gray-50 relative">
         <div
-          class="flex mx-auto max-w-7xl p-4 lg:px-6 flex-col md:flex-row justify-center md:justify-between items-center w-full px-6 py-16 relative"
+          class="flex mx-auto md:max-w-7xl p-4 lg:px-6 flex-col md:flex-row  md:justify-between md:items-center w-full md:px-6 py-16 relative"
         >
           <!-- Left Section: Heading and Subtext -->
-          <div class="w-lg">
+          <div class="">
             <h2
-              class="text-4xl md:text-6xl lg:text-7xl font-playfair font-medium text-gray-900 leading-tight text-center md:text-left tracking-tight"
+              class="text-[40px] leading-[53.32px] md:text-6xl lg:text-[96px] font-playfair font-normal  text-gray-900 lg:leading-[127.97px] text-left tracking-tight"
             >
               Ready to Amplify <br />
               Your Impact?
             </h2>
           </div>
           <div
-            class="flex items-center justify-center md:w-auto mt-8 md:mt-0 rounded-full ml-auto"
+            class="flex mx-auto md:items-center md:justify-center md:w-auto mt-8 md:mt-0 rounded-full md:ml-auto"
           >
             <button
-              class="md:h-52 md:w-52 w-52 h-52 text-white p-4 rounded-full flex items-center justify-center orange-round-down"
+              class="md:h-52 md:w-52   text-white p-4 rounded-full flex md:items-center md:justify-center orange-round-down"
             >
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="180"
+            <svg
+            xmlns="http://www.w3.org/2000/svg"
+                width="180" 
                 height="180"
                 viewBox="0 0 180 180"
                 fill="none"

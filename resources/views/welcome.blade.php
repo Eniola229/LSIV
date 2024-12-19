@@ -51,8 +51,8 @@
           </button>
         </div>
         <div class="hidden lg:flex lg:gap-x-12">
-          <div class="relative group">
-            <button
+        <div class="relative group inline-block">
+          <button
               type="button"
               class="flex items-center gap-x-1 text-sm font-semibold leading-6 text-gray-900 font-opensans"
             >
@@ -61,8 +61,8 @@
 
             <!-- Dropdown menu -->
             <div
-              class="absolute dropdown-menu hidden group-hover:block mt-2 w-48 bg-white rounded-md shadow-lg"
-            >
+          class="absolute hidden group-hover:block mt-0 w-48 bg-white rounded-md shadow-lg z-10"
+         >
               <ul class="py-1 text-sm text-gray-700">
                 <li>
                   <!-- href="{{ url('About-WhoWeAre') }}" -->
@@ -99,35 +99,36 @@
               </ul>
             </div>
           </div>
-          <div class="relative group inline-block">
-            <a
-              href="#"
-              class="text-sm font-semibold leading-6 text-gray-900 font-opensans"
-              >Work with us</a
-            >
+<div class="relative group inline-block">
+  <button
+    class="text-sm font-semibold leading-6 text-gray-900 font-opensans"
+    type="button"
+    >Work with us</button
+  >
 
-            <!-- Dropdown menu -->
-            <div
-              class="absolute hidden group-hover:block mt-2 w-40 bg-white rounded-md shadow-lg"
-            >
-              <ul class="py-1 text-sm text-gray-700">
-                <li>
-                  <a
-                    href="{{ url('Work-Services') }}"
-                    class="block px-4 py-2 hover-effect-arrow"
-                    >Services<span class="hover-arrow">&rarr;</span></a
-                  >
-                </li>
-                <li>
-                  <a
-                    href="{{ url('Work-Work') }}"
-                    class="block px-4 py-2 hover-effect-arrow"
-                    >How we work<span class="hover-arrow">&rarr;</span></a
-                  >
-                </li>
-              </ul>
-            </div>
-          </div>
+  <!-- Dropdown menu -->
+  <div
+    class="absolute hidden group-hover:block mt-0 w-40 bg-white rounded-md shadow-lg z-10"
+  >
+    <ul class="py-1 text-sm text-gray-700">
+      <li>
+        <a
+          href="{{ url('Work-Services') }}"
+          class="block px-4 py-2 hover-effect-arrow"
+          >Services<span class="hover-arrow">&rarr;</span></a
+        >
+      </li>
+      <li>
+        <a
+          href="{{ url('Work-Work') }}"
+          class="block px-4 py-2 hover-effect-arrow"
+          >How we work<span class="hover-arrow">&rarr;</span></a
+        >
+      </li>
+    </ul>
+  </div>
+</div>
+
 
           <a
             href="{{ url('Initiatives-Initiatives') }}"
@@ -282,7 +283,7 @@
                     class="flex w-full items-center justify-between rounded-lg py-2 pl-3 pr-3.5 text-base font-bold leading-7 text-gray-900 hover:bg-gray-50"
                     aria-controls="insights-dropdown"
                     aria-expanded="false"
-                    onclick="toggleDropdown('work-dropdown')"
+                    onclick="toggleDropdown('insights-dropdown')"
                   >
                     Work with us
                     <svg

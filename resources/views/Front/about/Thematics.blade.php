@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>LSIV - Ourthematicareas</title>
     <link rel="stylesheet" href="../style.css" />
-    <script src="./themactics.js" defer></script>
   </head>
         @vite('resources/css/app.css')
         @vite('resources/js/app.js')
@@ -1191,77 +1190,36 @@
   </body>
 </html>
 <script type="text/javascript">
-  // Select all the discussion head elements
-  const discussHeads = document.querySelectorAll('.disscuss-head');
+// Select all the discussion head elements
+const discussHeads = document.querySelectorAll('.disscuss-head');
+const answersEL = document.querySelectorAll('.faq-answer');
 
-  // Loop through each discussion head
-  discussHeads.forEach((head) => {
-    head.addEventListener('click', function () {
-      // Toggle the hidden class on the corresponding answer (next sibling)
-      const answer = this.nextElementSibling;
-      answer.classList.toggle('hidden');
+// Loop through each discussion head
+discussHeads.forEach((head) => {
+  head.addEventListener('click', function () {
+    // answersEL.forEach(el => el.classList.add('hidden'));
+    // Get the corresponding answer
+    const answer = this.nextElementSibling;
+
+    // If the answer is hidden, show it
+    if (answer.classList.contains('hidden')) {
+      // First, hide all answers
+      answersEL.forEach(el => el.classList.add('hidden'));
       
-      // Toggle the "+" and "-" icons
+      // Now, show the clicked answer
+      answer.classList.remove('hidden');
+
+      // Change the icon to "-"
       const icon = this.querySelector('.icon');
-      if (icon.textContent === '+') {
-        icon.textContent = '-';
-      } else {
-        icon.textContent = '+';
-      }
-    });
+      if (icon) icon.textContent = '-';
+    } else {
+      // If the answer is already visible, hide it and reset the icon
+      answer.classList.add('hidden');
+      
+      const icon = this.querySelector('.icon');
+      if (icon) icon.textContent = '+';
+    }
   });
-
-  const scrollButton = document.getElementById("scrollBtn");
-const carouselTrack = document.getElementById("carouselTrack");
-
-// Function to determine the number of visible cards based on screen width
-function getVisibleCards() {
-  if (window.innerWidth >= 1024) {
-    // Large screens (lg)
-    return 3;
-  } else if (window.innerWidth >= 768) {
-    // Medium screens (md)
-    return 2;
-  } else {
-    // Small screens (sm)
-    return 1;
-  }
-}
-
-const totalCards = document.querySelectorAll(".card-image-container").length;
-let visibleCards = getVisibleCards(); // Get initial visible cards
-const cardWidth = document.querySelector(".card-image-container").offsetWidth;
-let maxScroll = (totalCards - visibleCards) * cardWidth; // Max scroll value
-let scrollPosition = 0;
-
-function updateMaxScroll() {
-  visibleCards = getVisibleCards(); // Update visible cards
-  maxScroll = (totalCards - visibleCards) * cardWidth; // Recalculate max scroll
-}
-
-function scrollOn() {
-  // Scroll forward by the width of one card
-  scrollPosition += cardWidth;
-
-  // If we've reached the end, reset to the beginning
-  if (scrollPosition > maxScroll) {
-    scrollPosition = 0; // Go back to the first card
-  }
-
-  // Apply smooth scroll transition
-  carouselTrack.style.transition = "transform 0.5s ease-in-out";
-  carouselTrack.style.transform = `translateX(-${scrollPosition}px)`;
-}
-
-scrollButton.addEventListener("click", scrollOn);
-document.addEventListener("keyup", (e) => {
-  // Scroll if the arrow key is pressed
-  if (e.key === "ArrowRight") {
-    scrollOn();
-  }
 });
-
-// Update max scroll on window resize
-window.addEventListener("resize", updateMaxScroll);
 
 </script>

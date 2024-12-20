@@ -13,34 +13,34 @@
     <main class="bg-[#F8F8FF]">
        @include('components.header')
       <!-- Lolo Social Impact Venture is a dedicated force for positive change.  -->
-      <section class="py-16 md:p-6 p-2 rounded">
+      <section class="md:py-16 md:p-6 p-2 rounded md:mt-0 mt-[30px]">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-6">
           <div class="flex flex-col lg:flex-row justify-between gap-8 md:mt-0 mt-[-30px]">
             <!-- Image Section -->
             <div class="lg:w-2/4 w-full lg:h-[38rem] hidden md:block">
               <img
-                src="{{ asset('Images/women.png') }}"
+                src="{{ asset('https://res.cloudinary.com/dww7q9k1e/image/upload/v1734699680/Frame_1618873174_1_kvc2va.png') }}"
                 alt="the founder of LSIV "
                 class="w-full h-full object-cover object-center rounded-[20px]"
               />
             </div>
             <div class="lg:w-1/2">
               <h1
-                class="md:text-4xl lg:text-7xl text-[#000] text-[40px] mb-6 font-playfair font-[500] leading-normal"
-              >
+                class="md:text-4xl lg:text-7xl text-[#000] text-[40px] mb-6 font-playfair font-[500]"
+              style="line-height: normal;">
                 Lolo Social Impact Venture is a dedicated force for positive
                 change.
               </h1>
             <div class="lg:w-2/4 w-full lg:h-[38rem] md:hidden mb-2">
               <img
-                src="{{ asset('Images/women.png') }}"
+                src="{{ asset('https://res.cloudinary.com/dww7q9k1e/image/upload/v1734699680/Frame_1618873174_1_kvc2va.png') }}"
                 alt="the founder of LSIV "
                 class="w-full h-full object-cover object-center rounded-[20px]"
               />
             </div>
               <p
                 class="text-accentTextDark font-[400] leading-[2.1675rem] mb-12 md:text-xl md:mt-12 text-[16px] font-opensans"
-              >
+              style="line-height: 32px;">
                 We drive impactful solutions through strategic advocacy,
                 multimedia campaigns, and community-centred initiatives. Founded
                 by renowned international communication strategist and social
@@ -59,7 +59,7 @@
             <!-- Image Section -->
             <div class="lg:w-2/4 w-full lg:h-[38rem] hidden lg:block">
               <img
-                src="{{ asset('Images/women-2.png') }}"
+                src="{{ asset('https://res.cloudinary.com/dww7q9k1e/image/upload/v1734698859/Frame_1618873174_telomb.png') }}"
                 alt="the founder of LSIV "
                 class="w-full h-full object-cover object-center rounded-[20px]"
               />
@@ -67,19 +67,19 @@
             <div class="lg:w-1/2">
               <h2
                 class="md:text-4xl lg:text-7xl text-[40px] mb-6 font-playfair font-[500] leading-normal"
-              >
+              style="line-height: normal;" >
                 We connect grassroots voices with powerful platforms.
               </h2>
               <div class="lg:w-2/4 w-full lg:h-[38rem] mb-6 lg:hidden">
               <img
-                src="{{ asset('Images/women-2.png') }}"
+                src="{{ asset('https://res.cloudinary.com/dww7q9k1e/image/upload/v1734698859/Frame_1618873174_telomb.png') }}"
                 alt="the founder of LSIV "
-                class="w-full h-full object-cover object-center rounded-[20px]"
+                class="w-[540px] h-full object-cover object-center rounded-[20px]"
               />
             </div>
               <p
                 class="text-accentTextDark font-[400] leading-[2.1675rem] mb-6 md:text-xl text-[16px] font-opensans"
-              >
+                style="line-height: 32px;">
                 At LSIV, we bridge the gap between grassroots efforts and
                 high-level advocacy, ensuring marginalized communities are not
                 only heard but compellingly represented. Our approach leverages
@@ -88,7 +88,7 @@
               </p>
               <p
                 class="text-accentTextDark font-[400] leading-[2.1675rem] mb-6 md:text-xl text-[16px] font-opensans"
-              >
+                style="line-height: 32px;">
                 Collaboration is at the heart of our mission. We partner with
                 organizations to co-create innovative solutions addressing the
                 root causes of social issues. Together, we strive to foster
@@ -126,7 +126,7 @@
               >
                 <div class="w-full h-[18.75rem]">
                   <img
-                    src="{{ asset('Images/we.jpeg') }}"
+                    src="{{ asset('https://res.cloudinary.com/dww7q9k1e/image/upload/v1734350326/IMG_6546_ikso7r.jpg') }}"
                     alt="the founder of LSIV"
                     class="md:w-full w-[240px] md:h-full h-[200px] object-cover object-center"
                   />
@@ -138,7 +138,7 @@
               >
                 <div class="w-full h-[18.75rem]">
                   <img
-                    src="{{ asset('Images/we-2.jpeg') }}"
+                    src="{{ asset('https://res.cloudinary.com/dww7q9k1e/image/upload/v1734349971/0D9A6924_temxo7.jpg') }}"
                     alt="the founder of LSIV"
                     class="md:w-full w-[240px] md:h-full h-[200px] object-cover object-center"
                   />
@@ -150,7 +150,7 @@
               >
                 <div class="w-full h-[18.75rem]">
                   <img
-                   src="{{ asset('Images/we-3.jpeg') }}"
+                   src="{{ asset('https://res.cloudinary.com/dww7q9k1e/image/upload/v1734349991/43257432_1858499677575168_1758007767261511680_n_hsgf3j.jpg') }}"
                     alt="the founder of LSIV"
                     class="md:w-full w-[240px] md:h-full h-[200px] object-cover object-center"
                   />
@@ -161,7 +161,7 @@
               >
                 <div class="w-full h-[18.75rem]">
                   <img
-                    src="{{ asset('Images/we-4.jpeg') }}"
+                    src="{{ asset('https://res.cloudinary.com/dww7q9k1e/image/upload/v1734350201/IMG_0586_e8sd4i.jpg') }}"
                     alt="the founder of LSIV"
                     class="md:w-full w-[240px] md:h-full h-[200px] object-cover object-center"
                   />
@@ -172,7 +172,7 @@
               >
                 <div class="w-full h-[18.75rem]">
                   <img
-                    src="{{ asset('Images/we-5.jpeg') }}"
+                    src="{{ asset('https://res.cloudinary.com/dww7q9k1e/image/upload/v1734350044/62357438_1111685199014657_3678541791402917888_n_cnhbr7.jpg') }}"
                     alt="the founder of LSIV"
                     class="md:w-full w-[240px] md:h-full h-[200px] object-cover object-center"
                   />
@@ -183,7 +183,7 @@
               >
                 <div class="w-full h-[18.75rem]">
                   <img
-                    src="{{ asset('Images/we-6.jpeg') }}"
+                    src="{{ asset('https://res.cloudinary.com/dww7q9k1e/image/upload/v1734350276/IMG_2818_edsmfn.jpg') }}"
                     alt="the founder of LSIV"
                     class="md:w-full w-[240px] md:h-full h-[200px] object-cover object-center"
                   />
@@ -194,7 +194,7 @@
               >
                 <div class="w-full h-[18.75rem]">
                   <img
-                    src="{{ asset('Images/we-7.jpeg') }}"
+                    src="{{ asset('https://res.cloudinary.com/dww7q9k1e/image/upload/v1734350064/69112067_1153370294846147_2650976651155865600_n_sskehr.jpg') }}"
                     alt="the founder of LSIV"
                     class="md:w-full w-[240px] md:h-full h-[200px] object-cover object-center"
                   />
@@ -205,7 +205,7 @@
               >
                 <div class="w-full h-[18.75rem]">
                   <img
-                    src="{{ asset('Images/we-8.jpeg') }}"
+                    src="{{ asset('https://res.cloudinary.com/dww7q9k1e/image/upload/v1734350290/IMG_5286_kq83tz.jpg') }}"
                     alt="the founder of LSIV"
                     class="md:w-full w-[240px] md:h-full h-[200px] object-cover object-center"
                   />
@@ -216,7 +216,7 @@
               >
                 <div class="w-full h-[18.75rem]">
                   <img
-                    src="{{ asset('Images/we-9.jpeg') }}"
+                    src="{{ asset('https://res.cloudinary.com/dww7q9k1e/image/upload/v1734350065/69724045_2360416394050158_1976294321824989184_n_yu7ixt.jpg') }}"
                     alt="the founder of LSIV"
                     class="md:w-full w-[240px] md:h-full h-[200px] object-cover object-center"
                   />
@@ -227,7 +227,7 @@
               >
                 <div class="w-full h-[18.75rem]">
                   <img
-                    src="{{ asset('Images/we-10.jpeg') }}"
+                    src="{{ asset('https://res.cloudinary.com/dww7q9k1e/image/upload/v1734350078/69933767_2378336265591504_2508679260743401472_n_iqxx88.jpg') }}"
                     alt="the founder of LSIV"
                     class="md:w-full w-[240px] md:h-full h-[200px] object-cover object-center"
                   />
@@ -238,7 +238,7 @@
               >
                 <div class="w-full h-[18.75rem]">
                   <img
-                    src="{{ asset('Images/we-11.jpeg') }}"
+                    src="{{ asset('https://res.cloudinary.com/dww7q9k1e/image/upload/v1734350206/DSC_2880_jqtdts.jpg') }}"
                     alt="the founder of LSIV"
                     class="md:w-full w-[240px] md:h-full h-[200px] object-cover object-center"
                   />
@@ -249,7 +249,7 @@
               >
                 <div class="w-full h-[18.75rem]">
                   <img
-                    src="{{ asset('Images/we-12.jpeg') }}"
+                    src="{{ asset('https://res.cloudinary.com/dww7q9k1e/image/upload/v1734350078/69930718_2360416357383495_6496694920659599360_n_gbfdb7.jpg') }}"
                     alt="the founder of LSIV"
                     class="md:w-full w-[240px] md:h-full h-[200px] object-cover object-center"
                   />
@@ -260,7 +260,7 @@
               >
                 <div class="w-full h-[18.75rem]">
                   <img
-                    src="{{ asset('Images/we-13.jpeg') }}"
+                    src="{{ asset('https://res.cloudinary.com/dww7q9k1e/image/upload/v1734350206/IMG_0613_jnwmy8.jpg') }}"
                     alt="the founder of LSIV"
                     class="md:w-full w-[240px] md:h-full h-[200px] object-cover object-center"
                   />
@@ -271,7 +271,7 @@
               >
                 <div class="w-full h-[18.75rem]">
                   <img
-                    src="{{ asset('Images/we-14.jpeg') }}"
+                    src="{{ asset('https://res.cloudinary.com/dww7q9k1e/image/upload/v1734350215/IMG_0916_2_sx8fu8.jpg') }}"
                     alt="the founder of LSIV"
                     class="md:w-full w-[240px] md:h-full h-[200px] object-cover object-center"
                   />
@@ -282,7 +282,7 @@
               >
                 <div class="w-full h-[18.75rem]">
                   <img
-                    src="{{ asset('Images/we-15.jpeg') }}"
+                    src="{{ asset('https://res.cloudinary.com/dww7q9k1e/image/upload/v1734702316/Frame_1618873240_v33uzj.png') }}"
                     alt="the founder of LSIV"
                     class="md:w-full w-[240px] md:h-full h-[200px] object-cover object-center"
                   />
@@ -293,7 +293,7 @@
               >
                 <div class="w-full h-[18.75rem]">
                   <img
-                    src="{{ asset('Images/we-16.jpeg') }}"
+                    src="{{ asset('https://res.cloudinary.com/dww7q9k1e/image/upload/v1734702408/Frame_1618873238_ukxhhb.png') }}"
                     alt="the founder of LSIV"
                     class="md:w-full w-[240px] md:h-full h-[200px] object-cover object-center"
                   />
@@ -304,7 +304,7 @@
               >
                 <div class="w-full h-[18.75rem]">
                   <img
-                    src="{{ asset('Images/we-17.jpeg') }}"
+                    src="{{ asset('https://res.cloudinary.com/dww7q9k1e/image/upload/v1734702441/Frame_1618873216_o3kq84.png') }}"
                     alt="the founder of LSIV"
                     class="md:w-full w-[240px] md:h-full h-[200px] object-cover object-center"
                   />
@@ -315,7 +315,18 @@
               >
                 <div class="w-full h-[18.75rem]">
                   <img
-                    src="{{ asset('Images/we-18.jpeg') }}"
+                    src="{{ asset('https://res.cloudinary.com/dww7q9k1e/image/upload/v1734702441/Frame_1618873235_cvxtme.png') }}"
+                    alt="the founder of LSIV"
+                    class="md:w-full w-[240px] md:h-full h-[200px] object-cover object-center"
+                  />
+                </div>
+              </div>
+              <div
+                class="flex-shrink-0 md:p-4 p-2 md:w-[23.62875rem] card-image-container"
+              >
+                <div class="w-full h-[18.75rem]">
+                  <img
+                    src="{{ asset('https://res.cloudinary.com/dww7q9k1e/image/upload/v1734350263/IMG_1991_nr2gy2.jpg') }}"
                     alt="the founder of LSIV"
                     class="md:w-full w-[240px] md:h-full h-[200px] object-cover object-center"
                   />

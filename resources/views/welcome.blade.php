@@ -82,7 +82,7 @@
               </h2>
               <div class="flex justify-center md:justify-start">
                 <img
-                  src="{{ asset('Images/Lolo-Social-Impact-Venture.png') }}"
+                  src="https://res.cloudinary.com/dww7q9k1e/image/upload/v1734350351/Lolo_Social_Impact_Venture_LSIV_3_gyhmwr.png"
                   alt="Social Justice Image"
                   class="h-[230px] w-[230px] md:w-80 md:h-auto"
                 />
@@ -177,7 +177,7 @@
           <!-- Card 1 -->
           <div
             class="bg-gray-100 rounded-[16px] overflow-hidden h-72 flex flex-col justify-end"
-            style="background: linear-gradient(to top, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0)), url('{{ asset('Images/gender.jpeg') }}'); background-size: cover; background-position: center;"
+            style="background: linear-gradient(to top, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0)), url('{{ asset('https://res.cloudinary.com/dww7q9k1e/image/upload/v1734653236/959192906101dc997360ba4328e8f28c_cjmpnm.jpg') }}'); background-size: cover; background-position: center;"
           >
             <div class="p-4 bg-opacity-70">
               <h3 class="text-[24px] text-white text-left font-opensans">
@@ -189,7 +189,7 @@
           <!-- Card 2 -->
           <div
             class="bg-gray-100 rounded-[16px] overflow-hidden h-72 flex flex-col justify-end"
-            style="background: linear-gradient(to top, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0)), url('{{ asset('Images/health.jpeg') }}'); background-size: cover; background-position: center;"
+            style="background: linear-gradient(to top, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0)), url('{{ asset('https://res.cloudinary.com/dww7q9k1e/image/upload/v1734350092/70195222_2378336455591485_5319670050997665792_n_zul9pe.jpg') }}'); background-size: cover; background-position: center;"
           >
             <div class="p-4 bg-opacity-70">
               <h3 class="text-[24px] text-white text-left font-opensans">
@@ -201,7 +201,7 @@
           <!-- Card 3 -->
           <div
             class="bg-gray-100 rounded-[16px] overflow-hidden h-72 flex flex-col justify-end"
-            style="background: linear-gradient(to top, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0)), url('{{ asset('Images/social.jpeg') }}'); background-size: cover; background-position: center;"
+            style="background: linear-gradient(to top, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0)), url('{{ asset('https://res.cloudinary.com/dww7q9k1e/image/upload/v1734349991/43207440_1858496167575519_5673215072856440832_n_e4ao8m.jpg') }}'); background-size: cover; background-position: center;"
           >
             <div class="p-4 bg-opacity-70">
               <h3 class="text-[24px] text-white text-left font-opensans">
@@ -213,7 +213,7 @@
           <!-- Card 4 -->
           <div
             class="bg-gray-100 rounded-[16px] overflow-hidden h-72 flex flex-col justify-end"
-            style="background: linear-gradient(to top, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0)), url('{{ asset('Images/sustainable.jpeg') }}'); background-size: cover; background-position: center;"
+            style="background: linear-gradient(to top, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0)), url('{{ asset('https://res.cloudinary.com/dww7q9k1e/image/upload/v1734350331/IMG_6548_stgyc7.jpg') }}'); background-size: cover; background-position: center;"
           >
             <div class="p-4 bg-opacity-70">
               <h3 class="text-[24px] text-white text-left font-opensans">
@@ -225,7 +225,7 @@
           <!-- Card 5 -->
           <div
             class="bg-gray-100 rounded-[16px] overflow-hidden h-72 flex flex-col justify-end"
-            style="background: linear-gradient(to top, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0)), url('{{ asset('Images/climate.jpeg') }}'); background-size: cover; background-position: center;"
+            style="background: linear-gradient(to top, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0)), url('{{ asset('https://res.cloudinary.com/dww7q9k1e/image/upload/v1734653809/6ab738988f8bd42af33dbbc5ba99243b_eibfw4.jpg') }}'); background-size: cover; background-position: center;"
           >
             <div class="p-4 bg-opacity-70">
               <h3 class="text-[24px] text-white text-left font-opensans">
@@ -237,7 +237,7 @@
           <!-- Call to Action Card -->
           <div
             class="bg-[#F76C3C] text-white rounded-[16px] overflow-hidden h-72 flex items-center justify-center"
-            style="background: linear-gradient(to top, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0)), url('{{ asset('Images/contact-frame-one.jpeg') }}'); background-size: cover; background-position: center;"
+            style="background: linear-gradient(to top, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0)), url('{{ asset('https://res.cloudinary.com/dww7q9k1e/image/upload/v1734653870/8d524a8cd314a359847e22e30557f637_vhcpvq.jpg') }}'); background-size: cover; background-position: center;"
           >
             <div class="p-6 text-center">
               <h3 class="text-[24px] font-bold mb-4 font-opensans">
@@ -291,7 +291,7 @@
               </div>
               <div class="md:w-1/3 flex justify-center md:mt-0">
                 <img
-                  src="{{ asset('Images/i-1.png') }}"
+                  src="{{ asset('https://res.cloudinary.com/dww7q9k1e/image/upload/v1734653963/5573511_2929905_1_gznlwy.png') }}"
                   alt="Illustration"
                   class="w-full max-w-xs h-52"
                 />
@@ -326,7 +326,7 @@
               </div>
               <div class="md:w-1/3 flex justify-center mt-6 md:mt-0">
                 <img
-                  src="{{ asset('Images/i-2.png') }}"
+                  src="{{ asset('https://res.cloudinary.com/dww7q9k1e/image/upload/v1734653991/Frame_40_oy0ifo.png') }}"
                   alt="Illustration"
                   class="mt-8 w-full max-w-xs h-52"
                 />
@@ -361,7 +361,7 @@
               </div>
               <div class="md:w-1/3 flex justify-center mt-6 md:mt-0">
                 <img
-                  src="{{ asset('Images/i-3.png') }}"
+                  src="{{ asset('https://res.cloudinary.com/dww7q9k1e/image/upload/v1734654117/Frame_42_pabkpx.png') }}"
                   alt="Illustration"
                   class="w-full max-w-xs h-56"
                 />
@@ -396,7 +396,7 @@
               </div>
               <div class="md:w-1/3 flex justify-center mt-6 md:mt-0">
                 <img
-                  src="{{ asset('Images/i-4.png') }}"
+                  src="{{ asset('https://res.cloudinary.com/dww7q9k1e/image/upload/v1734654157/OBJECTS_xyogj8.png') }}"
                   alt="Illustration"
                   class="mt-6 w-full max-w-xs h-auto"
                 />
@@ -430,7 +430,7 @@
             </a>
               <div class="md:w-1/3 flex justify-center mt-6 md:mt-0">
                 <img
-                  src="{{ asset('Images/i-5.png') }}"
+                  src="{{ asset('https://res.cloudinary.com/dww7q9k1e/image/upload/v1734654201/Frame_46_tfwyqr.png') }}"
                   alt="Illustration"
                   class="mt-12 w-full max-w-xs h-auto"
                 />
@@ -465,7 +465,7 @@
               </div>
               <div class="md:w-1/3 flex justify-center mt-6 md:mt-4">
                 <img
-                  src="{{ asset('Images/i-6.png') }}"
+                  src="{{ asset('https://res.cloudinary.com/dww7q9k1e/image/upload/v1734654238/Frame_1618873210_ya68vg.png') }}"
                   alt="Illustration"
                   class="w-full max-w-xs h-60 md:h-[240px]"
                 />
@@ -506,7 +506,7 @@
                 >
               </div>
               <div class="p-0">
-               <h2 class="md:text-[24px] text-[20px] font-opensans mt-2 font-[600]">
+               <h2 class="md:text-[24px] text-[20px] font-opensans mt-2 font-[600]" style="line-height: normal;">
                 {{ $blog->title }}
             </h2>
               </div>
@@ -518,98 +518,9 @@
       </section>
 
       <!-- Section for Clients & Partners -->
-      <section class="py-8 bg-[#F8F8FF]">
-        <div class="max-w-7xl h-80 mx-auto px-4 sm:px-4">
-          <h2 class="text-4xl md:text-6xl mb-6 font-playfair font-medium leading-normal" style="font-weight: 500;">
-            Our clients & partners
-          </h2>
-          <div class="relative overflow-hidden mt-12">
-            <div
-              id="clients"
-              class="flex space-x-8 items-center animate-scroll whitespace-nowrap"
-            >
-              <img
-                src="{{ asset('Images/c-1.png') }}"
-                alt="Client 1"
-                class="h-16 fade-in-out"
-              />
-              <img
-                src="{{ asset('Images/c-2.png') }}"
-                alt="Client 2"
-                class="h-16 fade-in-out"
-              />
-              <img
-                src="{{ asset('Images/c-3.png') }}"
-                alt="Client 3"
-                class="h-16 fade-in-out"
-              />
-              <img
-                src="{{ asset('Images/c-4.png') }}"
-                alt="Client 4"
-                class="h-16 fade-in-out"
-              />
-              <img
-                src="{{ asset('Images/c-5.png') }}"
-                alt="Client 5"
-                class="h-16 fade-in-out"
-              />
-              <img
-                src="{{ asset('Images/c-6.png') }}"
-                alt="Client 2"
-                class="h-16 fade-in-out"
-              />
-              <img
-                src="{{ asset('Images/c-7.png') }}"
-                alt="Client 3"
-                class="h-16 fade-in-out"
-              />
-              <img
-                src="{{ asset('Images/c-8.png') }}"
-                alt="Client 4"
-                class="h-16 fade-in-out"
-              />
-              <img
-                src="{{ asset('Images/c-9.jpeg') }}"
-                alt="Client 5"
-                class="h-16 fade-in-out"
-              />
-              <img
-                src="{{ asset('Images/c-10.png') }}"
-                alt="Client "
-                class="h-16 fade-in-out"
-              />
-            </div>
-
-            <div
-              class="absolute inset-y-0 left-0 w-12 fade-left pointer-events-none"
-            ></div>
-            <div
-              class="absolute inset-y-0 right-0 w-12 fade-right pointer-events-none"
-            ></div>
-          </div>
-        </div>
-      </section>
+      @include('components.clients')
       <!-- Section Seven -->
-      <section class="flex flex-col items-center bg-miscellanous py-16">
-       <div class="text-center w-full h-auto sm:h-52 md:text-6xl lg:h-auto md:p-0 p-4">
-          <h2
-            class="text-3xl md:text-[60px] lg:text-[60px] xl:text-[60px] font-medium md:mb-6 mb-2 font-playfair"
-          >
-            We don’t just tell stories
-          </h2>
-          <h2
-            class="text-3xl md:text-[60px] lg:text-[60px] xl:text-[60px] font-medium md:mb-6 mb-4 font-playfair"
-          >
-            We drive change
-          </h2>
-          <p class="md:text-[24px] text-[16px] font-[400] mb-4 font-medium font-opensans"> 
-            Let's Make Impact Together
-          </p>
-           <button class="btn-bg-animation hover-effect-arrow" onclick="window.location.href='mailto:info@lsiv.org';">
-          <span class="btn-text font-opensans">Contact us <span class="hover-arrow" style="color: white;"><img src="{{ asset('Images/Vector.png') }}"></span></span>
-      </button>
-        </div>
-      </section>
+       @include('components.section-one')
  
     </main>
     @include('components.footer')

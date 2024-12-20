@@ -3,7 +3,7 @@
   <div class="flex lg:flex-1">
     <a href="{{ url('/') }}" class="-m-1.5 p-1.5">
       <span class="sr-only">LSIV</span>
-      <img class="md:h-16 h-12 w-auto" src="{{ asset('Images/LSIV-Logo.png') }}" alt="LSIV LOGO" />
+      <img class="md:h-16 h-12 w-auto" src="https://res.cloudinary.com/dww7q9k1e/image/upload/v1734349188/LSIV_Logo-13_df4e3b.png" alt="LSIV LOGO" />
     </a>
   </div>
 
@@ -117,7 +117,7 @@
     <div class="flex items-center justify-between mb-16">
       <a href="#" class="-m-1.5 p-1.5">
         <span class="sr-only">LSIV</span>
-        <img class="h-12 w-auto" src="{{ asset('Images/LSIV-Logo.png') }}" alt="LSIV LOGO"/>
+        <img class="h-12 w-auto" src="https://res.cloudinary.com/dww7q9k1e/image/upload/v1734349188/LSIV_Logo-13_df4e3b.png" alt="LSIV LOGO"/>
       </a>
       <button id="close-menu" type="button" class="-m-2.5 rounded-md p-2.5 text-gray-700 flex">
         <span class="sr-only">Close menu</span>

@@ -12,18 +12,18 @@
   @include('components.header')
     <main class="">
       <!-- about the founder Section -->
-      <section class="bg-white py-16 rounded md:mt-0 mt-[-20px]">
+      <section class="bg-white md:py-16 rounded md:mt-0 mt-[20px]">
         <div class="p-6 max-w-7xl mx-auto px-4 sm:px-6 lg:px-6">
-          <div class="flex flex-col lg:flex-row justify-between gap-4 md:mt-0 mt-[-40px]">
+          <div class="flex flex-col lg:flex-row justify-between gap-4 md:mt-[-20px] mt-[-30px]">
             <h1
-              class="lg:text-7xl lg:w-1/3 md:text-5xl text-[40px] font-playfair text-left md:text-left md:mb-16 mb-4 font-[500]"
+              class="lg:text-7xl lg:w-1/3 md:text-5xl text-[40px] font-playfair text-left md:text-left md:mb-16 mb-4 font-[500]" style="line-height: normal;"
             >
               Our Journey
             </h1>
             <div class="lg:w-2/3 lg:pl-10 md:mt-0 mt-[-20px]">
               <p
                 class="text-accentTextDark font-normal leading-[2.1675rem] mb-6 md:text-[20px] text-[16px] font-opensans"
-              style="font-weight: 400;">
+              style="font-weight: 400; line-height: 30px;">
                 Lolo Social Impact Venture (LSIV) originally started as a
                 grassroots organization called LoloTalks in 2014. Through our
                 school, community, and multimedia advocacy programs and
@@ -36,16 +36,17 @@
           <!-- Image Section -->
           <div class="my-6 w-full h-96">
             <img
-              src="{{ asset('Images/o-j-1.png') }}"
-              alt="the founder of LSIV "
+              src="{{ asset('https://res.cloudinary.com/dww7q9k1e/image/upload/v1734350225/IMG_1000_2_fklaro.jpg') }}"
+              alt="the founder of LSIV"
               class="w-full h-full object-cover object-center rounded-md"
             />
           </div>
-          <div class="flex flex-col lg:flex-col justify-between gap-4">
+
+          <div class="flex flex-col lg:flex-col justify-between gap-4 mt-12">
           <div class="lg:w-[80%]">
             <h2
               class="md:text-[60px] text-[32px] mb-6 font-playfair font-semibold leading-normal"
-              style="font-weight: 500;">
+              style="font-weight: 500; line-height: normal;">
               However, in 2023, <br> we strategically shifted to become a social
               impact consulting firm.
             </h2>
@@ -54,7 +55,7 @@
             <div class="lg:w-2/3 lg:pl-10 lg:ml-52">
               <p
                 class="text-accentTextDark font-normal leading-[2.1675rem] mb-6 md:text-[20px] text-[16px] font-opensans"
-              style="font-weight: 400;">
+              style="font-weight: 400; line-height: 30px;">
                 We leverage our deep understanding of the complex dynamics of
                 social impact work and practical, effective strategies for
                 grassroots initiatives, media, and digital advocacy to help
@@ -70,7 +71,7 @@
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-6">
         <h2
           class="md:text-[60px] text-[32px] mb-6 font-playfair font-semibold leading-normal"
-          style="font-weight: 500;"
+          style="font-weight: 500; line-height: normal;"
         >
           We’ve been pushing since 2014
         </h2>
@@ -83,14 +84,14 @@
     <div class="p-4 items-center w-[30rem] font-opensans flex flex-col justify-between h-full">
       <div class="w-full h-[14.125rem]">
         <img
-          src="{{ asset('Images/2014.jpeg') }}"
+          src="{{ asset('https://res.cloudinary.com/dww7q9k1e/image/upload/v1734695151/selfie_t5igug.jpg') }}"
           alt="the founder of LSIV"
           class="w-full h-full object-cover object-center rounded-[20px]"
         />
       </div>
       <div class="my-6 space-y-4">
         <h3 class="text-3xl leading-[2.27rem] mt-2 font-semibold">2014</h3>
-        <p class="font-normal">
+        <p class="font-normal font-opensans font-[400]" style="line-height: 36px;">
           Founded as a grassroots organization empowering women, children, and youth.
         </p>
       </div>
@@ -100,14 +101,14 @@
     <div class="p-4 items-center w-[30rem] font-opensans flex flex-col justify-between h-full">
       <div class="w-full h-[14.125rem]">
         <img
-          src="{{ asset('Images/p-2.png') }}"
+          src="{{ asset('https://res.cloudinary.com/dww7q9k1e/image/upload/v1734695517/24491159509abdc6f1220915d90df530_bebdfy.jpg') }}"
           alt="the founder of LSIV"
           class="w-full h-full object-cover object-center rounded-[20px]"
         />
       </div>
       <div class="my-6 space-y-4">
         <h3 class="text-3xl leading-[2.27rem] mt-2 font-semibold">2015</h3>
-        <p class="font-normal">
+         <p class="font-normal font-opensans font-[400]" style="line-height: 36px;">
           Launched "The Conversation," our first youth conference, fostering mentorship and personal development.
         </p>
       </div>
@@ -117,14 +118,14 @@
     <div class="p-4 items-center w-[30rem] font-opensans flex flex-col justify-between h-full">
       <div class="w-full h-[14.125rem]">
         <img
-          src="{{ asset('Images/2014-2.jpeg') }}"
+          src="{{ asset('https://res.cloudinary.com/dww7q9k1e/image/upload/v1734350018/54521716_2088500577908409_6915712892130033664_n_lkmuku.jpg') }}"
           alt="the founder of LSIV"
           class="w-full h-full object-cover object-center rounded-[20px]"
         />
       </div>
       <div class="my-6 space-y-4">
         <h3 class="text-3xl leading-[2.27rem] mt-2 font-semibold">2017</h3>
-        <p class="font-normal">
+         <p class="font-normal font-opensans font-[400]" style="line-height: 36px;">
           Expanded through documentaries (Stories Untold) and community-based initiative - Adopt a Community, addressing the pressing needs in underserved communities.
         </p>
       </div>
@@ -134,14 +135,14 @@
     <div class="p-4 items-center w-[30rem] font-opensans flex flex-col justify-between h-full">
       <div class="w-full h-[14.125rem]">
         <img
-          src="{{ asset('Images/p-4.jpeg') }}"
+          src="{{ asset('https://res.cloudinary.com/dww7q9k1e/image/upload/v1734350125/19800101000428_IMG_3822_rxuczc.jpg') }}"
           alt="the founder of LSIV"
           class="w-full h-full object-cover object-center rounded-[20px]"
         />
       </div>
       <div class="my-6 space-y-4">
         <h3 class="text-3xl leading-[2.27rem] mt-2 font-semibold">2018</h3>
-        <p class="font-normal">
+         <p class="font-normal font-opensans font-[400]" style="line-height: 36px;">
           Introduced "MyBodyIsMine" program for comprehensive sexuality education and the "No Day Off" initiative to address period poverty.
         </p>
       </div>
@@ -151,14 +152,14 @@
     <div class="p-4 items-center w-[30rem] font-opensans flex flex-col justify-between h-full">
       <div class="w-full h-[14.125rem]">
         <img
-          src="{{ asset('Images/2019.jpeg') }}"
+          src="{{ asset('https://res.cloudinary.com/dww7q9k1e/image/upload/v1734350003/51552833_1034622810054230_7910197635917545472_n_i5ihmr.jpg') }}"
           alt="the founder of LSIV"
           class="w-full h-full object-cover object-center rounded-[20px]"
         />
       </div>
       <div class="my-6 space-y-4">
         <h3 class="text-3xl leading-[2.27rem] mt-2 font-semibold">2019</h3>
-        <p class="font-normal">
+         <p class="font-normal font-opensans font-[400]" style="line-height: 36px;">
           Launched the "Muta" educational platform and "Unveil with Lolo" interview series.
         </p>
       </div>
@@ -168,14 +169,14 @@
     <div class="p-4 items-center w-[30rem] font-opensans flex flex-col justify-between h-full">
       <div class="w-full h-[14.125rem]">
         <img
-          src="{{ asset('Images/2020.jpeg') }}"
+          src="{{ asset('https://res.cloudinary.com/dww7q9k1e/image/upload/v1734696412/Frame_16_1_nkzp1i.png') }}"
           alt="the founder of LSIV"
           class="w-full h-full object-cover object-center rounded-[20px]"
         />
       </div>
       <div class="my-6 space-y-4">
         <h3 class="text-3xl leading-[2.27rem] mt-2 font-semibold">2020</h3>
-        <p class="font-normal">
+         <p class="font-normal font-opensans font-[400]" style="line-height: 36px;">
           Managed "Women Crisis Centre" in response to COVID-19, providing funds for women entrepreneurs and GBV Prevention sensitisation programs.
         </p>
       </div>
@@ -185,14 +186,14 @@
     <div class="p-4 items-center w-[30rem] font-opensans flex flex-col justify-between h-full">
       <div class="w-full h-[14.125rem]">
         <img
-          src="{{ asset('Images/2023.jpeg') }}"
+          src="{{ asset('https://res.cloudinary.com/dww7q9k1e/image/upload/v1734696553/Frame_16_2_ns2qvr.png') }}"
           alt="the founder of LSIV"
           class="w-full h-full object-cover object-center rounded-[20px]"
         />
       </div>
       <div class="my-6 space-y-4">
         <h3 class="text-3xl leading-[2.27rem] mt-2 font-semibold">2023</h3>
-        <p class="font-normal">
+         <p class="font-normal font-opensans font-[400]" style="line-height: 36px;">
           Transitioned to a consulting firm, expanding impact through strategic partnerships and advocacy.
         </p>
       </div>
@@ -227,7 +228,7 @@
               <div></div>
               <div class="lg:mt-18 lg:w-1/2 h-auto md:h-80 text-xl md:absolute">
                 <img
-                  src="{{ asset('Images/key.jpeg') }}"
+                  src="{{ asset('https://res.cloudinary.com/dww7q9k1e/image/upload/v1734349991/43773372_1864694993622303_7392058420620165120_n_dq1skt.jpg') }}"
                   alt="the founder of LSIV "
                   class="w-full h-full object-cover rounded-[20px]"
                 />
@@ -236,15 +237,15 @@
               <div class="lg:w-2/3 md:p-12 p-6 rounded-[20px] bg-secondary font-opensans">
                 <div>
                   <h2
-                    class="md:text-4xl text-[24px] mb-6 font-[600] leading-normal font-opensans"
-                  >
+                    class="md:text-[32px] text-[24px] mb-6 font-[600] font-opensans"
+                  style="line-height: 44px;">
                     Empowering Youth
                   </h2>
                   <ul
                     class="custom-bullet-list text-accentTextDark font-[400] leading-[2.1675rem] md:text-xl md:mr-48"
                   >
-                    <li class="flex gap-2 mb-2">
-                       <span class="mt-4">
+                    <li class="flex gap-2 mb-2 font-[16px]" style="line-height: normal;letter-spacing: 0.32px;">
+                       <span class="mt-3">
                              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
                             <circle cx="9" cy="9" r="7" fill="#F8F8FF" stroke="#E76A35" stroke-width="4"/>
                             </svg>
@@ -252,7 +253,7 @@
                        Trained over 3,000 secondary school students through the
                       "MyBodyIsMine" program.
                     </li>
-                    <li class="flex gap-2 mb-2">
+                    <li class="flex gap-2 mb-2 font-[16px]" style="line-height: normal;letter-spacing: 0.32px;">
                        <span class="mt-4">
                              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
                             <circle cx="9" cy="9" r="7" fill="#F8F8FF" stroke="#E76A35" stroke-width="4"/>
@@ -261,7 +262,7 @@
                       Hosted a conference attended by over 100 students,
                       offering mentorship and learning opportunities.
                     </li>
-                    <li class="flex gap-2 mb-2">
+                    <li class="flex gap-2 mb-2 font-[16px]" style="line-height: normal;letter-spacing: 0.32px;">
                        <span class="mt-4">
                              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
                             <circle cx="9" cy="9" r="7" fill="#F8F8FF" stroke="#E76A35" stroke-width="4"/>
@@ -270,7 +271,7 @@
                       Partnered with the Lagos State Juvenile Prison to provide
                       sex education classes for 80 juvenile boys.
                     </li>
-                    <li class="flex gap-2 mb-2">
+                    <li class="flex gap-2 mb-2 font-[16px]" style="line-height: normal;letter-spacing: 0.32px;">
                        <span class="mt-4">
                              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
                             <circle cx="9" cy="9" r="7" fill="#F8F8FF" stroke="#E76A35" stroke-width="4"/>
@@ -280,7 +281,7 @@
                       used by over 10 million people across Africa, North
                       America, Europe & Asia.
                     </li>
-                    <li class="flex gap-2 mb-2">
+                    <li class="flex gap-2 mb-2 font-[16px]" style="line-height: normal;letter-spacing: 0.32px;">
                        <span class="mt-4">
                              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
                             <circle cx="9" cy="9" r="7" fill="#F8F8FF" stroke="#E76A35" stroke-width="4"/>
@@ -301,7 +302,7 @@
               <div></div>
               <div class="lg:mt-20 lg:w-1/2 h-auto md:h-80 text-xl md:absolute">
                 <img
-                  src="{{ asset('Images/key-2.jpeg') }}"
+                  src="{{ asset('https://res.cloudinary.com/dww7q9k1e/image/upload/v1734350081/69990011_2378336112258186_7583249744500097024_n_tmty7l.jpg') }}"
                   alt="the founder of LSIV "
                   class="w-full h-full object-cover rounded-[20px]"
                 />
@@ -309,15 +310,15 @@
               <!-- Text Section -->
               <div class="lg:w-2/3 md:p-12 p-6 rounded-[20px] bg-secondary font-opensans">
                 <div>
-                  <h2
-                    class="md:text-4xl text-[24px] mb-6 font-opensans font-normal leading-normal font-[600]"
-                  style="font-weight: 600;">
+                   <h2
+                    class="md:text-[32px] text-[24px] mb-6 font-[600] font-opensans"
+                  style="line-height: 44px;">
                     Improving Health Outcomes
                   </h2>
                   <ul
                     class="custom-bullet-list text-accentTextDark leading-[2.1675rem] md:text-xl md:mr-48"
                   >
-                    <li class="flex gap-2 mb-2">
+                    <li class="flex gap-2 mb-2 font-[16px]" style="line-height: normal;letter-spacing: 0.32px;">
                        <span class="mt-4">
                              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
                             <circle cx="9" cy="9" r="7" fill="#F8F8FF" stroke="#E76A35" stroke-width="4"/>
@@ -327,7 +328,7 @@
                       sex workers and community members through the Adopt a
                       Community initiative.
                     </li>
-                    <li class="flex gap-2 mb-2">
+                    <li class="flex gap-2 mb-2 font-[16px]" style="line-height: normal;letter-spacing: 0.32px;">
                        <span class="mt-4">
                              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
                             <circle cx="9" cy="9" r="7" fill="#F8F8FF" stroke="#E76A35" stroke-width="4"/>
@@ -336,7 +337,7 @@
                       Delivered six sensitization programs on menstrual hygiene,
                       domestic abuse, and safe sex in Lagos State slums.
                     </li>
-                    <li class="flex gap-2 mb-2">
+                    <li class="flex gap-2 mb-2 font-[16px]" style="line-height: normal;letter-spacing: 0.32px;">
                        <span class="mt-4">
                              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
                             <circle cx="9" cy="9" r="7" fill="#F8F8FF" stroke="#E76A35" stroke-width="4"/>
@@ -359,7 +360,7 @@
               <div></div>
               <div class="lg:mt-20 lg:w-1/2 h-auto md:h-80 text-xl md:absolute">
                 <img
-                  src="{{ asset('Images/key-3.jpeg') }}"
+                  src="{{ asset('https://res.cloudinary.com/dww7q9k1e/image/upload/v1734350054/67416684_1135248263325017_6127027789867515904_n_pgaqox.jpg') }}"
                   alt="the founder of LSIV "
                   class="w-full h-full object-cover rounded-[20px]"
                 />
@@ -368,8 +369,8 @@
               <div class="lg:w-2/3 md:p-12 p-6 rounded-[20px] bg-secondary font-opensans">
                 <div>
                   <h2
-                    class="md:text-4xl font-[600] text-[24px] mb-6 font-opensans font-normal leading-normal"
-                  style="font-weight: 600;">
+                    class="md:text-[32px] text-[24px] mb-6 font-[600] font-opensans"
+                  style="line-height: 44px;">
                     Media Influence & Community Transformation
                   </h2>
                   <ul
@@ -386,7 +387,7 @@
                       educational impacts, including a grant for an orphanage in
                       South Africa.
                     </li>
-                    <li class="flex gap-2 mb-2">
+                    <li class="flex gap-2 mb-2 font-[16px]" style="line-height: normal;letter-spacing: 0.32px;">
                        <span class="mt-4">
                              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
                             <circle cx="9" cy="9" r="7" fill="#F8F8FF" stroke="#E76A35" stroke-width="4"/>
@@ -395,7 +396,7 @@
                       Produced documentaries under Stories Unheard, reaching
                       over 500,000 viewers and republished by CNN Africa.
                     </li>
-                    <li class="flex gap-2 mb-2">
+                    <li class="flex gap-2 mb-2 font-[16px]" style="line-height: normal;letter-spacing: 0.32px;">
                        <span class="mt-4">
                              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
                             <circle cx="9" cy="9" r="7" fill="#F8F8FF" stroke="#E76A35" stroke-width="4"/>
@@ -405,7 +406,7 @@
                       menstrual hygiene, gender-based violence, and economic
                       empowerment.
                     </li>
-                    <li class="flex gap-2 mb-2">
+                    <li class="flex gap-2 mb-2 font-[16px]" style="line-height: normal;letter-spacing: 0.32px;">
                        <span class="mt-4">
                              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
                             <circle cx="9" cy="9" r="7" fill="#F8F8FF" stroke="#E76A35" stroke-width="4"/>
@@ -423,100 +424,9 @@
       </section>
 
       <!-- Section for Clients & Partners -->
-      <section class="py-8 bg-accentTextLight">
-        <div class="max-w-7xl h-80 mx-auto px-4 sm:px-6">
-          <h2
-            class="md:text-7xl text-4xl mb-6 font-playfair font-medium leading-normal"
-          >
-            Clients & Partners
-          </h2>
-          <div class="relative overflow-hidden mt-12">
-            <div
-              id="clients"
-              class="flex space-x-8 items-center animate-scroll whitespace-nowrap"
-            >
-              <img
-                src="{{ asset('Images/c-1.png') }}"
-                alt="Client 1"
-                class="h-16 fade-in-out"
-              />
-              <img
-                src="{{ asset('Images/c-2.png') }}"
-                alt="Client 2"
-                class="h-16 fade-in-out"
-              />
-              <img
-                src="{{ asset('Images/c-3.png') }}"
-                alt="Client 3"
-                class="h-16 fade-in-out"
-              />
-              <img
-                src="{{ asset('Images/c-4.png') }}"
-                alt="Client 4"
-                class="h-16 fade-in-out"
-              />
-              <img
-                src="{{ asset('Images/c-5.png') }}"
-                alt="Client 5"
-                class="h-16 fade-in-out"
-              />
-              <img
-                src="{{ asset('Images/c-6.png') }}"
-                alt="Client 2"
-                class="h-16 fade-in-out"
-              />
-              <img
-                src="{{ asset('Images/c-7.png') }}"
-                alt="Client 3"
-                class="h-16 fade-in-out"
-              />
-              <img
-                src="{{ asset('Images/c-8.png') }}"
-                alt="Client 4"
-                class="h-16 fade-in-out"
-              />
-              <img
-                src="{{ asset('Images/c-9.jpeg') }}"
-                alt="Client 5"
-                class="h-16 fade-in-out"
-              />
-              <img
-                src="{{ asset('Images/c-10.png') }}"
-                alt="Client "
-                class="h-16 fade-in-out"
-              />
-            </div>
-
-            <div
-              class="absolute inset-y-0 left-0 w-12 fade-left pointer-events-none"
-            ></div>
-            <div
-              class="absolute inset-y-0 right-0 w-12 fade-right pointer-events-none"
-            ></div>
-          </div>
-        </div>
-      </section>
+            @include('components.clients')
       <!-- Section Seven -->
- <section class="flex flex-col items-center bg-miscellanous py-16">
-       <div class="text-center w-full h-auto sm:h-52 md:text-6xl lg:h-auto md:p-0 p-4">
-          <h2
-            class="text-3xl md:text-[60px] lg:text-[60px] xl:text-[60px] font-medium md:mb-6 mb-2 font-playfair"
-          >
-            We don’t just tell stories
-          </h2>
-          <h2
-            class="text-3xl md:text-[60px] lg:text-[60px] xl:text-[60px] font-medium md:mb-6 mb-4 font-playfair"
-          >
-            We drive change
-          </h2>
-          <p class="md:text-lg text-[16px] font-[400] mb-4 font-medium font-opensans"> 
-            Let's Make Impact Together
-          </p>
-           <button class="btn-bg-animation hover-effect-arrow" onclick="window.location.href='mailto:info@lsiv.org';">
-          <span class="btn-text font-opensans">Contact us <span class="hover-arrow" style="color: white;"><img src="{{ asset('Images/Vector.png') }}"></span></span>
-      </button>
-        </div>
-      </section>
+      @include('components.section-one')
     </main>
     @include('components.footer')
   </body>

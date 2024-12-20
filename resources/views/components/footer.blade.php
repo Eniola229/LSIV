@@ -35,7 +35,7 @@
         <!-- Logo and description -->
         <div class="md:col-span-1 col-span-2">
           <img
-            src="{{ asset('Images/LSIV-Logo.png') }}"
+            src="{{ asset('https://res.cloudinary.com/dww7q9k1e/image/upload/v1734349188/LSIV_Logo-13_df4e3b.png') }}"
             alt="LSIV Logo"
             class="w-24 md:mx-0 mb-4"
           />
@@ -307,7 +307,7 @@
       </div>
 
       <div
-        class="border-t border-dark-400 mt-8 pt-4 flex flex-col md:flex-row justify-between items-right md:items-center text-gray-400 px-4"
+        class="border-t border-dark-600 mt-8 pt-4 flex flex-col md:flex-row justify-between items-right md:items-center text-gray-400 px-4"
       >
         <p
           class="text-sm font-opensans font-[400] font-gray-400"
